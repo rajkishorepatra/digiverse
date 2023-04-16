@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/digiverse/static/css/main.a50ce52a.css",
+    "main.js": "/digiverse/static/js/main.eacd08d5.js",
+    "static/js/988.86a0d572.chunk.js": "/digiverse/static/js/988.86a0d572.chunk.js",
+    "static/media/software.svg": "/digiverse/static/media/software.e7fd0478451b8d72ff9b93b1ea475b66.svg",
+    "static/media/aboutus.svg": "/digiverse/static/media/aboutus.ef6cc87ebcd171d8fe8e942c930e03ca.svg",
+    "static/media/web.svg": "/digiverse/static/media/web.e84486fda43eb6f592bdf7a8df1631fd.svg",
+    "static/media/headerimg.svg": "/digiverse/static/media/headerimg.7ca9245e50d27c2de583bc21473f0b06.svg",
+    "static/media/app.svg": "/digiverse/static/media/app.d27765474f92176b880cd22172a439ce.svg",
+    "static/media/marketing.svg": "/digiverse/static/media/marketing.0115a0a397d75c997ba39ac196277822.svg",
+    "static/media/digital.svg": "/digiverse/static/media/digital.37bb54d0d740b819aee51311a63abacb.svg",
+    "static/media/android.svg": "/digiverse/static/media/android.89e408bdf5b57da046cc7c1ea61878a6.svg",
+    "index.html": "/digiverse/index.html",
+    "main.a50ce52a.css.map": "/digiverse/static/css/main.a50ce52a.css.map",
+    "main.eacd08d5.js.map": "/digiverse/static/js/main.eacd08d5.js.map",
+    "988.86a0d572.chunk.js.map": "/digiverse/static/js/988.86a0d572.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a50ce52a.css",
+    "static/js/main.eacd08d5.js"
+  ]
+}
