@@ -9,7 +9,7 @@ const Navbar = () => {
           <div className="col-10 mx-auto">
             <nav className="navbar navbar-expand-lg bg-white">
               <div className="container-fluid">
-                <NavLink className="navbar-brand" to="/">
+                <NavLink className="navbar-brand js-scroll-trigger" to="/">
                   Digi Verse
                 </NavLink>
                 <button
@@ -39,17 +39,17 @@ const Navbar = () => {
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink activeClassName='menu_active' className="nav-link" to="/service">
+                      <NavLink activeClassName='menu_active' className="nav-link js-scroll-trigger" to="/service">
                         Services
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink activeClassName='menu_active' className="nav-link" to="/about">
+                      <NavLink activeClassName='menu_active' className="nav-link js-scroll-trigger" to="/about">
                         About
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink activeClassName='menu_active' className="nav-link" to="/contact">
+                      <NavLink activeClassName='menu_active' className="nav-link js-scroll-trigger" to="/contact">
                         Contact
                       </NavLink>
                     </li>
