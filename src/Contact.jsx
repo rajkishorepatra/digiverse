@@ -26,7 +26,7 @@ const Contact = () => {
     return (
         <>
             <div className="my-5">
-                <h1 className="contatheader text-center">Contact Uss </h1>
+                <h1 className="contatheader text-center">Contact Us </h1>
             </div>
             <div className="container contact_div">
                 <div className="row">
