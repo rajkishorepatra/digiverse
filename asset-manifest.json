@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/digiverse/static/css/main.1d7db926.css",
-    "main.js": "/digiverse/static/js/main.7830483d.js",
+    "main.css": "/digiverse/static/css/main.b815a76f.css",
+    "main.js": "/digiverse/static/js/main.617cb023.js",
     "static/js/988.86a0d572.chunk.js": "/digiverse/static/js/988.86a0d572.chunk.js",
     "static/media/digilogo.png": "/digiverse/static/media/digilogo.12cf4ef24d32c2cd7b8a.png",
     "static/media/software.svg": "/digiverse/static/media/software.e7fd0478451b8d72ff9b93b1ea475b66.svg",
@@ -13,12 +13,12 @@
     "static/media/digital.svg": "/digiverse/static/media/digital.37bb54d0d740b819aee51311a63abacb.svg",
     "static/media/android.svg": "/digiverse/static/media/android.89e408bdf5b57da046cc7c1ea61878a6.svg",
     "index.html": "/digiverse/index.html",
-    "main.1d7db926.css.map": "/digiverse/static/css/main.1d7db926.css.map",
-    "main.7830483d.js.map": "/digiverse/static/js/main.7830483d.js.map",
+    "main.b815a76f.css.map": "/digiverse/static/css/main.b815a76f.css.map",
+    "main.617cb023.js.map": "/digiverse/static/js/main.617cb023.js.map",
     "988.86a0d572.chunk.js.map": "/digiverse/static/js/988.86a0d572.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d7db926.css",
-    "static/js/main.7830483d.js"
+    "static/css/main.b815a76f.css",
+    "static/js/main.617cb023.js"
   ]
 }
