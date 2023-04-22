@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/digiverse/static/css/main.c7d92e51.css",
-    "main.js": "/digiverse/static/js/main.75aef94c.js",
+    "main.css": "/digiverse/static/css/main.2a2faebe.css",
+    "main.js": "/digiverse/static/js/main.9d0728d7.js",
     "static/js/988.86a0d572.chunk.js": "/digiverse/static/js/988.86a0d572.chunk.js",
     "static/media/digilogo.png": "/digiverse/static/media/digilogo.12cf4ef24d32c2cd7b8a.png",
+    "static/media/home-banner.png": "/digiverse/static/media/home-banner.3dbce419890abe34ebc9.png",
     "static/media/fa-solid-900.ttf": "/digiverse/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/fa-brands-400.ttf": "/digiverse/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
     "static/media/fa-solid-900.woff2": "/digiverse/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
@@ -14,6 +15,7 @@
     "static/media/aboutus.svg": "/digiverse/static/media/aboutus.ef6cc87ebcd171d8fe8e942c930e03ca.svg",
     "static/media/web.svg": "/digiverse/static/media/web.366d40d2aece3d687ff6a2d5458a4c0c.svg",
     "static/media/headerimg.svg": "/digiverse/static/media/headerimg.9960037abc790e0969f2315d33fbeace.svg",
+    "static/media/whatwedo.svg": "/digiverse/static/media/whatwedo.57a6836a804c1e47eb7edadaff0e2ed2.svg",
     "static/media/app.svg": "/digiverse/static/media/app.4aedf3bbc638d4d1ecafdb0b02545659.svg",
     "static/media/fa-v4compatibility.ttf": "/digiverse/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/marketing.svg": "/digiverse/static/media/marketing.90cde605854d27ec82b35f1a7a469f19.svg",
@@ -21,12 +23,12 @@
     "static/media/android.svg": "/digiverse/static/media/android.6cf7c42b6f6ac8e3a858e32592dc089b.svg",
     "static/media/fa-v4compatibility.woff2": "/digiverse/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/digiverse/index.html",
-    "main.c7d92e51.css.map": "/digiverse/static/css/main.c7d92e51.css.map",
-    "main.75aef94c.js.map": "/digiverse/static/js/main.75aef94c.js.map",
+    "main.2a2faebe.css.map": "/digiverse/static/css/main.2a2faebe.css.map",
+    "main.9d0728d7.js.map": "/digiverse/static/js/main.9d0728d7.js.map",
     "988.86a0d572.chunk.js.map": "/digiverse/static/js/988.86a0d572.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7d92e51.css",
-    "static/js/main.75aef94c.js"
+    "static/css/main.2a2faebe.css",
+    "static/js/main.9d0728d7.js"
   ]
 }
