@@ -1,17 +1,18 @@
 import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import Home from "./Home";
-import About from "./About";
-import Service from "./Service";
-import Contact from "./Contact";
-import Navbar from "./Navbar";
-import Footer from "./Footer"
+import Home from "./components/Home";
+import About from "./components/About";
+import Service from "./components/Service";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer"
 import { Switch, Route } from "react-router-dom";
 import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 const App = () => {
     return(
         <>
+        <div className="hero-cont">
         <Navbar/>
         <Switch>
             <Route exact path="/" component ={Home}/>
@@ -20,7 +21,9 @@ const App = () => {
             <Route exact path="/contact" component ={Contact}/>
             <Redirect to="/" />
        </Switch>
+       </div>
        <Footer />
+       
        </>
     )
 }

@@ -7,17 +7,24 @@
   font-family: "Mulish", sans-serif;
   overflow-x: hidden;
 }
-
 .navbar-brand {
   font-size: 1.9rem !important;
-  color: #565387 !important;
+  color: #800080 !important;
 }
-
+.homesechead{
+  overflow: hidden;
+  margin-bottom: -2rem !important;
+}
+.homesechead hr{
+  width: 15% !important;
+}
 .navbar a {
   font-size: 1.3rem;
   text-transform: capitalize;
 }
-
+.nav-link{
+  color: #ffbb00;
+}
 .menu_active {
   font-weight: bold !important;
   border-bottom: 1px solid #565387 !important;
@@ -27,21 +34,31 @@
   color: #3498db !important;
 }
 .brand-name {
-  color: #3498db;
+  color: #800080;
+}
+.text-reset{
+  text-decoration: none !important;
 }
 .mainheader {
   /* margin-top: 10rem !important; */
   overflow: hidden;
   font-weight: 700;
+  color: rgb(25, 0, 255) !important;
 }
 .subheader {
   overflow: hidden;
+  color: rgb(0, 0, 0);
 }
 .btn-outline-primary {
   padding: 10px 30px;
-  width: 50%;
+  width: 9rem;
   height: auto;
   letter-spacing: 1px;
+  outline: #800080 !important;
+}
+
+.btn-outline-primary:hover{
+  background-color: purple !important;
 }
 
 .image-fluid {
@@ -52,7 +69,7 @@
   animation: mover 1.6s infinite alternate-reverse both;
 }
 .card {
-  border: 3px solid rgba(10, 37, 213, 0.219) !important;
+  border: 3px solid rgba(10, 37, 213, 0.375) !important;
   overflow: hidden;
 }
 .card img {
@@ -85,8 +102,9 @@ textarea {
   object-fit: cover;
 }
 
-.footer{
-  bottom: 0 !important;
+footer{
+    position: sticky !important;
+    top: calc( 100vh - 100px ) !important;
 }
 
 @-webkit-keyframes mover {
@@ -106,10 +124,13 @@ textarea {
   }
 }
 
+
+/* Responsive Code */
+
 @media (max-width: 991px) {
-  /* .navbar-brand{
+  .navbar-brand{
         font-size: 1.5rem !important;
-    } */
+    }
   .menu_active {
     font-weight: bold !important;
     border-bottom: none !important;
@@ -135,4 +156,13 @@ textarea {
     height: 13rem !important;
     width: 15rem !important;
   }
+    .navbar-brand{
+    font-size: 1.2rem !important;
+}
+.nav-logo{
+  width: 80px !important;
+}
+.homesechead hr{
+  width: 60% !important;
+}
 }
