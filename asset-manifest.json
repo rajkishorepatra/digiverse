@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/digiverse/static/css/main.018aa2a8.css",
-    "main.js": "/digiverse/static/js/main.de957592.js",
+    "main.css": "/digiverse/static/css/main.3a7b1d01.css",
+    "main.js": "/digiverse/static/js/main.838e83e5.js",
     "static/js/988.86a0d572.chunk.js": "/digiverse/static/js/988.86a0d572.chunk.js",
     "static/media/course_flashgif.gif": "/digiverse/static/media/course_flashgif.876e50f0a070418d7544.gif",
+    "static/media/digilogo.png": "/digiverse/static/media/digilogo.5f241d4ed2d1d2d0bb98.png",
     "static/media/about-banner.png": "/digiverse/static/media/about-banner.7549f47450315a904b42.png",
-    "static/media/digilogo.png": "/digiverse/static/media/digilogo.12cf4ef24d32c2cd7b8a.png",
     "static/media/search.png": "/digiverse/static/media/search.0bbc2204981bd38d86d9.png",
     "static/media/marketing.png": "/digiverse/static/media/marketing.19ae9b8e2d56dd289256.png",
     "static/media/email.png": "/digiverse/static/media/email.06dea0084827128a9076.png",
@@ -20,18 +20,18 @@
     "static/media/fa-brands-400.woff2": "/digiverse/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
     "static/media/fa-regular-400.ttf": "/digiverse/static/media/fa-regular-400.d87474231f4192884802.ttf",
     "static/media/fa-regular-400.woff2": "/digiverse/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
-    "static/media/aboutus.svg": "/digiverse/static/media/aboutus.ef6cc87ebcd171d8fe8e942c930e03ca.svg",
     "static/media/headerimg.svg": "/digiverse/static/media/headerimg.9960037abc790e0969f2315d33fbeace.svg",
     "static/media/whatwedo.svg": "/digiverse/static/media/whatwedo.57a6836a804c1e47eb7edadaff0e2ed2.svg",
     "static/media/fa-v4compatibility.ttf": "/digiverse/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/aboutus.svg": "/digiverse/static/media/aboutus.9d31a6a03bf20255761a1ae64fe197e4.svg",
     "static/media/fa-v4compatibility.woff2": "/digiverse/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/digiverse/index.html",
-    "main.018aa2a8.css.map": "/digiverse/static/css/main.018aa2a8.css.map",
-    "main.de957592.js.map": "/digiverse/static/js/main.de957592.js.map",
+    "main.3a7b1d01.css.map": "/digiverse/static/css/main.3a7b1d01.css.map",
+    "main.838e83e5.js.map": "/digiverse/static/js/main.838e83e5.js.map",
     "988.86a0d572.chunk.js.map": "/digiverse/static/js/988.86a0d572.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.018aa2a8.css",
-    "static/js/main.de957592.js"
+    "static/css/main.3a7b1d01.css",
+    "static/js/main.838e83e5.js"
   ]
 }
