@@ -1,19 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@300;600&display=swap");
 
+::-webkit-scrollbar{
+  display: none;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
   overflow-x: hidden;
+  z-index: 1;
+}
+.herocontainer{
+  margin-top: 9rem !important;
+}
+
+.navbar{
+  padding: 0 !important;
 }
 .navbar-brand {
   font-size: 1.9rem !important;
   color: #800080 !important;
 }
+
+.bgback{
+  background-image: linear-gradient(to bottom, #02041d 65%, #04619f);
+}
 .homesechead{
   overflow: hidden;
-  margin-bottom: -2rem !important;
+  /* margin-top: -10rem !important; */
+  color: rgb(254, 255, 255);
+  letter-spacing: 2px;
 }
 .homesechead hr{
   width: 15% !important;
@@ -22,86 +39,204 @@
   font-size: 1.3rem;
   text-transform: capitalize;
 }
-.nav-link{
-  color: #ffbb00;
-}
 .menu_active {
   font-weight: bold !important;
   border-bottom: 1px solid #565387 !important;
 }
 
+
 .navbar a:hover {
   color: #3498db !important;
 }
 .brand-name {
-  color: #800080;
+  color: #0077ff;
 }
 .text-reset{
   text-decoration: none !important;
+}
+
+.footer-top{
+  text-decoration: underline !important;
+}
+.serviceheader{
+  margin-top: 10rem !important;
+  color: turquoise;
 }
 .mainheader {
   /* margin-top: 10rem !important; */
   overflow: hidden;
   font-weight: 700;
-  color: rgb(25, 0, 255) !important;
+  color: rgb(255, 255, 255) !important;
+  text-shadow: 5px 5px 6px rgba(255, 0, 0, 0.355);
 }
 .subheader {
-  overflow: hidden;
-  color: rgb(0, 0, 0);
+  overflow-y: hidden;
+  color: #ffffff;
 }
 .btn-outline-primary {
   padding: 10px 30px;
-  width: 9rem;
+  width: 11rem;
   height: auto;
   letter-spacing: 1px;
-  outline: #800080 !important;
+  outline: #ffffff !important;
+  border-radius: 50px !important;
+  transition: all 0.5s ease !important;
+  background-color: transparent !important;
+  color: blue !important;
 }
 
 .btn-outline-primary:hover{
-  background-color: purple !important;
+  background-color: white !important;
+  color: #000!important;
+  box-shadow:  30px 20px 20px rgba(0, 0, 0, 0.986);
+}
+
+.content{
+  color: rgb(255, 255, 255);
 }
 
 .image-fluid {
   /* margin-top: 6rem !important;
     margin-left: 3rem !important; */
+    margin-top: 2rem !important;
   width: 90%;
   -webkit-animation: mover 1.6s infinite alternate-reverse both;
   animation: mover 1.6s infinite alternate-reverse both;
 }
 .card {
-  border: 3px solid rgba(10, 37, 213, 0.375) !important;
-  overflow: hidden;
+  border: 3px solid rgba(15, 52, 233, 0.54) !important;
+  object-fit: cover !important;
+  height: 40rem !important;
 }
-.card img {
-  border-bottom: 2px solid #000;
+.exphead{
+  color: turquoise;
 }
-.contatheader{
+.tagline{
+  color: rgb(166, 144, 255);
+}
+.card::-webkit-scrollbar{
+  display: none !important;
+}
+
+.contactheader{
   overflow: hidden;
+  text-align: center;
+  margin-top: 7rem;
+  margin-bottom: -2rem;
+  color: turquoise;
+}
+.courseheader{
+ padding-left: 8.5rem !important;
+ margin-top: 2rem;
+}
+.coursetopic{
+  color: #fff;
+  margin-bottom: -2rem;
+  letter-spacing: 1px;
+}
+.courseimg{
+  width: 30% !important;
+  margin-bottom: 1rem;
+}
+
+.coursecontent{
+  color: turquoise;
+  padding-bottom: 1rem;
+  font-style: italic;
 }
 .card:hover {
-  background-color: rgba(70, 8, 255, 0.415);
+  background-color: #c5cdf1;
   cursor: pointer;
   box-shadow: 50px 20px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
   transition: all 1s ease;
-  transform: scale(98%);
 }
-
 form {
   padding: 15px !important;
-  border: 1px solid rgb(10, 37, 213) !important;
+  border: 1px solid rgba(9, 40, 241, 0.666) !important;
+  background-color: #7c58e6ee;
   border-radius: 3%;
-  background-color: #c0fac32b;
+  margin-bottom: 3rem !important;
 }
 form input,
 textarea {
-  border: 1px solid rgb(10, 37, 213) !important;
-}
-.card-img-top {
-  width: 100% !important;
-  height: 15rem !important ;
-  object-fit: cover;
+  border: 2px solid #000 !important;
+  outline: none;
 }
 
+.imgarea{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.certcont{
+  width: 100% !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  flex-direction: row !important;
+}
+
+.certcont img{
+  width: 30%;
+  margin: 20px;
+  z-index: 1 !important;
+}
+
+.certcont img:hover{
+  background-color: rgba(33, 0, 75, 0.999);
+  transition: .7s;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.container-fluid .popup-image{
+  position: fixed;
+  top: 0; left: 0;
+  background:rgba(0, 0, 0, .9) ;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+}
+
+.container-fluid .popup-image span{
+  position: absolute;
+  top:0; right: 0;
+  font-size: 60px;
+  font-weight: bolder;
+  cursor:pointer;
+  color: yellow;
+  z-index: 100;
+  transform: translate(-2rem, 4rem);
+}
+
+.container-fluid .popup-image img{
+  position: absolute;
+  top:50%; left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #fff;
+  border-radius: 5px;
+  width: 460px;
+  margin-top: 1rem;
+  object-fit: cover;
+
+}
+
+
+
+
+
+
+.card-img-top {
+  width: 100% !important;
+  height: 26rem !important ;
+  object-fit: cover;
+  border-bottom: 1px solid #000;
+}
+.thirdimg{
+  padding: 0!important;
+  opacity: 0.9;
+}
 footer{
     position: sticky !important;
     top: calc( 100vh - 100px ) !important;
@@ -138,7 +273,7 @@ footer{
 }
 @media (max-width: 768px) {
   #header {
-    margin-top: 20px;
+    margin-top: 1px;
   }
   #header h1 {
     font-size: 28px;
@@ -153,8 +288,8 @@ footer{
 }
 @media (max-width: 420px) {
   .card-img-top {
-    height: 13rem !important;
-    width: 15rem !important;
+    height: 16.5rem !important;
+    width: 17rem !important;
   }
     .navbar-brand{
     font-size: 1.2rem !important;
@@ -164,5 +299,49 @@ footer{
 }
 .homesechead hr{
   width: 60% !important;
+}
+.card-text{
+  overflow: hidden !important;
+}
+.card{
+  height: 565px !important;
+}
+.mainheader{
+  text-shadow:  5px 3px 4px rgba(255, 0, 0, 0.523);
+}
+.certcont{
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+}
+
+.certcont img{
+  width: 100%;
+  margin: 10px;
+}
+.certcont img:hover{
+  transition: .7s;
+  transform: scale(1.02);
+}
+
+
+.herocontainer{
+  margin-top: 2rem !important;
+}
+.container-fluid .popup-image img{
+  width: 350px;
+}
+.container-fluid .popup-image span{
+  transform: translate(-15px,20px);
+}
+.bgback{
+  background-image: linear-gradient(to bottom, #02041d 30%, #04619f);
+}
+.courseheader{
+  padding-left: 3rem !important;
+ }
+ .courseimg{
+  width: 100% !important;
 }
 }

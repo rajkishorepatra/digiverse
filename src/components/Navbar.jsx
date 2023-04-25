@@ -1,16 +1,17 @@
 import React from "react";
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 import logo from "../images/digilogo.png"
+import logotrans from "../images/digilogo-transparent.png"
 
 const Navbar = (props) => {
   return (
     <>
-      <div className="container-fluid nav_bg">
-          <div className="col-10 mx-auto">
-            <nav className="navbar navbar-expand-lg bg-white">
+      
+          
+            <nav className="navbar fixed-top navbar-expand-lg bg-light ">
               <div className="container-fluid">
                 <NavLink className="navbar-brand" to="/">
-                <img className=" nav-logo mt-2" src={logo} style={{width:100,}} alt="DigiVerse Logo" />
+                <img className=" nav-logo mt-2" src={logotrans} style={{width:100,}} alt="DigiVerse Logo" />
                <strong> DigiVerse</strong>
                 </NavLink>
                 <button
@@ -40,13 +41,18 @@ const Navbar = (props) => {
                       </NavLink>
                     </li>
                     <li className="nav-item">
+                      <NavLink activeClassName='menu_active' className="nav-link " to="/about">
+                        About
+                      </NavLink>
+                    </li>
+                    <li className="nav-item">
                       <NavLink activeClassName='menu_active' className="nav-link " to="/service">
                         Services
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink activeClassName='menu_active' className="nav-link " to="/about">
-                        About
+                      <NavLink activeClassName='menu_active' className="nav-link " to="/courses">
+                        Courses
                       </NavLink>
                     </li>
                     <li className="nav-item">
@@ -58,9 +64,8 @@ const Navbar = (props) => {
                 </div>
               </div>
             </nav>
-          </div>
         
-      </div>
+      
     </>
   );
 };

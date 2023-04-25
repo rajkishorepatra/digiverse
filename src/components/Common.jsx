@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 const Common = (props) => {
   return (
     <>
-      <section id="header" className="d-flex aligm-items-center">
+      <section id="header" className="d-flex aligm-items-center ">
         <div className="container-fluid my-5">
           <div className="row">
             <div className="col-10 mx-auto">
@@ -19,7 +19,7 @@ const Common = (props) => {
                   </p>
                   <div className="mt-3"></div>
                   <NavLink to={props.visit} className="btn btn-outline-primary">
-                   <strong> {props.btname}</strong>
+                   <strong> {props.btname} </strong>
                   </NavLink>
                 </div>
                 <div className="col-lg-6 order-1 order-lg-2 header-image">

@@ -4,8 +4,9 @@ import Card from "./Card";
 const Service = () => {
   return (
     <>
+    
       <div className="my-5">
-        <h1 className="text-center">Our Services <hr className="container" style={{width:'30%' }}/> </h1>
+        <h1 className="serviceheader text-center" ><strong>Our Services </strong>  <hr className="container" style={{width:'30%', }}/> </h1>
       </div>
       <div className="container-fluid mb-5">
         <div className="row">
@@ -17,6 +18,7 @@ const Service = () => {
                         key={ind}
                         imgsrc={val.imgsrc}
                         title={val.title}
+                        text={val.text}
                         />
                     })
                 }

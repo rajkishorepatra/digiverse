@@ -1,16 +1,35 @@
 import React from "react";
 import web from "../images/aboutus.svg";
 import Common from "./Common";
+import wedo from "../images/whatwedo.png";
+import Secondsection from "./Secondsection";
+import Thirdsection from "./Thirdsection";
+
 
 const About = () => {
   return (
     <>
+    <div className="herocontainer">
       <Common
-        name="Who Are We ?"
+        name="About ?"
         imgsrc={web}
         visit="/contact"
         btname="Contact Now"
-        pagedesc="DigiVerse specializes in providing top-notch services that help businesses increase their online presence and attract more customers. With years of experience in SEO, social media marketing, PPC advertising, email marketing, and more, our team of experts uses the latest tools and techniques to help clients achieve their goals. We value transparency, honesty, and integrity, and work closely with clients to build long-term relationships based on mutual success. Contact us today to learn how we can help your business succeed online."
+        pagedesc="In 2020, DigiVerse was born with a mission to cultivate a digital universe, igniting growth for
+        industries through our personalized approach to digital marketing. From captivating content
+        marketing to engaging Instagram reels and YouTube shorts, we offer a comprehensive suite of
+        services that elevate your online presence and fuel your business. Let us help you pave the way
+        to digital success, one pixel at a time."
+      />
+      </div>
+      <Secondsection 
+        name ="What we do"
+        imgsrc = {wedo}
+        content ="At DIGIVERSE, we understand the pain points of small and mid-scale industries struggling to
+        grow their business online. As Jay Baer said, “Content is fire, social media is gasoline” . Our
+        personalized strategies in content marketing, video editing, and YouTube optimization help our
+        clients fuel their online presence and ignite their growth. Let us help you overcome your pain
+        points and achieve success in the digital world."   
       />
     </>
   );
