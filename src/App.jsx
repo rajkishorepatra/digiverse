@@ -19,8 +19,8 @@ const App = () => {
     <MyParticles/>
       <div className="bgback">
         <Navbar />
-        <Switch>
-          <Route exact path="/" component={Home} />
+        <Switch basename="/digiverse" >
+          <Route exact path="/" component={Home}/>
           <Route exact path="/about" component={About} />
           <Route exact path="/service" component={Service} />
           <Route exact path="/contact" component={Contact} />
