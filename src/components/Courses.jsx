@@ -27,6 +27,8 @@ const Courses = (props) => {
         btname="Buy Now"
         pagedesc="At Digiverse360, we provide a variety of services and courses to assist businesses in thriving in the digital age. From website planning and analysis to social media marketing, online analytics, video advertising, content marketing, email marketing, influencer marketing, and digital marketing strategy and planning, our digital marketing course covers it all. Furthermore, we offer training on technologies such as Canva design and Chat GPT so that you may automate your marketing efforts and generate eye-catching designs for your campaigns. Whether you're new to digital marketing or looking to advance your abilities, we have the knowledge and resources to help you succeed."
       />
+        <h1 className="text-center text-white"><strong>Coming <span className="blink text-warning"> Soon!</span></strong></h1>
+    
       <h1 className="courseheader container-fluid text-white">
       <strong>Course Modules :</strong> <hr />
           </h1>
