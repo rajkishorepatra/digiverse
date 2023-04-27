@@ -27,19 +27,19 @@ const Courses = (props) => {
         btname="Buy Now"
         pagedesc="At Digiverse360, we provide a variety of services and courses to assist businesses in thriving in the digital age. From website planning and analysis to social media marketing, online analytics, video advertising, content marketing, email marketing, influencer marketing, and digital marketing strategy and planning, our digital marketing course covers it all. Furthermore, we offer training on technologies such as Canva design and Chat GPT so that you may automate your marketing efforts and generate eye-catching designs for your campaigns. Whether you're new to digital marketing or looking to advance your abilities, we have the knowledge and resources to help you succeed."
       />
-      <h1 className="courseheader container-fluid text-primary">
+      <h1 className="courseheader container-fluid text-white">
       <strong>Course Modules :</strong> <hr />
           </h1>
     </div>
     <Coursedetails
       coursetopic ="Module 1: Introduction to Digital Marketing"
       imgsrc ={num1}
-      content = "The module will guide how to plan the website creation process to avoid problems such as low speed and poor navigation. The focus is on creating an intuitive and user-friendly website. "
+      content = "The first module focuses on delivering advertising through digital channels. The course offers an overview of how it equips students with the necessary skill sets to create a successful online marketing strategy. "
     />
     <Coursedetails
       coursetopic ="Module 2: Website Planning & Analysis"
       imgsrc ={num2}
-      content = "The first module focuses on delivering advertising through digital channels. The course offers an overview of how it equips students with the necessary skill sets to create a successful online marketing strategy"
+      content = "The module will guide how to plan the website creation process to avoid problems such as low speed and poor navigation. The focus is on creating an intuitive and user-friendly website."
     />
     <Coursedetails
       coursetopic ="Module 3: Search Engine Optimization"

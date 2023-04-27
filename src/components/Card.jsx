@@ -9,9 +9,9 @@ const Card = (props) => {
                     <div className="card-body">
                       <h5 className="card-title font-weight-bold">{props.title}</h5>
                       <p className="card-text">{props.text}</p>
-                      <NavLink to="/" className="btn btn-primary">
+                      {/* <NavLink to="/" className="btn btn-primary">
                         See More
-                      </NavLink>
+                      </NavLink> */}
                     </div>
                   </div>
                 </div>
