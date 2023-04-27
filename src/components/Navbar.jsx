@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
-import logo from "../images/digilogo.png"
-import logotrans from "../images/digilogo-transparent.png"
+import logo from "../images/digilogo.png";
 
 const Navbar = (props) => {
   return (
@@ -11,8 +10,8 @@ const Navbar = (props) => {
             <nav className="navbar fixed-top navbar-expand-lg bg-light ">
               <div className="container-fluid">
                 <NavLink className="navbar-brand" to="/">
-                <img className=" nav-logo mt-2" src={logotrans} style={{width:100,}} alt="DigiVerse Logo" />
-               <strong> DigiVerse</strong>
+                <img className=" nav-logo mt-2" src={logo} style={{width:100,}} alt="Digiverse360 Logo" />
+               <strong> DigiVerse360</strong>
                 </NavLink>
                 <button
                   className="navbar-toggler"

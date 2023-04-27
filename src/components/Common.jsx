@@ -12,7 +12,7 @@ const Common = (props) => {
                 <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                   <h1 className="mainheader">
                     {props.name}
-                    <strong className="brand-name"> DigiVerse</strong>
+                    <strong className="brand-name"> DigiVerse360</strong>
                   </h1>
                   <p className="subheader my-3">
                     {props.pagedesc}

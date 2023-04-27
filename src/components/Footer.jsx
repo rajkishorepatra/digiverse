@@ -6,11 +6,11 @@ export default function App() {
     <div className="footer">
     <MDBFooter bgColor='black' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
-        <div className='me-5 d-none d-lg-block' style={{color : "beige"}}>
+        <div className='me-5 d-none d-lg-block' style={{color : "turquoise"}}>
           <span>Get connected with us on social networks:</span>
         </div>
 
-        <div style={{color : "beige"}}>
+        <div style={{color : "turquoise"}}>
           <a href='/' className='me-4 text-reset'>
             <MDBIcon fab icon="facebook-f" />
           </a>
@@ -32,13 +32,13 @@ export default function App() {
         </div>
       </section>
 
-      <section className='' style={{color : "beige"}} >
+      <section className='' style={{color : "turquoise"}} >
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
                 <MDBIcon icon="smile" className="me-3" />
-                DigiVerse
+                Digiverse360
               </h6>
               <p>
               Welcome to Digi Verse,where we help businesses achieve their online marketing goals with top-notch services that drive results. Our experienced team of marketers specializes in SEO, social media marketing, PPC advertising, email marketing, and more...
@@ -111,10 +111,10 @@ export default function App() {
         </MDBContainer>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)',color : "beige" }}>
+      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)',color : "turquoise" }}>
         &copy; 2023 Copyright: 
-        <a className='text-reset fw-bold' href='/'>
-          DigiVerse | Terms and Conditions Apply
+        <a className='text-reset mx-2' href='/'>
+          Digiverse360 | Terms and Conditions Apply
         </a>
       </div>
     </MDBFooter>

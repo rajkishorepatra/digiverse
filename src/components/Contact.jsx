@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 
 const Contact = () => {
@@ -92,7 +92,7 @@ const Contact = () => {
                                     placeholder="Message"
                                     rows="3"></textarea>
                             </div>
-                            <button type="submit" className="btn btn-outline-primary ">
+                            <button type="submit" className=" submitbtn btn btn-outline-primary ">
                                 Submit
                             </button>
                         </form>

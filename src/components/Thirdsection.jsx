@@ -1,15 +1,5 @@
-import React from 'react'
-const Thirdsection =(props)=>{
-
-return(
-    <div className="container-fluid mb-5">
-     
-        
-          <div className="row gy-5">
-            <img className="thirdimg" src={props.homebanner} alt="home-banner" />
-          </div>
-          
-          </div>
-)
-}
+import React from "react";
+const Thirdsection = (props) => {
+  return <img className="thirdimg" src={props.homebanner} alt="home-banner" />;
+};
 export default Thirdsection;
