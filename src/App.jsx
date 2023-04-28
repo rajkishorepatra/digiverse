@@ -12,6 +12,7 @@ import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 import Courses from "./components/Courses";
 import MyParticles from "./components/MyParticles";
 import RefundPolicy from "./components/Refundpolicy";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
     <MyParticles/>
       <div className="bgback">
         <Navbar />
+        <ScrollToTop>
         <Switch basename="/digiverse" >
           <Route exact path="/" component={Home}/>
           <Route exact path="/about" component={About} />
@@ -29,6 +31,7 @@ const App = () => {
           <Route exact path="/refundpolicy" component={RefundPolicy} />
           <Redirect to="/" />
         </Switch>
+        </ScrollToTop>
         <Footer />
       </div>
     </>
