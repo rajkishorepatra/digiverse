@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/digiverse/static/css/main.3772ef0a.css",
-    "main.js": "/digiverse/static/js/main.47f69c3f.js",
+    "main.css": "/digiverse/static/css/main.ef37d00c.css",
+    "main.js": "/digiverse/static/js/main.0d801202.js",
     "static/js/988.86a0d572.chunk.js": "/digiverse/static/js/988.86a0d572.chunk.js",
     "static/media/course_flashgif.gif": "/digiverse/static/media/course_flashgif.876e50f0a070418d7544.gif",
     "static/media/homebg.png": "/digiverse/static/media/homebg.24d2e5111495ec7e21f3.png",
@@ -22,6 +22,7 @@
     "static/media/fa-solid-900.woff2": "/digiverse/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
     "static/media/12.png": "/digiverse/static/media/12.a4d7e13f9f02dcdd9155.png",
     "static/media/4.png": "/digiverse/static/media/4.b6f000b838e527e36b96.png",
+    "static/media/refundpolicy.png": "/digiverse/static/media/refundpolicy.9eb0ce4fcdacef7383d6.png",
     "static/media/13.png": "/digiverse/static/media/13.2be0080f4690747d7b6f.png",
     "static/media/9.png": "/digiverse/static/media/9.7d7e5f9e3e0e6ed6ca6f.png",
     "static/media/1.png": "/digiverse/static/media/1.18d38eacea2f0cc201b7.png",
@@ -44,12 +45,12 @@
     "static/media/mission.svg": "/digiverse/static/media/mission.b8426fda419c8fcc1b4deccfeb7abdd0.svg",
     "static/media/fa-v4compatibility.woff2": "/digiverse/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/digiverse/index.html",
-    "main.3772ef0a.css.map": "/digiverse/static/css/main.3772ef0a.css.map",
-    "main.47f69c3f.js.map": "/digiverse/static/js/main.47f69c3f.js.map",
+    "main.ef37d00c.css.map": "/digiverse/static/css/main.ef37d00c.css.map",
+    "main.0d801202.js.map": "/digiverse/static/js/main.0d801202.js.map",
     "988.86a0d572.chunk.js.map": "/digiverse/static/js/988.86a0d572.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3772ef0a.css",
-    "static/js/main.47f69c3f.js"
+    "static/css/main.ef37d00c.css",
+    "static/js/main.0d801202.js"
   ]
 }
