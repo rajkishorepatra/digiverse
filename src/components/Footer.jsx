@@ -1,5 +1,6 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { NavLink } from 'react-router-dom/cjs/react-router-dom';
 
 export default function App() {
   return (
@@ -110,9 +111,9 @@ export default function App() {
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)',color : "turquoise" }}>
         &copy; 2023 Copyright: 
-        <a className='text-reset mx-2' href='/refundpolicy' target='_blank'>
-          Digiverse360 | Refund Policy
-        </a>
+        
+          Digiverse360 | <NavLink className=' footer-link text-reset mx-2' to='/refundpolicy'> Refund Policy
+        </NavLink>
       </div>
     </MDBFooter>
     </div>
