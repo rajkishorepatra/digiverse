@@ -35,9 +35,9 @@ return (
                 {props.content}
               </p>
               <div className="certcont">
-              <img className="singleimg" src={exp1} class="img-thumbnail" alt="experience cert" onClick={handleClick} />
-              <img className="singleimg" src={exp2} class="img-thumbnail" alt="experience cert"onClick={handleClick}/>
-              <img className="singleimg" src={exp3} class="img-thumbnail" alt="experience cert"onClick={handleClick}/>
+              <img className="singleimg img-thumbnail" src={exp1} alt="experience cert" onClick={handleClick} />
+              <img className="singleimg img-thumbnail" src={exp2} alt="experience cert"onClick={handleClick}/>
+              <img className="singleimg img-thumbnail" src={exp3} alt="experience cert"onClick={handleClick}/>
 
               </div>
               <div className="popup-image" style={{display:'none'}} >
