@@ -110,7 +110,7 @@ export default function App() {
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)',color : "turquoise" }}>
         &copy; 2023 Copyright: 
-        <a className='text-reset mx-2' href='https://drive.google.com/file/d/1fibipdrVaIUpk6LPQ2hD_ksL_KUxFxc5/view?usp=sharing' target='_blank'>
+        <a className='text-reset mx-2' href='/refundpolicy' target='_blank'>
           Digiverse360 | Refund Policy
         </a>
       </div>
