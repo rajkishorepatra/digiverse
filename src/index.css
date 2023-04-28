@@ -346,6 +346,7 @@ footer{
 }
 .card{
   height: 490px !important;
+  scale: 1 !important;
 }
 .mainheader{
   text-shadow: 5px 5px 5px rgba(250, 250, 250, 0.288);
