@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/digiverse/static/css/main.74a56bf8.css",
+    "main.css": "/digiverse/static/css/main.3772ef0a.css",
     "main.js": "/digiverse/static/js/main.47f69c3f.js",
     "static/js/988.86a0d572.chunk.js": "/digiverse/static/js/988.86a0d572.chunk.js",
     "static/media/course_flashgif.gif": "/digiverse/static/media/course_flashgif.876e50f0a070418d7544.gif",
@@ -44,12 +44,12 @@
     "static/media/mission.svg": "/digiverse/static/media/mission.b8426fda419c8fcc1b4deccfeb7abdd0.svg",
     "static/media/fa-v4compatibility.woff2": "/digiverse/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/digiverse/index.html",
-    "main.74a56bf8.css.map": "/digiverse/static/css/main.74a56bf8.css.map",
+    "main.3772ef0a.css.map": "/digiverse/static/css/main.3772ef0a.css.map",
     "main.47f69c3f.js.map": "/digiverse/static/js/main.47f69c3f.js.map",
     "988.86a0d572.chunk.js.map": "/digiverse/static/js/988.86a0d572.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74a56bf8.css",
+    "static/css/main.3772ef0a.css",
     "static/js/main.47f69c3f.js"
   ]
 }
