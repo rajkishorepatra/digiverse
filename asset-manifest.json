@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/digiverse/static/css/main.12205891.css",
-    "main.js": "/digiverse/static/js/main.4444971f.js",
+    "main.js": "/digiverse/static/js/main.cfe60c81.js",
     "static/js/988.86a0d572.chunk.js": "/digiverse/static/js/988.86a0d572.chunk.js",
     "static/media/course_flashgif.gif": "/digiverse/static/media/course_flashgif.876e50f0a070418d7544.gif",
     "static/media/homebg.png": "/digiverse/static/media/homebg.24d2e5111495ec7e21f3.png",
@@ -46,11 +46,11 @@
     "static/media/fa-v4compatibility.woff2": "/digiverse/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/digiverse/index.html",
     "main.12205891.css.map": "/digiverse/static/css/main.12205891.css.map",
-    "main.4444971f.js.map": "/digiverse/static/js/main.4444971f.js.map",
+    "main.cfe60c81.js.map": "/digiverse/static/js/main.cfe60c81.js.map",
     "988.86a0d572.chunk.js.map": "/digiverse/static/js/988.86a0d572.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12205891.css",
-    "static/js/main.4444971f.js"
+    "static/js/main.cfe60c81.js"
   ]
 }
