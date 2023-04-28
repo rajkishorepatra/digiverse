@@ -132,10 +132,12 @@ body{
   height: 35rem !important;
   background: transparent !important;
   color: #fff !important;
+  scale: 0.9;
 }
 .card-text{
   /* color: #3498db; */
   color: lightblue;
+  font-style: italic  !important;
 }
 .exphead{
   color: turquoise;
@@ -175,16 +177,13 @@ body{
 }
 
 .card:hover {
-  background-color: #fff !important;
-  color: #000000 !important;
   cursor: pointer;
   box-shadow: 50px 20px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
-  transition: all 1s ease;
+  transition: all 0.5s ease;
   overflow: hidden !important;
+  scale: 1;
 }
-.card .card-text:hover{
-  color: #000!important;
-}
+
 form {
   padding: 15px !important;
   border: .5px solid rgb(0, 68, 255) !important;
