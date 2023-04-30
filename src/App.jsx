@@ -22,7 +22,7 @@ const App = () => {
       <div className="bgback">
         <Navbar />
         <ScrollToTop>
-        <Switch basename="/digiverse" >
+        <Switch>
           <Route exact path="/" component={Home}/>
           <Route exact path="/about" component={About} />
           <Route exact path="/service" component={Service} />
