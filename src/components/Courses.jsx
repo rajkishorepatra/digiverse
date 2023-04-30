@@ -1,5 +1,5 @@
 import React from "react";
-import Common from "./Common";
+import Coursecontent from "./Coursecontent";
 import flash from "../images/course_flashgif.gif"
 import Coursedetails from "./Coursedetails";
 import num1 from "../images/Course images/1.png"
@@ -20,12 +20,12 @@ const Courses = (props) => {
   return (
     <>
      <div className="herocontainer">
-      <Common
+      <Coursecontent
         name="We Offer Digital Marketing Courses at"
         imgsrc={flash}
         visit="/home"
         btname="Buy Now"
-        pagedesc="At Digiverse360, we provide a variety of services and courses to assist businesses in thriving in the digital age. From website planning and analysis to social media marketing, online analytics, video advertising, content marketing, email marketing, influencer marketing, and digital marketing strategy and planning, our digital marketing course covers it all. Furthermore, we offer training on technologies such as Canva design and Chat GPT so that you may automate your marketing efforts and generate eye-catching designs for your campaigns. Whether you're new to digital marketing or looking to advance your abilities, we have the knowledge and resources to help you succeed."
+        pagedesc="DIGIVERSE360 provides digital marketing courses on a variety of topics to students of all ability levels. The courses teach significant digital marketing skills and knowledge, with the potential of certification upon completion. Beginners to expert learners who desire to broaden their knowledge and abilities are among our target students. Our courses are distinguished by their distinct and valuable approach to digital marketing education."
       />
         <h1 className="text-center text-white"><strong>Coming <span className="blink text-warning"> Soon!</span></strong></h1>
     
