@@ -115,13 +115,13 @@ transition: all 1s ease;
   outline: #ffffff !important;
   border-radius: 50px !important;
   transition: all 0.5s ease !important;
-  background-color: transparent !important;
+background-color: #fff !important;
   color: blue !important;
 }
 
 .btn-outline-primary:hover{
-  background-color: white !important;
-  color: #000!important;
+  background-color: transparent !important;
+  color: #4f00fa!important;
   box-shadow:  30px 20px 20px rgba(0, 0, 0, 0.986);
 }
 
