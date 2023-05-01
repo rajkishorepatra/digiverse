@@ -11,6 +11,10 @@
   overflow-x: hidden;
   z-index: 1;
 }
+.successcontainer{
+  margin-top: 8rem !important;
+}
+
 body{
    font-family: "Mulish", sans-serif !important;
     animation: fadeInAnimation ease 1s;
@@ -438,5 +442,9 @@ body{
    100% {
      opacity: 1;
    }
+ }
+
+ .cancelimage{
+  width: 85% !important;
  }
 }

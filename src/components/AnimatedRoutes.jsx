@@ -8,6 +8,9 @@ import { Switch, Route, useLocation } from "react-router-dom";
 import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 import Courses from "../components/Courses";
 import { AnimatePresence } from 'framer-motion';
+import Paymentsuccess from './Paymentsuccess';
+import Paymentfailed from './Paymentfailed';
+import Paymentcancelled from './Paymentcancelled';
 
 
 const AnimatedRoutes = () => {
@@ -24,6 +27,10 @@ const AnimatedRoutes = () => {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/courses" component={Courses} />
           <Route exact path="/refundpolicy" component={RefundPolicy} />
+          <Route exact path="/paymentsuccess" component={Paymentsuccess} />
+          <Route exact path="/paymentfailed" component={Paymentfailed} />
+          <Route exact path="/paymentcancelled" component={Paymentcancelled} />
+
           <Redirect to="/" />
         </Switch>
         </AnimatePresence>
