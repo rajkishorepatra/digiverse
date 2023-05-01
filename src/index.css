@@ -479,4 +479,10 @@ body{
   scale: 1 !important;
   height: 33rem !important;
 }
+.paymentcard1:hover{
+  scale: none !important;
+}
+.paymentcard2:hover{
+  scale: none !important;
+}
 }
