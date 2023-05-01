@@ -384,7 +384,7 @@ footer{
     width: 70px;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 426px) {
   .card-img-top {
     height: 16.5rem !important;
     width: 100% !important;
