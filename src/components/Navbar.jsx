@@ -30,51 +30,51 @@ const Navbar = (props) => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink
+                <a
                   activeClassName="menu_active"
                   exact
                   className="nav-link active"
                   aria-current="page"
-                  to="/"
+                  href="/"
                 >
                   Home
-                </NavLink>
+                </a>
               </li>
               <li className="nav-item">
-                <NavLink
+                <a
                   activeClassName="menu_active"
                   className="nav-link "
-                  to="/about"
+                  href="/about"
                 >
                   About
-                </NavLink>
+                </a>
               </li>
               <li className="nav-item">
-                <NavLink
+                <a
                   activeClassName="menu_active"
                   className="nav-link "
-                  to="/service"
+                  href="/service"
                 >
                   Services
-                </NavLink>
+                </a>
               </li>
               <li className="nav-item">
-                <NavLink
+                <a
                   activeClassName="menu_active"
                   className="nav-link "
-                  to="/courses"
+                  href="/courses"
                 >
                   Courses
-                </NavLink>
+                </a>
               </li>
               <li className="nav-item">
-                <NavLink
+                <a
                   activeClassName="menu_active"
                   className="nav-link "
-                  to="/contact"
+                  href="/contact"
                 >
                   Contact
-                </NavLink>
+                </a>
               </li>
             </ul>
           </div>
