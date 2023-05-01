@@ -309,6 +309,10 @@ label{
   border-bottom: 2px solid blue;
   object-fit: cover !important;
 }
+.paymentcard2 img{
+  border-bottom: 2px solid blue;
+  object-fit: cover !important;
+}
 .paymentcard1:hover{
   scale: 0.76 !important;
 }
