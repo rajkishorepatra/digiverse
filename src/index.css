@@ -295,7 +295,26 @@ label{
 
 }
 
-
+.paymentcard1{
+  width: 50% !important;
+  scale: 0.7;
+  height: 38rem !important;
+}
+.paymentcard2{
+  width: 50% !important;
+  scale: 0.7;
+  height: 38rem !important;
+}
+.paymentcard1 img{
+  border-bottom: 2px solid blue;
+  object-fit: cover !important;
+}
+.paymentcard1:hover{
+  scale: 0.76 !important;
+}
+.paymentcard2:hover{
+  scale: 0.76 !important;
+}
 
 
 
@@ -447,4 +466,13 @@ body{
  .cancelimage{
   width: 85% !important;
  }
+ .paymentcard1{
+  width: 100% !important;
+  scale: 1 !important;
+}
+.paymentcard2{
+  width: 100% !important;
+  scale: 1 !important;
+  height: 33rem !important;
+}
 }

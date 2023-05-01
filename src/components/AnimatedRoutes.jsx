@@ -11,6 +11,7 @@ import { AnimatePresence } from 'framer-motion';
 import Paymentsuccess from './Paymentsuccess';
 import Paymentfailed from './Paymentfailed';
 import Paymentcancelled from './Paymentcancelled';
+import Buynow from './Buynow';
 
 
 const AnimatedRoutes = () => {
@@ -30,6 +31,7 @@ const AnimatedRoutes = () => {
           <Route exact path="/paymentsuccess" component={Paymentsuccess} />
           <Route exact path="/paymentfailed" component={Paymentfailed} />
           <Route exact path="/paymentcancelled" component={Paymentcancelled} />
+          <Route exact path="/payments" component={Buynow} />
 
           <Redirect to="/" />
         </Switch>

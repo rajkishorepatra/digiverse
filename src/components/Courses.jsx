@@ -28,7 +28,7 @@ const Courses = (props) => {
       <Coursecontent
         name="We Offer Digital Marketing Courses at"
         imgsrc={flash}
-        visit="/home"
+        visit="/payments"
         btname="Buy Now"
         pagedesc="DIGIVERSE360 provides digital marketing courses on a variety of topics to students of all ability levels. The courses teach significant digital marketing skills and knowledge, with the potential of certification upon completion. Beginners to expert learners who desire to broaden their knowledge and abilities are among our target students. Our courses are distinguished by their distinct and valuable approach to digital marketing education."
       />
