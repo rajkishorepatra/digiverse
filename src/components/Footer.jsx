@@ -24,7 +24,7 @@ export default function App() {
           <a href='/' className='me-4 text-reset'>
             <MDBIcon fab icon="instagram" />
           </a>
-          <a href='/' className='me-4 text-reset'>
+          <a href='https://www.linkedin.com/company/digi-verse-18/' target='_blank' className='me-4 text-reset'>
             <MDBIcon fab icon="linkedin" />
           </a>
         </div>
@@ -46,48 +46,48 @@ export default function App() {
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className=' footer-top text-uppercase fw-bold mb-4'>Services</h6>
               <p>
-                <a href='/service' className='text-reset'>
+                <NavLink to='/service' className='text-reset'>
                   Digital Marketing
-                </a>
+                </NavLink>
               </p>
               <p>
-                <a href='/service' className='text-reset'>
+                <NavLink to='/service' className='text-reset'>
                   Search Engine Optimization
-                </a>
+                </NavLink>
               </p>
               <p>
-                <a href='/service' className='text-reset'>
+                <NavLink to='/service' className='text-reset'>
                   Social Media Marketing
-                </a>
+                </NavLink>
               </p>
               <p>
-                <a href='/service' className='text-reset'>
+                <NavLink to='/service' className='text-reset'>
                   Content Strategy
-                </a>
+                </NavLink>
               </p>
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className=' footer-top text-uppercase fw-bold mb-4'>Useful links</h6>
               <p>
-                <a href='/' className='text-reset'>
+                <NavLink to='/' className='text-reset'>
                   Home
-                </a>
+                </NavLink>
               </p>
               <p>
-                <a href='/service' className='text-reset'>
+                <NavLink to='/service' className='text-reset'>
                   Services
-                </a>
+                </NavLink>
               </p>
               <p>
-                <a href='/about' className='text-reset'>
+                <NavLink to='/about' className='text-reset'>
                   About
-                </a>
+                </NavLink>
               </p>
               <p>
-                <a href='/courses' className='text-reset'>
+                <NavLink to='/courses' className='text-reset'>
                   Courses
-                </a>
+                </NavLink>
               </p>
             </MDBCol>
 
