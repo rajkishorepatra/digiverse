@@ -3,11 +3,16 @@ import web from "../images/aboutus.svg";
 import Common from "./Common";
 import wedo from "../images/whatwedo.png";
 import Secondsection from "./Secondsection";
+import { motion } from "framer-motion";
 
 
 const About = () => {
   return (
-    <>
+    <motion.div
+    initial={{opacity: 0}}
+    animate={{opacity: 1}}
+    exit={{opacity: 0}}
+    >
     <div className="herocontainer">
       <Common
         name="About ?"
@@ -30,7 +35,7 @@ const About = () => {
         clients fuel their online presence and ignite their growth. Let us help you overcome your pain
         points and achieve success in the digital world."   
       />
-    </>
+    </motion.div>
   );
 };
 export default About;

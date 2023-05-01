@@ -15,10 +15,15 @@ import num10 from "../images/Course images/10.png"
 import num11 from "../images/Course images/11.png"
 import num12 from "../images/Course images/12.png"
 import num13 from "../images/Course images/13.png"
-import num14 from "../images/Course images/14.png"
+import num14 from "../images/Course images/14.png";
+import { motion } from "framer-motion";
 const Courses = (props) => {
   return (
-    <>
+    <motion.div
+    initial={{opacity: 0}}
+    animate={{opacity: 1}}
+    exit={{opacity: 0}}
+    >
      <div className="herocontainer">
       <Coursecontent
         name="We Offer Digital Marketing Courses at"
@@ -105,7 +110,7 @@ const Courses = (props) => {
     />
     
 
-    </>
+    </motion.div>
   );
 };
 export default Courses;

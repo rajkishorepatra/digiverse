@@ -7,10 +7,15 @@ import mission from "../images/mission.svg";
 import ClientTestimonial from "./ClientTestimonial";
 import homebanner from "../images/homebg.png";
 import Thirdsection from "./Thirdsection";
+import {easeOut, motion} from 'framer-motion';
 
 const Home = () => {
   return (
-    <>
+    <motion.div
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}
+    >
       <div className="herocontainer">
       <Common
         name="Creating a Digital Universe - "
@@ -35,7 +40,7 @@ const Home = () => {
      <Thirdsection
        homebanner={homebanner}
         />
-    </>
+    </motion.div>
   );
 };
 export default Home;

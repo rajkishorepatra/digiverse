@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
 import { Alert } from 'react-bootstrap';
+import { motion } from "framer-motion";
 
 const Contact = () => {
     const form = useRef();
@@ -19,7 +20,11 @@ const Contact = () => {
     };
 
     return (
-        <>
+        <motion.div
+        initial={{opacity: 0}}
+        animate={{opacity: 1}}
+        exit={{opacity: 0}}
+        >
         
             <div className="my-5">
                 <h2 className="contactheader"><strong>Contact Us</strong> <hr className="container" style={{width:'20%',height:'1px' }}/> </h2>
@@ -91,7 +96,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </motion.div>
     );
 };
 
