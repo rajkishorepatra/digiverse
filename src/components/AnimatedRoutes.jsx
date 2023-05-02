@@ -13,8 +13,6 @@ import Paymentfailed from './Paymentfailed';
 import Paymentcancelled from './Paymentcancelled';
 import Buynow from './Buynow';
 import Privacypolicy from './Privacypolicy';
-
-
 const AnimatedRoutes = () => {
     const location = useLocation();
 
