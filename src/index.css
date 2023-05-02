@@ -451,6 +451,13 @@ footer{
 }
 @media (max-width: 426px) {
   .card-img-top {
+    height: 20rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+  }
+}
+@media (max-width: 420px) {
+  .card-img-top {
     height: 16.5rem !important;
     width: 100% !important;
     object-fit: cover !important;
