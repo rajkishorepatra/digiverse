@@ -455,7 +455,64 @@ footer{
     width: 100% !important;
     object-fit: cover !important;
   }
+  .testicard{
+    width: 100% !important;
+    margin-top: -5% !important;
+    transform: translateY(30px);
+  }
+  .row{
+    overflow: hidden !important;
+  }
+
+  .cancelimage{
+    width: 85% !important;
+   }
+   .paymentcard1{
+    width: 100% !important;
+    scale: 1 !important;
+  }
+  .paymentcard2{
+    width: 100% !important;
+    scale: 1 !important;
+    height: 33rem !important;
+  }
+  .paymentcard1:hover{
+    scale: none !important;
+  }
+  .paymentcard2:hover{
+    scale: none !important;
+  }
+
+
+
+  .certcont{
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+  }
+  
+  .certcont img{
+    width: 100%;
+    margin: 10px;
+  }
+  .certcont img:hover{
+    transition: .7s;
+    transform: scale(1.02);
+  }
+  
+  .container-fluid .popup-image img{
+    width: 350px;
+  }
+  .container-fluid .popup-image span{
+    transform: translate(-20px,40px);
+  }
+
 }
+
+
+
+
 @media (max-width: 420px) {
   .card-img-top {
     height: 16.5rem !important;
