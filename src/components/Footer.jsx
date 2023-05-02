@@ -113,6 +113,7 @@ export default function App() {
         &copy; 2023 Copyright: 
         
           Digiverse360 | <NavLink className=' footer-link text-reset mx-2' to='/refundpolicy'> Refund Policy
+        </NavLink> | <NavLink className=' footer-link text-reset mx-2' to='/privacypolicy'> Privacy Policy
         </NavLink>
       </div>
     </MDBFooter>

@@ -12,6 +12,7 @@ import Paymentsuccess from './Paymentsuccess';
 import Paymentfailed from './Paymentfailed';
 import Paymentcancelled from './Paymentcancelled';
 import Buynow from './Buynow';
+import Privacypolicy from './Privacypolicy';
 
 
 const AnimatedRoutes = () => {
@@ -32,6 +33,7 @@ const AnimatedRoutes = () => {
           <Route exact path="/paymentfailed" component={Paymentfailed} />
           <Route exact path="/paymentcancelled" component={Paymentcancelled} />
           <Route exact path="/payments" component={Buynow} />
+          <Route exact path="/privacypolicy" component={Privacypolicy} />
 
           <Redirect to="/" />
         </Switch>
