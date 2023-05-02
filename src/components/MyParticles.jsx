@@ -71,7 +71,7 @@ const MyParticles=()=> {
                 directions: "none",
                 enable: true,
                 outModes: {
-                    default: "destroy",
+                    default: "out",
                 },
                 random: false,
                 speed: 2,
@@ -82,7 +82,7 @@ const MyParticles=()=> {
                     enable: true,
                     area: 2000,
                 },
-                value: 13,
+                value: 17,
             },
             opacity: {
                 value: 0.7,
