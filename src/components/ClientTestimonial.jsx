@@ -39,7 +39,7 @@ const ClientTestimonial = () => {
             <div className="card testicard" >
               <video src={Vid1} controls={true}></video>
               <div className="card-body">
-                <h5 className="card-title"><strong>Sonal Singh</strong></h5>
+                <h5 className="card-title"><strong>Sonal Sinha</strong></h5>
                 <p className="card-text">
                   CEO/Founder - Youthpreneurs, India
                 </p>
@@ -49,7 +49,7 @@ const ClientTestimonial = () => {
               <div className="card testicard">
               <video src={Vid1} controls={true}></video>
               <div className="card-body">
-                <h5 className="card-title"><strong>Sonal Singh</strong></h5>
+                <h5 className="card-title"><strong>Sonal Sinha</strong></h5>
                 <p className="card-text">
                   CEO/Founder - Youthpreneurs, India
                 </p>
@@ -59,7 +59,7 @@ const ClientTestimonial = () => {
               <div className="card testicard mb-5">
               <video src={Vid1} controls={true}></video>
               <div className="card-body">
-                <h5 className="card-title"><strong>Sonal Singh</strong></h5>
+                <h5 className="card-title"><strong>Sonal Sinha</strong></h5>
                 <p className="card-text">
                   CEO/Founder - Youthpreneurs, India
                 </p>
