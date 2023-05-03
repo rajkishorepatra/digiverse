@@ -8,15 +8,20 @@ import ScrollToTop from "./components/ScrollToTop";
 import AnimatedRoutes from "./components/AnimatedRoutes";
 import Loader from './components/Loader';
 import ScrollToTopButton from "./components/ScrollToTopButton";
+import { useLocation } from 'react-router-dom';
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
+  const location = useLocation();
+
   useEffect(() => {
-    setTimeout(() => setIsLoading(false), 2000); 
-  }, []);
+    setIsLoading(true); // Set loading to true on every navigation
+    setTimeout(() => setIsLoading(false), 1000); // Simulate a delay
+  }, [location]);
 
   return (
     <>
+      {isLoading && <Loader />}
       <MyParticles />
       <div className="bgback">
         <Navbar />
@@ -29,5 +34,4 @@ const App = () => {
     </>
   );
 };
-
 export default App;
