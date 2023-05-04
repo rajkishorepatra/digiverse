@@ -192,9 +192,14 @@ video{
 .footer-top{
   text-decoration: underline !important;
 }
-.serviceheader{
-  margin-top: 10rem !important;
-  color: turquoise;
+.service{
+  margin-top: 7rem !important;
+}
+.plansegment{
+  margin-left: 8.5rem !important;
+}
+.plansegment img{
+  width: 30%;
 }
 .mainheader {
   /* margin-top: 10rem !important; */
@@ -305,7 +310,6 @@ background-color: #fff !important;
   color: turquoise;
 }
 .courseheader{
- padding-left: 8.5rem !important;
  margin-top: 2rem;
 }
 .coursetopic{
@@ -323,7 +327,9 @@ background-color: #fff !important;
   padding-bottom: 1rem;
   font-style: italic;
 }
-
+.soon{
+  padding-left: 8.5rem !important;
+}
 .card:hover {
   cursor: pointer;
   box-shadow: 50px 20px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
@@ -499,7 +505,16 @@ footer{
   }
 }
 @media (max-width: 426px) {
+  .plansegment{
+    margin-left: 3rem !important;
+  }
+  .plansegment img{
+    width: 80%;
+  }
 
+  .soon{
+    padding-left: 8rem !important;
+  }
 .courseimg{
   width: 100% !important;
 }
@@ -621,9 +636,7 @@ footer{
 .bgback{
   background-image: linear-gradient(to bottom, #02041d 30%, #04619f);
 }
-.courseheader{
-  padding-left: 3rem !important;
- }
+
  .courseimg{
   width: 100% !important;
 }
@@ -649,7 +662,9 @@ body{
      opacity: 1;
    }
  }
-
+ .soon{
+  padding-left: 5rem !important;
+}
  .cancelimage{
   width: 85% !important;
  }
