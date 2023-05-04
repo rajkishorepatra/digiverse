@@ -2,20 +2,20 @@ import React from "react";
 import Coursecontent from "./Coursecontent";
 import flash from "../images/course_flashgif.gif"
 import Coursedetails from "./Coursedetails";
-import num1 from "../images/Course images/1.png"
-import num2 from "../images/Course images/2.png"
-import num3 from "../images/Course images/3.png"
-import num4 from "../images/Course images/4.png"
-import num5 from "../images/Course images/5.png"
-import num6 from "../images/Course images/6.png"
-import num7 from "../images/Course images/7.png"
-import num8 from "../images/Course images/8.png"
-import num9 from "../images/Course images/9.png"
-import num10 from "../images/Course images/10.png"
-import num11 from "../images/Course images/11.png"
-import num12 from "../images/Course images/12.png"
-import num13 from "../images/Course images/13.png"
-import num14 from "../images/Course images/14.png";
+import num1 from "../images/digital.png"
+import num2 from "../images/plan.png"
+import num3 from "../images/search.png"
+import num4 from "../images/social.png"
+import num5 from "../images/webanal.png"
+import num6 from "../images/Course images/nothing.png"
+import num7 from "../images/contentmar.png"
+import num8 from "../images/email.png"
+import num9 from "../images/influencermar.png"
+import num10 from "../images/dmsmr.png"
+import num11 from "../images/canvaDe.png"
+import num12 from "../images/chatgpt.png"
+import num13 from "../images/youtubemar.png"
+import num14 from "../images/selfdevel.png";
 import { motion } from "framer-motion";
 const Courses = (props) => {
   return (

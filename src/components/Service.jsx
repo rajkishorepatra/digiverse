@@ -2,6 +2,7 @@ import React from "react";
 import Sdata from "./Sdata";
 import Card from "./Card";
 import { motion } from "framer-motion";
+import PricingTable from "./PricingTable";
 const Service = () => {
   return (
     <motion.div 
@@ -31,6 +32,7 @@ const Service = () => {
           </div>
         </div>
       </div>
+      {/* <PricingTable/> */}
     </motion.div>
   );
 };

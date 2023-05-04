@@ -499,6 +499,11 @@ footer{
   }
 }
 @media (max-width: 426px) {
+
+.courseimg{
+  width: 100% !important;
+}
+
   .card-img-top {
     height: 20rem !important;
     width: 100% !important;
