@@ -10,7 +10,7 @@ const Buynow = () => {
       exit={{ opacity: 0 }}
     >
       <div>
-        <h1 className="serviceheader paymentheader text-center mb-0" >
+        <h1 className=" paymentheader text-center text-white mb-0" style={{marginTop:'10rem'}}  >
           <strong> Payment Options </strong>{" "}
           <hr className="container" style={{ width: "30%" }} />{" "}
         </h1>
@@ -39,7 +39,7 @@ const Buynow = () => {
                   <p class="card-text">
                     Simply fill up a form, scan the QR code provided, submit payment proof <br /> We will contact you soon
                   </p>
-                  <a href="#" class="btn btn-success">
+                  <a href="https://forms.gle/3FbS5c6vm5FnAjiA7" target="_blank" class="btn btn-success">
                    Pay Now
                   </a>
                 </div>
