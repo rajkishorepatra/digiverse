@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1e93d04.css",
-    "main.js": "/static/js/main.5baa544d.js",
+    "main.css": "/static/css/main.195b4e74.css",
+    "main.js": "/static/js/main.023ac5b5.js",
     "static/js/988.86a0d572.chunk.js": "/static/js/988.86a0d572.chunk.js",
     "static/media/vid1.mp4": "/static/media/vid1.022d2321069430747815.mp4",
     "static/media/course_flashgif.gif": "/static/media/course_flashgif.876e50f0a070418d7544.gif",
@@ -21,13 +21,16 @@
     "static/media/social.png": "/static/media/social.b1547ac28c9bfb1e3ef9.png",
     "static/media/plan.png": "/static/media/plan.9574aaa0159a7365f965.png",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/annual.jpg": "/static/media/annual.657b2f7a8d74d7491dc8.jpg",
+    "static/media/quarterly.jpg": "/static/media/quarterly.fcdef9a51c888437a3c0.jpg",
     "static/media/selfdevel.png": "/static/media/selfdevel.82fcbe61c6ad598f4611.png",
     "static/media/chatgpt.png": "/static/media/chatgpt.fd13960c93b8d0008036.png",
-    "static/media/nothing.png": "/static/media/nothing.549c785d91c85f35ccfb.png",
+    "static/media/nothing.png": "/static/media/nothing.e3f7af2d1f96cf31cc63.png",
     "static/media/digital.png": "/static/media/digital.3933dee255de08124fd3.png",
     "static/media/exp3.jpg": "/static/media/exp3.0be477592d6a9d24285e.jpg",
     "static/media/digilogo.png": "/static/media/digilogo.8f61584551efc6f4c53c.png",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/serviceheaderimg.png": "/static/media/serviceheaderimg.93ecaa59f203a32ddd33.png",
     "static/media/paymentfailed.png": "/static/media/paymentfailed.9a265205c54d4fb9f68e.png",
     "static/media/payusingQR.png": "/static/media/payusingQR.6a7558b2c8094017b084.png",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
@@ -48,12 +51,12 @@
     "static/media/mission.svg": "/static/media/mission.b8426fda419c8fcc1b4deccfeb7abdd0.svg",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/index.html",
-    "main.b1e93d04.css.map": "/static/css/main.b1e93d04.css.map",
-    "main.5baa544d.js.map": "/static/js/main.5baa544d.js.map",
+    "main.195b4e74.css.map": "/static/css/main.195b4e74.css.map",
+    "main.023ac5b5.js.map": "/static/js/main.023ac5b5.js.map",
     "988.86a0d572.chunk.js.map": "/static/js/988.86a0d572.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1e93d04.css",
-    "static/js/main.5baa544d.js"
+    "static/css/main.195b4e74.css",
+    "static/js/main.023ac5b5.js"
   ]
 }
