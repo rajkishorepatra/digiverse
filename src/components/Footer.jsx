@@ -112,8 +112,9 @@ export default function App() {
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)',color : "turquoise" }}>
         &copy; 2023 Copyright: 
         
-          Digiverse360 | <NavLink className=' footer-link text-reset mx-2' to='/refundpolicy'> Refund Policy
-        </NavLink> | <NavLink className=' footer-link text-reset mx-2' to='/privacypolicy'> Privacy Policy
+          Digiverse360 <br />  <NavLink className=' footer-link text-reset mx-2' to='/refundpolicy'> Refund Policy
+        </NavLink> | <NavLink className=' footer-link text-reset mx-2' to='/terms'> Terms & Conditions
+        </NavLink>| <NavLink className=' footer-link text-reset mx-2' to='/privacypolicy'> Privacy Policy
         </NavLink>
       </div>
     </MDBFooter>
