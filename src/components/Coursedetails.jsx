@@ -7,9 +7,11 @@ const Coursedetails = (props) => {
           <div className="row gy-5">
             <h5 className="coursetopic"> ⭐ <strong>{props.coursetopic}</strong></h5>
             <img className="courseimg" src={props.imgsrc} alt="intro" />
+            <div className="textwrap">
             <p className="coursecontent" style={{ margin: 0 }}>
               {props.content}
             </p>
+            </div>
           </div>
         </div>
       </div>

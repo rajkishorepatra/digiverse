@@ -314,6 +314,11 @@ background-color: #fff !important;
   margin-bottom: 1rem;
 }
 
+.textwrap p{
+width: 40rem !important
+
+}
+
 .coursecontent{
   color: turquoise;
   padding-bottom: 1rem;
@@ -497,6 +502,10 @@ footer{
   }
 }
 @media (max-width: 426px) {
+  .textwrap p{
+    width: 20rem !important
+    
+    }
   .mb-4 {
     margin-bottom: 0rem!important;
   }
@@ -548,8 +557,6 @@ footer{
   .paymentcard2:hover{
     scale: none !important;
   }
-
-
 
   .certcont{
     flex-direction: column !important;
@@ -698,5 +705,8 @@ body{
 .mb-4 {
   margin-bottom: 0rem!important;
 }
-
+.textwrap p{
+  width: 16rem !important
+  
+  }
 }
