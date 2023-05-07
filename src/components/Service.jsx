@@ -1,5 +1,4 @@
 import React from "react";
-import Sdata from "./Sdata";
 import Card from "./Card";
 import { motion } from "framer-motion";
 import PricingTable from "./PricingTable";

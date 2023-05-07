@@ -62,8 +62,6 @@
 
 
 
-
-
 body{
    font-family: "Mulish", sans-serif !important;
     animation: fadeInAnimation ease 1s;
@@ -692,4 +690,12 @@ body{
 .row{
   overflow: hidden !important;
 }
+
+
+.pricingcard{
+  scale: 0.8;
+  margin-top: -3rem !important;
+}
+
+
 }

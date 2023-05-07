@@ -6,7 +6,8 @@ const PricingTable = () => {
     <div className="container mt-5">
       <div className="row justify-content-center">
         <div className="col-lg-4 col-md-6 col-sm-12">
-          <div className="card mb-4 shadow-sm">
+        <div className="pricingcard">
+          <div className="card mb-4 shadow-sm" >
             <div className="card-header">
               <h1 className="my-0 font-weight-normal"> <strong> Quarterly Segment</strong></h1>
             </div>
@@ -19,11 +20,13 @@ const PricingTable = () => {
                 <li>➢ Creative Design</li> <br />
                 <li>➢ Reel as Per Your Requirement</li> <br /> <br />
               </ul>
-              <button type="button" className="btn btn-lg btn-block btn-primary">Buy Now</button>
+              <button type="button" className="btn btn-lg btn-block btn-primary ">Buy Now</button>
             </div>
+          </div>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12">
+          <div className="pricingcard">
           <div className="card mb-4 shadow-sm">
             <div className="card-header">
               <h1 className="my-0 font-weight-normal"><strong> Annual Segment</strong></h1>
@@ -38,8 +41,9 @@ const PricingTable = () => {
                 <li>➢ Strategy Planning</li> <br />
                 <li>➢ Reels as Per Your Requirement</li>
               </ul>
-              <NavLink to='/contact' type="button" className="btn btn-lg btn-block btn-primary">Contact Us</NavLink>
+              <NavLink to='/contact' type="button" className="btn btn-lg btn-block btn-primary ">Contact Us</NavLink>
             </div>
+          </div>
           </div>
         </div>
       </div>

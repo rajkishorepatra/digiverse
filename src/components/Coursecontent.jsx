@@ -18,7 +18,7 @@ const Coursecontent = (props) => {
                     {props.pagedesc}
                   </p>
                   <div className="mt-3"></div>
-                  <NavLink to={props.visit} className="btn btn-outline-primary " >
+                  <NavLink to={props.visit} className="btn btn-outline-primary mb-5 " >
                    <strong> {props.btname} </strong>
                   </NavLink>
                 </div>
