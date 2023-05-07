@@ -279,26 +279,20 @@ background-color: #fff !important;
 }
 .card {
   border: 3px solid rgba(15, 52, 233, 0.54) !important;
-  object-fit: cover !important;
-  height: 35rem !important;
+  margin: 0px !important;
+  height: 33rem !important;
   background: transparent !important;
   color: #fff !important;
   scale: 0.9;
 }
-.card-text{
-  /* color: #3498db; */
-  color: lightblue;
-  font-style: italic  !important;
-}
+
 .exphead{
   color: turquoise;
 }
 .tagline{
   color: rgb(166, 144, 255);
 }
-.card::-webkit-scrollbar{
-  display: none !important;
-}
+
 
 .contactheader{
   overflow: hidden;
@@ -503,6 +497,9 @@ footer{
   }
 }
 @media (max-width: 426px) {
+  .mb-4 {
+    margin-bottom: 0rem!important;
+  }
   .plansegment{
     margin-left: 3rem !important;
   }
@@ -599,7 +596,7 @@ footer{
   overflow: hidden !important;
 }
 .card{
-  height: 490px !important;
+  height: 33rem !important;
   scale: 1 !important;
 }
 .mainheader{
@@ -696,6 +693,8 @@ body{
   scale: 0.8;
   margin-top: -3rem !important;
 }
-
+.mb-4 {
+  margin-bottom: 0rem!important;
+}
 
 }
