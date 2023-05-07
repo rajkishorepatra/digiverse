@@ -25,7 +25,7 @@ const Paymentcancelled = () => {
                 <div className="col-lg-6 order-1 order-lg-2 header-image">
                   <img
                     src={cancel}
-                    className="image-fluid animated cancelimage "
+                    className="image-fluid animated cancelimage " style={{scale: '0.8'}}
                     alt="homeimg"
                   />
                 </div>
