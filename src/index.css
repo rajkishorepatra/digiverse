@@ -532,6 +532,8 @@ footer{
     width: 85% !important;
    }
    .paymentcard1{
+    margin-top: 6rem !important;
+    margin-bottom: 2rem !important;
     width: 100% !important;
     scale: 1 !important;
   }
