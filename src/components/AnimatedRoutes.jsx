@@ -14,6 +14,7 @@ import Paymentcancelled from './Paymentcancelled';
 import Buynow from './Buynow';
 import Privacypolicy from './Privacypolicy';
 import Terms from './Terms';
+import Blogs from './Blogs';
 const AnimatedRoutes = () => {
     const location = useLocation();
 
@@ -34,6 +35,7 @@ const AnimatedRoutes = () => {
           <Route exact path="/payments" component={Buynow} />
           <Route exact path="/privacypolicy" component={Privacypolicy} />
           <Route exact path="/terms" component={Terms} />
+          <Route exact path="/blogs" component={Blogs} />
 
           <Redirect to="/" />
         </Switch>

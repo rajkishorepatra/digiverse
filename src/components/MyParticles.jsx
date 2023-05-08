@@ -85,13 +85,13 @@ const MyParticles=()=> {
                 value: 9,
             },
             opacity: {
-                value: 0.7,
+                value: 0.4,
             },
             shape: {
                 type: "circle",
             },
             size: {
-                value: { min: 1, max: 5 },
+                value: { min: 1, max: 3 },
             },
         },
         detectRetina: true,

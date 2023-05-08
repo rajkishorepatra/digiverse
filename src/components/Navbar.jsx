@@ -82,12 +82,23 @@ const Navbar = () => {
               <NavLink
                 activeClassName="menu_active"
                 className="nav-link"
+                to="/blogs"
+                onClick={toggleNavbar}
+              >
+                Blogs
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                activeClassName="menu_active"
+                className="nav-link"
                 to="/contact"
                 onClick={toggleNavbar}
               >
                 Contact
               </NavLink>
             </li>
+            
           </ul>
         </div>
       </div>
