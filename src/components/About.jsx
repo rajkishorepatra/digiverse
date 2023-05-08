@@ -29,11 +29,8 @@ const About = () => {
       <Secondsection 
         name ="What we do"
         imgsrc = {wedo}
-        content ="At Digiverse360, we understand the pain points of small and mid-scale industries struggling to
-        grow their business online. As Jay Baer said, “Content is fire, social media is gasoline” . Our
-        personalized strategies in content marketing, video editing, and YouTube optimization help our
-        clients fuel their online presence and ignite their growth. Let us help you overcome your pain
-        points and achieve success in the digital world."   
+        tagline ="“Content is fire, social media is gasoline” ~ Jay Baer"
+        content ="We specialise in content marketing, video editing, and YouTube optimisation and many more services to assist small and mid-sized businesses in boosting their online presence and igniting growth. Our customised strategies address our clients' pain points and assist them in succeeding in the digital world."   
       />
     </motion.div>
   );

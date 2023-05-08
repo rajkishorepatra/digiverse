@@ -38,7 +38,7 @@ const RefundPolicy = () => {
                     policy
                   </p>
                   <div className="mt-3"></div>
-                  <NavLink to="/home" className="btn btn-outline-primary">
+                  <NavLink to="/home" className="btn btn-outline-primary mb-5">
                     <strong> Back to home </strong>
                   </NavLink>
                 </div>

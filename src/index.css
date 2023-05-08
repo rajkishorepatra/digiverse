@@ -20,7 +20,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #82aae3;
+  background-color:   rgb(219, 219, 219) ;
   /* background-image: linear-gradient(to bottom, #02041d 100%, #04619f); */
 }
 
@@ -144,7 +144,7 @@ video{
 
 .bgback{
   /* background-image: linear-gradient(to bottom, #82aae3 65%, #EAFDFC); */
-  background-image: linear-gradient(to bottom,  rgb(219, 219, 219) 77.9%,  rgba(71,114,148,1) 14.9%);
+  background-image: linear-gradient(to bottom,  rgb(219, 219, 219) 77.9%,  rgb(41, 137, 210) );
 }
 
 /* baaki sab header */
@@ -629,7 +629,7 @@ footer{
 
 
 .herocontainer{
-  margin-top: 2rem !important;
+  margin-top: 1.5rem !important;
 }
 .container-fluid .popup-image img{
   width: 350px;

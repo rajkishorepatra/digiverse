@@ -22,7 +22,7 @@ const Home = () => {
         imgsrc={web}
         visit="/service"
         btname="Get Started"
-        pagedesc="Welcome to DigiVerse360, where we help businesses achieve their online marketing goals with top-notch services that drive results. Our experienced team of marketers specializes in SEO, social media marketing, PPC advertising, email marketing, and more, using the latest tools and techniques to help clients stay ahead of the competition. Whether you're looking to increase your online presence, attract more customers, or grow your business, we can help. Contact us today to learn how we can help you succeed online."
+        pagedesc="Welcome to Digiverse360, where we specialize in providing top-notch digital marketing services to help businesses succeed online. Our experienced team of professionals offers a comprehensive range of services, including SEO, social media marketing, email marketing, and more. Let us help you achieve your digital marketing goals today."
       />
       </div>
      <Secondsection
@@ -30,7 +30,12 @@ const Home = () => {
       imgsrc = {mission}
       tagline=" “Fueling growth and igniting online presence for small and mid-scale industries through
       personalized digital marketing strategies.” "
-      content="At Digiverse360, our mission is to help businesses of all sizes succeed in the digital age. We believe that every business has the potential to thrive online, and we're passionate about helping our clients achieve their goals. Whether you're looking to increase your website traffic, boost your social media engagement, or generate more leads and sales, we have the expertise and resources to help you succeed. Our team of experienced professionals is dedicated to providing top-notch digital marketing services and training that are tailored to your specific needs and goals."
+      content="At Digiverse360, we're on a mission to help businesses of all sizes thrive in 
+      the digital world. Our team of experts provides tailored digital marketing services and
+       training to help you achieve your goals, whether it's increasing website traffic, boosting social media
+        engagement, or generating more leads and sales.
+       Let us help you 
+         unlock your full potential online."
      />
     <ClientTestimonial/>
      <Experience 

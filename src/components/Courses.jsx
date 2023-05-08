@@ -30,7 +30,7 @@ const Courses = (props) => {
         imgsrc={flash}
         visit="/payments"
         btname="Buy Now"
-        pagedesc="DIGIVERSE360 provides digital marketing courses on a variety of topics to students of all ability levels. The courses teach significant digital marketing skills and knowledge, with the potential of certification upon completion. Beginners to expert learners who desire to broaden their knowledge and abilities are among our target students. Our courses are distinguished by their distinct and valuable approach to digital marketing education."
+        pagedesc="At Digiverse360, we offer digital marketing courses for all levels, from beginners to experts. Our courses provide valuable skills and knowledge with certification upon completion. Join us to broaden your abilities and receive a distinct approach to digital marketing education."
       />
         <h1 className="soon"><strong>Coming <span className="blink text-primary"> Soon!</span></strong></h1>
     

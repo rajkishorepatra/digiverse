@@ -18,13 +18,9 @@ const Service = () => {
     <div className="service">
      <Common
       name="Services at -"
-      pagedesc="At Digiverse360, we offer a comprehensive range of digital marketing services
-       to help businesses of all sizes achieve their goals. Our services include search engine optimization
-        (SEO), social media marketing, web analytics, content marketing, email marketing, influencer marketing,
-         video advertising, and digital marketing strategy and planning. Whether you're looking to increase your 
-         website traffic, generate leads, or boost your online visibility, our team of experts can help. We work 
-         closely with our clients to understand their unique needs and goals, and tailor our services to deliver 
-         the best possible results. Contact us today to learn more about how we can help your business grow and succeed online."
+      pagedesc="Digiverse360 provides digital marketing services, including SEO, social media,
+       analytics, content, email, influencer, and video advertising. We work with businesses of 
+       all sizes to achieve their goals. Lets get started.."
          visit="/contact"
          btname="Contact Us"
          imgsrc={serviceimg}

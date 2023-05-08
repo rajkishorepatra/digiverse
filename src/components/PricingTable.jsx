@@ -12,7 +12,7 @@ const PricingTable = () => {
               <h1 className="my-0 font-weight-normal"> <strong> Quarterly Segment</strong></h1>
             </div>
             <div className="card-body">
-              <h4 className="card-title pricing-card-title text-warning">₹25000 <small className="text-white">/ quarter</small></h4> <br />
+              <h4 className="card-title pricing-card-title text-black p-2" style={{textShadow: ' 3px 3px 5px rgba(0, 0, 0, 0.518)'}} >₹25000 <small className="text-black" >/ quarter</small></h4> <br />
               <ul className="list-unstyled mt-3 mb-4">
                 <li>➢ Strategy and Planning</li> <br />
                 <li>➢ Social Media Advertising</li> <br />
@@ -32,13 +32,13 @@ const PricingTable = () => {
               <h1 className="my-0 font-weight-normal"><strong> Annual Segment</strong></h1>
             </div>
             <div className="card-body">
-              <h4 className="card-title pricing-card-title"> <small className="text-warning">negotiable</small></h4> <br />
+              <h4 className="card-title pricing-card-title"> <small className="text-black"style={{textShadow: ' 3px 3px 5px rgba(0, 0, 0, 0.518)'}}>negotiable</small></h4> <br />
               <ul className="list-unstyled mt-3 mb-4">
-                <li>➢ Profile Optimization</li> <br />
-                <li>➢ Posting and Advertising</li> <br />
-                <li>➢ Engaging</li> <br />
-                <li>➢ Creative Design</li> <br />
                 <li>➢ Strategy Planning</li> <br />
+                <li>➢ Posting and Advertising</li> <br />
+                <li>➢ Profile Optimization ✔</li> <br />
+                <li>➢ Creative Design</li> <br />
+                <li>➢ Engaging Content ✔</li> <br />
                 <li>➢ Reels as Per Your Requirement</li>
               </ul>
               <NavLink to='/contact' type="button" className="btn btn-lg btn-block btn-primary ">Contact Us</NavLink>
