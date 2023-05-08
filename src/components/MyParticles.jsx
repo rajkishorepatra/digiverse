@@ -30,7 +30,7 @@ const MyParticles=()=> {
                 value: "transparent",
             },
         },
-        fpsLimit: 120,
+        fpsLimit: 90,
         interactivity: {
             events: {
                 onClick: {
@@ -55,13 +55,13 @@ const MyParticles=()=> {
         },
         particles: {
             color: {
-                value: "#fff",
+                value: "#000",
             },
             links: {
-                color: "#fff",
+                color: "#000",
                 distance: 150,
                 enable: true,
-                opacity: 0.5,
+                opacity: 0.2,
                 width: 1,
             },
             collisions: {
@@ -82,7 +82,7 @@ const MyParticles=()=> {
                     enable: true,
                     area: 2000,
                 },
-                value: 17,
+                value: 9,
             },
             opacity: {
                 value: 0.7,

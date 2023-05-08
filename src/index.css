@@ -20,7 +20,8 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: linear-gradient(to bottom, #02041d 100%, #04619f);
+  background-color: #82aae3;
+  /* background-image: linear-gradient(to bottom, #02041d 100%, #04619f); */
 }
 
 .loader {
@@ -92,8 +93,8 @@ transition: all 1s ease;
 .refundheader{
   overflow: hidden;
   font-weight: 700;
-  color: rgb(255, 255, 255) !important;
-  text-shadow: 5px 5px 6px rgba(250, 250, 250, 0.359);
+  color: rgb(0, 0, 0) !important;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.518) !important;
 }
 .herocontainer{
   margin-top: 9rem !important;
@@ -111,6 +112,7 @@ video{
 
 
 .navbar{
+  background-color: #BFEAF5 !important;
   padding: 0 !important;
   z-index: 9999 !important;
   position: fixed !important;
@@ -141,12 +143,16 @@ video{
 
 
 .bgback{
-  background-image: linear-gradient(to bottom, #02041d 65%, #04619f);
+  /* background-image: linear-gradient(to bottom, #82aae3 65%, #EAFDFC); */
+  background-image: linear-gradient(to bottom, #82aae3a2 54%, #EAFDFC);
 }
-.homesechead{
+
+/* baaki sab header */
+
+.homesechead{ 
   overflow: hidden;
   /* margin-top: -10rem !important; */
-  color: rgb(254, 255, 255);
+  color: rgb(0, 11, 11);
   letter-spacing: 2px;
 }
 .homesechead hr{
@@ -178,8 +184,10 @@ video{
 .navbar a:hover {
   color: #3498db !important;
 }
+/* digiverse360 wala header */
+
 .brand-name {
-  color: #ffffff;
+  color: #070000;
   font-family: 'Alegreya SC', serif !important;
   font-style:italic;
 }
@@ -199,16 +207,18 @@ video{
 .plansegment img{
   width: 30%;
 }
+/* top wala header */
 .mainheader {
   /* margin-top: 10rem !important; */
   overflow: hidden;
   font-weight: 700;
-  color: rgb(255, 255, 255) !important;
-  text-shadow: 5px 5px 6px rgba(250, 250, 250, 0.359);
+  color: rgb(0, 0, 0) !important;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.518) !important;
 }
+/* bada wala header ka content */
 .subheader {
   overflow-y: hidden;
-  color: #ffffff;
+  color: #000;
 }
 .btn-outline-primary {
   padding: 10px 30px;
@@ -218,7 +228,7 @@ video{
   outline: #ffffff !important;
   border-radius: 50px !important;
   transition: all 0.5s ease !important;
-background-color: #fff !important;
+background-color: transparent !important;
   color: blue !important;
 }
 
@@ -233,40 +243,10 @@ background-color: #fff !important;
   font-weight: 900!important;
   background-color: #fff !important;
 }
-
+/* chota header sab ka content */
 .content{
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
-
-/* .carousel{
-  width: 600px;
-  height: 360px;
-  margin: auto;
-  background-color: #040a48;
-  z-index: 1 !important;
-}
-.carousel-control-prev{
-  height: 300px;
-}
-.carousel-control-next{
-  height: 300px;
-}
-.carousel .carousel-control-prev-icon{
-  visibility: hidden;
-}
-
-.carousel:hover .carousel-control-prev-icon{
-  visibility: visible;
-}
-.carousel .carousel-control-next-icon{
-  visibility: hidden;
-}
-
-.carousel:hover .carousel-control-next-icon{
-  visibility: visible;
-} */
-
-
 
 
 .image-fluid {
@@ -282,34 +262,41 @@ background-color: #fff !important;
   animation: mover .6s infinite alternate-reverse both;
 }
 .card {
-  border: 3px solid rgba(15, 52, 233, 0.54) !important;
+  border: 3px solid rgba(15, 51, 233, 0.953) !important;
   margin: 0px !important;
   height: 33rem !important;
   background: transparent !important;
-  color: #fff !important;
+  color: #000000 !important;
   scale: 0.9;
 }
 
+
+/* Experience wala header */
 .exphead{
-  color: turquoise;
+  color: rgb(0, 4, 4);
 }
+
+/* 
+saara tagline */
+
 .tagline{
-  color: rgb(166, 144, 255);
+  color: rgb(19, 2, 86);
 }
 
-
+/* Contact page ka header */
 .contactheader{
   overflow: hidden;
   text-align: center;
   margin-top: 7rem;
   margin-bottom: -2rem;
-  color: turquoise;
+  color: rgb(0, 0, 0);
 }
 .courseheader{
  margin-top: 2rem;
+ color: #000 !important;
 }
 .coursetopic{
-  color: #fff;
+  color: #000000;
   margin-bottom: -2rem;
   letter-spacing: 1px;
 }
@@ -324,12 +311,13 @@ width: 40rem !important
 }
 
 .coursecontent{
-  color: turquoise;
+  color: rgb(0, 0, 0);
   padding-bottom: 1rem;
   font-style: italic;
 }
 .soon{
   padding-left: 8.5rem !important;
+  color: #000 !important;
 }
 .card:hover {
   cursor: pointer;
@@ -341,7 +329,7 @@ width: 40rem !important
 
 form {
   padding: 15px !important;
-  border: .5px solid rgb(0, 68, 255) !important;
+  border: .5px solid rgb(3, 16, 41) !important;
   background-color: #7c58e600;
   border-radius: 3%;
   margin-bottom: 3rem !important;
@@ -352,10 +340,10 @@ textarea {
   outline: none;
 }
 label{
-  color: whitesmoke;
+  color: rgb(4, 0, 0);
 }
 #emailHelp{
-  color: #ffffff78;
+  color: #00000078;
 }
 .imgarea{
   display: flex;
@@ -452,7 +440,7 @@ label{
 }
 .thirdimg{
   padding: 0!important;
-  opacity: 0.7;
+  opacity: 1;
   width: 100% !important;
   margin-top: -2rem !important;
 }
@@ -506,6 +494,10 @@ footer{
   }
 }
 @media (max-width: 426px) {
+  .mainheader{
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.518) !important;
+    padding-bottom: 3px;
+  }
   .textwrap p{
     width: 20rem !important
     
@@ -612,9 +604,6 @@ footer{
   height: 33rem !important;
   scale: 1 !important;
 }
-.mainheader{
-  text-shadow: 5px 5px 5px rgba(250, 250, 250, 0.288);
-}
 .certcont{
   flex-direction: column !important;
   justify-content: center;
@@ -642,7 +631,9 @@ footer{
   transform: translate(-15px,20px);
 }
 .bgback{
-  background-image: linear-gradient(to bottom, #02041d 30%, #04619f);
+  /* background-image: linear-gradient(to bottom, #02041d 30%, #04619f); */
+  background-image: linear-gradient(to bottom, #82aae3a2 54%, #EAFDFC);
+
 }
 
  .courseimg{
@@ -653,7 +644,8 @@ footer{
   opacity: 1;
 }
 .mainheader{
-  text-shadow: 5px 5px 5px rgba(250, 250, 250, 0.526);
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.518) !important;
+  padding-bottom: 3px;
 }
 body{
   font-family: "Mulish", sans-serif !important;

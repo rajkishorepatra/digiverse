@@ -29,7 +29,7 @@ const RefundPolicy = () => {
                     for services already provided or completed. Furthermore, no
                     refunds will be issued for any third-party fees or expenses
                     made on your behalf. <br /> <br /> ➣ If you want to seek a refund, please
-                    contact us at <span className="text-warning" >digiverse18@gmail.com</span> and provide us with
+                    contact us at <span className="text-primary" >digiverse18@gmail.com</span> and provide us with
                     the specifics of your purchase as well as the reason for
                     your request. Our staff will analyse your inquiry and get
                     back to you as soon as possible. We have the right to change

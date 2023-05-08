@@ -32,9 +32,9 @@ const Courses = (props) => {
         btname="Buy Now"
         pagedesc="DIGIVERSE360 provides digital marketing courses on a variety of topics to students of all ability levels. The courses teach significant digital marketing skills and knowledge, with the potential of certification upon completion. Beginners to expert learners who desire to broaden their knowledge and abilities are among our target students. Our courses are distinguished by their distinct and valuable approach to digital marketing education."
       />
-        <h1 className="soon text-white"><strong>Coming <span className="blink text-warning"> Soon!</span></strong></h1>
+        <h1 className="soon"><strong>Coming <span className="blink text-primary"> Soon!</span></strong></h1>
     
-      <h1 className="courseheader container-fluid text-white text-center">
+      <h1 className="courseheader container-fluid text-center">
       <strong>Course Modules :</strong> <hr />
           </h1>
     </div>

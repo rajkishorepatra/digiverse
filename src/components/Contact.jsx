@@ -34,15 +34,15 @@ const Contact = () => {
                 <div className="row">
                     <div className="col-md-6 col-10 mx-auto">
                     <div className="conatctpara">
-                <p className="text-white mb-5">We're always here to help. Whether you have a question about our services, 
+                <p className="text-dark mb-5">We're always here to help. Whether you have a question about our services, 
                     want to schedule a consultation, or just want to say hello, we'd love to hear
                      from you. You can reach out to us by filling out the form on this page, or by 
-                     sending an email to <span className="text-warning">digiverse18@gmail.com</span>. Our team will get back to you as soon
+                     sending an email to <span className="text-primary">digiverse18@gmail.com</span>. Our team will get back to you as soon
                       as possible to assist you with whatever you need. We're committed to providing
                       our clients with exceptional customer service, so please don't hesitate to get in touch with us!</p>
-                     <h4 className="text-white text-uppercase"> <strong>📍 Address :</strong></h4> <p className="text-light mb-5"> Sadar Bazar, Raipur, Chattisgarh 492001</p>
-                     <h4 className="text-white text-uppercase"> <strong>☎ Phone :</strong></h4> <p className="text-light mb-5">  +91 90 0995 77638</p>
-                     <h4 className="text-white text-uppercase"> <strong>📧 Mail :</strong></h4> <p className="text-light mb-5">  digiverse18@gmail.com</p>                    
+                     <h4 className="text-dark text-uppercase"> <strong>📍 Address :</strong></h4> <p className="text-dark mb-5"> Sadar Bazar, Raipur, Chattisgarh 492001</p>
+                     <h4 className="text-dark text-uppercase"> <strong>☎ Phone :</strong></h4> <p className="text-dark mb-5">  +91 90 0995 77638</p>
+                     <h4 className="text-dark text-uppercase"> <strong>📧 Mail :</strong></h4> <p className="text-dark mb-5">  digiverse18@gmail.com</p>                    
             </div>
                         {showAlert && 
                             <Alert variant="success" onClose={() => setShowAlert(false)} dismissible>

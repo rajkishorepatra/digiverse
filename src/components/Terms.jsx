@@ -22,40 +22,40 @@ const Terms = () => {
                     our website and using our services, you agree to our terms and conditions. <br /> <br />
 
 
-                    ➣ <b className='text-warning' > Intellectual Property </b>: <br /> <br /> All content, including text, graphics, logos,
+                    ➣ <b className='text-primary' > Intellectual Property </b>: <br /> <br /> All content, including text, graphics, logos,
                      and images, on our website is protected by copyright and intellectual 
                      property laws. You may not use, copy, or reproduce any content from our
                       website without our express permission. <br /> <br /> 
                       
-                      ➣ <b className='text-warning'> Use of Our Services:</b> <br /> <br /> Our services are intended for your personal
+                      ➣ <b className='text-primary'> Use of Our Services:</b> <br /> <br /> Our services are intended for your personal
                        or business use only. You may not use our services for any illegal
                         or unauthorized purpose.<br /> <br />
                     
                     
-                     ➣ <b className='text-warning'> Payment and Refunds:</b> <br /> <br /> We offer digital marketing services and courses for a fee.
+                     ➣ <b className='text-primary'> Payment and Refunds:</b> <br /> <br /> We offer digital marketing services and courses for a fee.
                       Payment is required in full before services are rendered. We offer refunds in accordance
                        with our <NavLink to="/refundpolicy"> refund policy.</NavLink> <br /> <br />
                     
                     
-                     ➣ <b className='text-warning'> Disclaimer:</b> <br /> <br /> While we make every effort to provide accurate and up-to-date 
+                     ➣ <b className='text-primary'> Disclaimer:</b> <br /> <br /> While we make every effort to provide accurate and up-to-date 
                      information, our website and services may contain errors or inaccuracies. We make no
                       guarantees or warranties as to the accuracy or completeness of the information provided 
                       on our website or through our services. <br /> <br />
 
 
-                      ➣<b className='text-warning'> Limitation of Liability:</b> <br /> <br /> We shall not be liable for any direct, indirect, incidental, 
+                      ➣<b className='text-primary'> Limitation of Liability:</b> <br /> <br /> We shall not be liable for any direct, indirect, incidental, 
                       special, or consequential damages arising out of or in connection with the use of our 
                       website or services <br /> <br />
 
 
-                      ➣ <b className='text-warning' > Termination:</b> <br /> <br /> We reserve the right to terminate your access to our website 
+                      ➣ <b className='text-primary' > Termination:</b> <br /> <br /> We reserve the right to terminate your access to our website 
                       and services at any time, for any reason. <br /> <br />
 
-                      ➣ <b className='text-warning'> Changes to Terms and Conditions: </b> <br /> <br /> We reserve the right to make changes to our terms and conditions at any time. 
+                      ➣ <b className='text-primary'> Changes to Terms and Conditions: </b> <br /> <br /> We reserve the right to make changes to our terms and conditions at any time. 
                       Your continued
                        use of our website and services after any such changes constitutes your acceptance of the revised terms and conditions.<br /> <br />
 
-                      ➣ <b className='text-warning'> Contact Us: </b> <br /> <br /> If you have any questions or concerns about our terms and conditions, please don't hesitate to contact us. 
+                      ➣ <b className='text-primary'> Contact Us: </b> <br /> <br /> If you have any questions or concerns about our terms and conditions, please don't hesitate to contact us. 
                       We're here to help and are committed to providing you with the best possible service.
 
                       
