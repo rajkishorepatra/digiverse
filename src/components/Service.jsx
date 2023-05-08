@@ -30,13 +30,13 @@ const Service = () => {
          imgsrc={serviceimg}
      />
      <div className="plansegment">
-     <h1 className=" text-white"><strong>Plans <hr style={{width: '30%'}} /> </strong></h1>
-     <h4 className=" text-white"> <strong> Quarterly Plan:</strong></h4> <br />
+     <h1 className=" text-dark"><strong>Plans <hr style={{width: '30%'}} /> </strong></h1>
+     <h4 className=" text-dark"> <strong> Quarterly Plan:</strong></h4> <br />
      <img src={quarter} alt="quarterly plan" /> <br /> <br />
 
-     <h4 className=" text-white"> <strong> Annual Plan:</strong></h4> <br />
+     <h4 className=" text-dark"> <strong> Annual Plan:</strong></h4> <br />
      <img src={annual} alt="annual plan" /> <br /> <br /> <br /> <br />
-     <h1 className="text-white"><strong>Pricing : <hr style={{width: '30%'}}/> </strong></h1>
+     <h1 className="text-dark"><strong>Pricing : <hr style={{width: '30%'}}/> </strong></h1>
      </div>
      </div>
       <PricingTable/>
