@@ -576,6 +576,13 @@ footer{
   .container-fluid .popup-image span{
     transform: translate(-20px,40px);
   }
+  .bgback{
+    /* background-image: linear-gradient(to bottom, #02041d 30%, #04619f); */
+    /* background-image: linear-gradient(to bottom, #82aae3a2 54%, #EAFDFC); */
+    background-image: linear-gradient(to bottom,  rgb(219, 219, 219) 65%,  rgb(14, 32, 71) );
+  
+  
+  }
 
 }
 

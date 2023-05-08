@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom/cjs/react-router-dom';
 export default function App() {
   return (
     <div className="footer">
-    <MDBFooter bgColor='black' className='text-center text-lg-start text-muted'>
+    <MDBFooter bgColor='black' className='text-center text-lg-start text-muted' style={{color: 'rgb(219, 219, 219)'}} >
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block' style={{color : "turquoise"}}>
           <span>Get connected with us on social networks:</span>
