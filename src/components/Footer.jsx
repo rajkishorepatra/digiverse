@@ -7,11 +7,11 @@ export default function App() {
     <div className="footer">
     <MDBFooter bgColor='black' className='text-center text-lg-start text-muted' style={{color: 'rgb(219, 219, 219)'}} >
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
-        <div className='me-5 d-none d-lg-block' style={{color : "white"}}>
+        <div className='me-5 d-none d-lg-block' style={{color : "rgba(143, 141, 141, 1)"}}>
           <span>Get connected with us on social networks:</span>
         </div>
 
-        <div style={{color : "white"}}>
+        <div style={{color : "rgba(143, 141, 141, 1)"}}>
           <a href='/' className='me-4 text-reset'>
             <MDBIcon fab icon="facebook-f" />
           </a>
@@ -30,7 +30,7 @@ export default function App() {
         </div>
       </section>
 
-      <section className='' style={{color : "white"}} >
+      <section className='' style={{color : "rgba(143, 141, 141, 1)"}} >
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
@@ -109,7 +109,7 @@ export default function App() {
         </MDBContainer>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)',color : "white" }}>
+      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)',color : "rgba(143, 141, 141, 1)" }}>
         &copy; 2023 Copyright: 
         
           Digiverse360 <br />  <NavLink className=' footer-link text-reset mx-2' to='/refundpolicy'> Refund Policy
