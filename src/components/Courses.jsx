@@ -33,7 +33,7 @@ const Courses = (props) => {
         pagedesc="At Digiverse360, we offer digital marketing courses for all levels, from beginners to experts. Our courses provide valuable skills and knowledge with certification upon completion. Join us to broaden your abilities and receive a distinct approach to digital marketing education."
       />
         <h1 className="soon"><strong>Coming <span className="blink text-primary"> Soon!</span></strong></h1>
-    
+
       <h1 className="courseheader container-fluid text-center">
       <strong>Course Modules :</strong> <hr />
           </h1>

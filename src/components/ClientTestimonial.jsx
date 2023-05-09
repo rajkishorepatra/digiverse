@@ -2,31 +2,12 @@ import React from "react";
 import Secondsection from "./Secondsection";
 import testimonial from "../images/testimonial.png";
 import Vid1 from "../videos/vid1.mp4";
+import TestimonialContainer from "./TestimonialContainer";
 
 const ClientTestimonial = () => {
-  // const videoProperties = [
-  //     {
-  //     id: 1,
-  //     title: "Sonal Singh",
-  //     src: Vid1,
-  //     credit: "Founder/CEO - Youthpreneur, India"
-  // },
-  // {
-  //     id: 2,
-  //     title: "Person 2",
-  //     src: Vid1,
-  //     credit: "Some Designation"
-  // },
-  // {
-  //     id: 3,
-  //     title: "Person 3",
-  //     src: Vid1,
-  //     credit: "Some Designation"
-  // }
-  // ]
   return (
     <>
-      <Secondsection
+      <TestimonialContainer
         name="Client Testimonials"
         imgsrc={testimonial}
         tagline=" “We're committed to delivering results for our clients - and their glowing testimonials speak to our success” - Mr. Shubham Pani - CEO, Digiverse360 "

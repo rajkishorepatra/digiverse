@@ -3,8 +3,9 @@ import { NavLink } from 'react-router-dom/cjs/react-router-dom.min';
 
 const PricingTable = () => {
   return (
-    <div className="container mt-5">
+    <div className="container pricingcont mt-5" >
       <div className="row justify-content-center">
+      <h1 className="text-dark" style={{fontSize: '40px'}}><strong>Pricing : <hr style={{width: '30%'}}/> </strong></h1>
         <div className="col-lg-4 col-md-6 col-sm-12">
         <div className="pricingcard">
           <div className="card mb-4 shadow-sm" >
