@@ -22,12 +22,12 @@ const Buynow = () => {
               <div class="card paymentcard1 " >
                 <img src={payu}class="card-img-top" alt="payU paymentlogo" />
                 <div class="card-body">
-                  <h5 class="card-title mb-4 "> <strong>  Pay via PayU payment GateWay </strong> ✅</h5>
+                  <h5 class="card-title mb-4 "> <strong>  Pay via PayU payment GateWay (under maintenance) </strong> ✅</h5>
                   <p class="card-text">
                     Easiest Way to pay <br />
                     Pay using UPI, Net Banking, Debit/Credit Cards, Secured
                   </p>
-                  <a href="#" class="btn btn-success">
+                  <a href="#" class="btn btn-success disabled"  >
                     Pay Now
                   </a>
                 </div>
