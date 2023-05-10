@@ -14,6 +14,22 @@
 .successcontainer{
   margin-top: 8rem !important;
 }
+.user{
+  font-weight: 900;
+  font-style: italic;
+  margin-left: 25px !important;
+}
+.loginbtn{
+  padding: 5px;
+  background-color: transparent !important;
+  width: 221px !important;
+  border: .5px solid floralwhite;
+  transform: translateX(40px);
+}
+.loginbtn:hover{
+  background-color: #007bff !important;
+  transition: .5s ease;
+}
 
 .loader-container {
   display: flex;
@@ -122,16 +138,17 @@ video{
   right: 0;
 }
 .navbar-brand {
-  font-size: 2.5rem !important;
+  font-size: 1.8rem !important;
   color: #080108 !important;
 }
 
 
 .collapse.show {
-  transition: 0.3s ease-out !important;
+  transition: 0.3s ease !important;
 }
+
 .navbar-collapse {
-  transition: height 0.3s ease-in-out !important;
+  transition: height 0.3s ease !important;
 }
 
 
@@ -236,8 +253,8 @@ background-color: transparent !important;
 }
 
 .btn-outline-primary:hover{
-  background-color: transparent !important;
-  color: #4f00fa!important;
+  background-color: purple !important;
+  color: #ffffff!important;
   box-shadow:  30px 20px 20px rgba(0, 0, 0, 0.986);
 }
 
@@ -497,6 +514,14 @@ footer{
   }
 }
 @media (max-width: 426px) {
+
+  .user{
+    margin-left: 0 !important;
+    }
+  .loginbtn{
+    width: 50% !important;
+    transform: translateX(7.2em)
+  }
   .mainheader{
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.518) !important;
     padding-bottom: 3px;
@@ -723,6 +748,12 @@ body{
   width: 16rem !important
   
 }
-
+.loginbtn{
+  width: 100% !important;
+  transform: none !important;
+}
+.user{
+margin-left: 0 !important;
+}
 
 }

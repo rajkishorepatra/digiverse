@@ -1,8 +1,10 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import { NavLink } from 'react-router-dom/cjs/react-router-dom';
+import { useAuth0 } from "@auth0/auth0-react";
 
 export default function App() {
+  const { user, loginWithRedirect, logout, isAuthenticated } = useAuth0();
   return (
     <div className="footer">
     <MDBFooter bgColor='black' className='text-center text-lg-start text-muted' style={{color: 'rgb(219, 219, 219)'}} >
@@ -89,6 +91,7 @@ export default function App() {
                   Courses
                 </NavLink>
               </p>
+              
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
@@ -105,6 +108,30 @@ export default function App() {
                 <MDBIcon icon="phone" className="me-3" /> +91 90 0995 77638
               </p>
             </MDBCol>
+            {
+                isAuthenticated &&
+                 <p className="container user text-primary " >
+                  Hello! {user.name}
+                </p>
+              }
+            {isAuthenticated ? (
+            
+            <button type="button" className="btn-primary loginbtn"
+              onClick={() =>
+                logout({
+                  logoutParams: { returnTo: window.location.origin },
+                })
+              }
+            >
+              Log Out
+            </button>
+          
+        ) : (
+        
+            <button type="button" className="btn-primary loginbtn" onClick={() => loginWithRedirect()}>Admin Log In</button>
+          
+        )}
+          
           </MDBRow>
         </MDBContainer>
       </section>

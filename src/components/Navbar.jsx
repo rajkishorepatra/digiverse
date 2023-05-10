@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../images/digilogo.png";
+// import { useAuth0 } from "@auth0/auth0-react";
 
 const Navbar = () => {
+  // const { user, loginWithRedirect, logout, isAuthenticated } = useAuth0();
   const [collapsed, setCollapsed] = useState(true);
 
   const toggleNavbar = () => setCollapsed(!collapsed);
@@ -98,7 +100,31 @@ const Navbar = () => {
                 Contact
               </NavLink>
             </li>
+            {/* <li>
+              {
+                isAuthenticated &&
+                 <p className="container user text-primary " >
+                  Hello! {user.name}
+                </p>
+              }
+            </li> */}
+            {/* {isAuthenticated ? (
             
+                <button type="button" className="btn-primary loginbtn"
+                  onClick={() =>
+                    logout({
+                      logoutParams: { returnTo: window.location.origin },
+                    })
+                  }
+                >
+                  Log Out
+                </button>
+              
+            ) : (
+            
+                <button type="button" className="btn-primary loginbtn" onClick={() => loginWithRedirect()}>Log In</button>
+              
+            )} */}
           </ul>
         </div>
       </div>
