@@ -6,7 +6,7 @@ import TestimonialContainer from "./TestimonialContainer";
 
 const ClientTestimonial = () => {
   return (
-    <>
+    <div style={{backgroundColor:'rgba(59,130,246,.5)'}}>
       <TestimonialContainer
         name="Client Testimonials"
         imgsrc={testimonial}
@@ -69,7 +69,7 @@ const ClientTestimonial = () => {
             )
         })}
     </Carousel> */}
-    </>
+    </div>
   );
 };
 export default ClientTestimonial;

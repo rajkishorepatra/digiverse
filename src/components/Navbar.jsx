@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../images/digilogo.png";
-// import { useAuth0 } from "@auth0/auth0-react";
+// import logo from "../images/digilogo.png";
+import logo from "../images/digilogo_new.png"
 
 const Navbar = () => {
-  // const { user, loginWithRedirect, logout, isAuthenticated } = useAuth0();
   const [collapsed, setCollapsed] = useState(true);
 
   const toggleNavbar = () => setCollapsed(!collapsed);
@@ -19,14 +18,12 @@ const Navbar = () => {
             style={{ width: 100 }}
             alt="Digiverse360 Logo"
           />
-          <strong> DigiVerse360</strong>
+          {/* <strong> DigiVerse360</strong> */}
         </NavLink>
         <button
           className="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarNav"
+          aria-controls="navbarSupportedContent"
           aria-expanded={!collapsed ? true : false}
           aria-label="Toggle navigation"
           onClick={toggleNavbar}
@@ -100,31 +97,6 @@ const Navbar = () => {
                 Contact
               </NavLink>
             </li>
-            {/* <li>
-              {
-                isAuthenticated &&
-                 <p className="container user text-primary " >
-                  Hello! {user.name}
-                </p>
-              }
-            </li> */}
-            {/* {isAuthenticated ? (
-            
-                <button type="button" className="btn-primary loginbtn"
-                  onClick={() =>
-                    logout({
-                      logoutParams: { returnTo: window.location.origin },
-                    })
-                  }
-                >
-                  Log Out
-                </button>
-              
-            ) : (
-            
-                <button type="button" className="btn-primary loginbtn" onClick={() => loginWithRedirect()}>Log In</button>
-              
-            )} */}
           </ul>
         </div>
       </div>

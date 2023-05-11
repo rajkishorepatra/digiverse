@@ -4,7 +4,7 @@ import React from "react";
 const Secondsection = (props) => {
   return (
     <>
-    <section id="header" className="d-flex aligm-items-center " style={{backgroundImage: 'linear-gradient(to bottom, rgba(59,130,246,.5) 77.9%,  #fff )'}}>
+    <section id="header" className="d-flex aligm-items-center " style={{backgroundImage: 'linear-gradient(to top, rgba(59,130,246,.5) 77.9%,  #fff )'}}>
         <div className="container-fluid my-5">
           <div className="row">
             <div className="col-10 mx-auto">
