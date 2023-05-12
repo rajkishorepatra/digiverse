@@ -1,20 +1,37 @@
 import React, { useState } from 'react';
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/firestore';
 import { NavLink } from 'react-router-dom';
 import blog from '../images/blog.svg';
 import { useAuth0 } from '@auth0/auth0-react';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import {db} from '../firebase.js' ;
 
 const Blogs = () => {
   const { isAuthenticated } = useAuth0();
   const [showModal, setShowModal] = useState(false);
   const handleClose = () => setShowModal(false);
   const handleShow = () => setShowModal(true);
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Add logic to handle form submission
-    // and close the modal
+    const form = e.target;
+    const blogTitle = form.blogTitle.value;
+    const blogContent = form.blogContent.value;
+    const blogImage = form.blogImage.files[0];
+    const storageRef = firebase.storage().ref();
+    const imageRef = storageRef.child(`blogImages/${blogImage.name}`);
+    await imageRef.put(blogImage);
+    const downloadURL = await imageRef.getDownloadURL();
+    const blogRef = db.collection('blogs').doc();
+    await blogRef.set({
+      title: blogTitle,
+      content: blogContent,
+      image: downloadURL,
+      createdAt: new Date(),
+      author: 'Anonymous', // Change this to the actual author if you have user authentication set up
+    });
     setShowModal(false);
   };
 
