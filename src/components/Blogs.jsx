@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import { NavLink } from 'react-router-dom';
@@ -7,11 +7,25 @@ import { useAuth0 } from '@auth0/auth0-react';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import {db} from '../firebase.js' ;
+import { db } from '../firebase.js';
 
 const Blogs = () => {
-  const { isAuthenticated } = useAuth0();
+  const { isAuthenticated, user } = useAuth0(); // Use Auth0's user object
   const [showModal, setShowModal] = useState(false);
+  const [blogs, setBlogs] = useState([]); // State variable for list of blog posts
+
+  // Fetch blog posts from Firestore on component mount
+  useEffect(() => {
+    const unsubscribe = db.collection('blogs').onSnapshot((snapshot) => {
+      const newBlogs = snapshot.docs.map((doc) => ({
+        id: doc.id,
+        ...doc.data(),
+      }));
+      setBlogs(newBlogs);
+    });
+    return unsubscribe;
+  }, []);
+
   const handleClose = () => setShowModal(false);
   const handleShow = () => setShowModal(true);
   const handleSubmit = async (e) => {
@@ -30,7 +44,7 @@ const Blogs = () => {
       content: blogContent,
       image: downloadURL,
       createdAt: new Date(),
-      author: 'Anonymous', // Change this to the actual author if you have user authentication set up
+      author: user.name, // Use Auth0's user object to get the user's name
     });
     setShowModal(false);
   };
@@ -55,6 +69,7 @@ const Blogs = () => {
                       Create Blog
                     </Button>
                   )}
+
                   <div className="mt-3"></div>
                   
                   <NavLink to="/" className="btn btn-outline-primary mb-5">
