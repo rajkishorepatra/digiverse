@@ -15,7 +15,7 @@ const Common = (props) => {
                     {props.name}
                     <strong className="brand-name"> DigiVerse360</strong>
                   </h1>
-                  <p className="subheader my-3">
+                  <p className="subheader my-3" style={{color: 'rgb(123, 120, 120)'}}>
                     {props.pagedesc}
                   </p>
                   <div className="mt-3"></div>

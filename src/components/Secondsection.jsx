@@ -4,7 +4,7 @@ import React from "react";
 const Secondsection = (props) => {
   return (
     <>
-    <section id="header" className="d-flex aligm-items-center " style={{backgroundImage: 'linear-gradient(to top, rgba(59,130,246,.5) 77.9%,  #fff )'}}>
+    <section id="header" className="d-flex aligm-items-center " style={{backgroundImage: 'linear-gradient(to top, rgba(59,130,246,.5) 77.9%,  #fff )' }}>
         <div className="container-fluid my-5">
           <div className="row">
             <div className="col-10 mx-auto">
@@ -14,7 +14,7 @@ const Secondsection = (props) => {
                     <strong>{props.name}</strong>
                   </h1>
                   <p className="tagline"><strong><i>{props.tagline}</i><hr/></strong></p>
-                  <p className="content my-3">
+                  <p className="content my-3"  >
                     {props.content}
                   </p>
                   <div className="mt-3"></div>

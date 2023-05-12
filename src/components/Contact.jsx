@@ -25,7 +25,7 @@ const Contact = () => {
         animate={{opacity: 1}}
         exit={{opacity: 0}}
         >
-        <div style={{backgroundImage: 'linear-gradient(to bottom, rgba(59,130,246,.5) 60.9%,  #fff )'}}>
+        <div style={{backgroundImage: 'linear-gradient(to top, rgba(59,130,246,.5) 40%,  #fff )'}}>
             <div className="my-5" >
                 <h2 className="contactheader"><strong>Contact Us</strong> <hr className="container" style={{width:'20%',height:'1px' }}/> </h2>
             </div>
@@ -34,7 +34,7 @@ const Contact = () => {
                 <div className="row">
                     <div className="col-md-6 col-10 mx-auto">
                     <div className="conatctpara">
-                <p className="text-dark mb-5">We're always here to help. Whether you have a question about our services, 
+                <p className="text-dark mb-5" >We're always here to help. Whether you have a question about our services, 
                     want to schedule a consultation, or just want to say hello, we'd love to hear
                      from you. You can reach out to us by filling out the form on this page, or by 
                      sending an email to  <span className="text-primary"> <strong> digiverse18@gmail.com</strong></span>. Our team will get back to you as soon
