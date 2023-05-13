@@ -44,7 +44,7 @@ const Blogs = () => {
       content: blogContent,
       image: downloadURL,
       createdAt: new Date(),
-      author: 'Anonymous', // Use Auth0's user object to get the user's name
+      author: user.name, // Use Auth0's user object to get the user's name
     });
     setShowModal(false);
   };
@@ -113,6 +113,30 @@ const Blogs = () => {
           </Form>
         </Modal.Body>
       </Modal>
+
+      {/* Render Blog */}
+
+      <section id="blogs">
+  <div className="container-fluid my-5">
+    <div className="row">
+      {blogs.map((blog) => (
+        <div key={blog.id} className="col-md-4">
+          <div className="card mb-4">
+            <img className="card-img-top" src={blog.image} alt={blog.title} />
+            <div className="card-body">
+              <h5 className="card-title">{blog.title}</h5>
+              <p className="card-text">{blog.content}</p>
+              <p className="card-text">
+                <small className="text-muted">Author: {blog.author}</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
     </>
   );
 };
