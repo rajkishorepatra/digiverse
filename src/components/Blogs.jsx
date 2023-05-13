@@ -44,7 +44,7 @@ const Blogs = () => {
       content: blogContent,
       image: downloadURL,
       createdAt: new Date(),
-      author: user.name, // Use Auth0's user object to get the user's name
+      author: 'Anonymous', // Use Auth0's user object to get the user's name
     });
     setShowModal(false);
   };
@@ -97,15 +97,15 @@ const Blogs = () => {
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="blogTitle">
               <Form.Label>Blog Title</Form.Label>
-              <Form.Control type="text" placeholder="Enter title" required />
+              <Form.Control type="text" placeholder="Enter title" name='blogTitle' required />
             </Form.Group>
             <Form.Group controlId="blogContent">
               <Form.Label>Blog Content/Paragraph</Form.Label>
-              <Form.Control as="textarea" rows={3} required />
+              <Form.Control as="textarea" rows={3} name='blogContent' required />
             </Form.Group>
             <Form.Group controlId="blogImage">
               <Form.Label>Upload Image</Form.Label>
-              <Form.Control type="file" required className='mb-3' />
+              <Form.Control type="file" required name='blogImage' className='mb-3' />
             </Form.Group>
             <Button variant="primary" type="submit">
               Submit
