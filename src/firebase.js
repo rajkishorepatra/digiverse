@@ -5,13 +5,13 @@ import 'firebase/compat/storage';
 
 // Initialize Firebase
 const firebaseConfig = {
-    apiKey: "AIzaSyCkkYs5JoxiKQOL3AzC9kGsWtk7_4mh_WQ",
-    authDomain: "digi-db-68ab2.firebaseapp.com",
-    projectId: "digi-db-68ab2",
-    storageBucket: "digi-db-68ab2.appspot.com",
-    messagingSenderId: "1059231079710",
-    appId: "1:1059231079710:web:94c673c16ae1e1c8677d0f"
-  };
+  apiKey: "AIzaSyCZ3izCEgcQFU7bzo7vVG1mwLBMeEM_4Uo",
+  authDomain: "digi-db2.firebaseapp.com",
+  projectId: "digi-db2",
+  storageBucket: "digi-db2.appspot.com",
+  messagingSenderId: "671907352047",
+  appId: "1:671907352047:web:4e595a1c8ee0f501313a1a"
+};
   firebase.initializeApp(firebaseConfig);
 export const db = firebase.firestore();
 export const auth = firebase.auth();
