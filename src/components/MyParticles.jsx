@@ -16,6 +16,7 @@ const MyParticles=()=> {
         }, []);
 
   return (
+    <div className='particles' >
     <Particles
     id="tsparticles"
     init={particlesInit}
@@ -97,6 +98,7 @@ const MyParticles=()=> {
         detectRetina: true,
     }}
 />
+</div>
   )
 
 }

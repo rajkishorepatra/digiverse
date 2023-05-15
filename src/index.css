@@ -8,21 +8,58 @@
   padding: 0;
   box-sizing: border-box;
   /* font-family: "Mulish", sans-serif; */
-  overflow-x: hidden;
   z-index: 1;
 }
-
-.carousel-wrapper {
-  position: relative;
+.landingmain{
+  width: 100%;
+  height: 100vh;
 }
 
-.carousel-caption {
+.landingvid{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+
+.landingcontent{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  top:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
 }
-
+.landingcontent h1{
+  font-size: 65px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px #fff;
+}
+.landingcontent .btn{
+  box-shadow: 2px 2px 5px #fff;
+}
+.landingcontent .btn:hover{
+  background-color: #007bff;
+  font-weight: 900;
+}
+.landingcontent h3{
+  margin-top: 1rem;
+  font-family: 'Alegreya SC', serif !important;
+  font-style: italic;
+  font-size: 40px;
+  text-shadow: 3px 3px 5px blue;
+}
+.landingoverlay{
+ position:absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0 , 0, 0.7);
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -595,6 +632,22 @@ footer{
   }
 }
 @media (max-width: 426px) {
+  .landingmain{
+    overflow-x: hidden;
+  }
+  .landingcontent h1{
+    font-size: 45px;
+    padding-left: 23px;
+    margin-bottom: 2rem;
+  }
+  .landingcontent h3 {
+    font-size: 50px;
+    padding-right: 10rem;
+}
+  .landingcontent p{
+    font-size: 15px;
+    text-shadow: 1px 1px 5px #fff;
+  }
   .image-fluid {
     margin-top: 0 !important;
     width: 100%;
@@ -718,6 +771,18 @@ footer{
 
 
 @media (max-width: 420px) {
+  .landingcontent h1{
+    font-size: 27px;
+    margin-bottom: 30px;
+   }
+  .landingcontent h3{
+    font-size: 45px;
+    padding-left: 2rem;
+  }
+  .landingcontent p{
+    font-size: 13px;
+    text-shadow: 1px 1px 5px #fff;
+  }
   .image-fluid {
     margin-top: 3rem !important;
     margin-bottom: -1rem !important;
