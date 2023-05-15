@@ -26,11 +26,11 @@ const Service = () => {
      />
 
      <div className="plansegment" >
-     <h1 className=" text-light"><strong>Plans <hr style={{width: '30%'}} /> </strong></h1>
-     <h4 className=" text-light"> <strong> Quarterly Plan:</strong></h4> <br />
+     <h1 className=" text-light"><strong>Plans <hr style={{width: '100%'}} /> </strong></h1>
+     <h4 className=" plandesc text-light"> <strong> Quarterly Plan:</strong></h4> <br />
      <img src={quarter} alt="quarterly plan" /> <br /> <br />
 
-     <h4 className=" text-light"> <strong> Annual Plan:</strong></h4> <br />
+     <h4 className=" plandesc text-light"> <strong> Annual Plan:</strong></h4> <br />
      <img src={annual} alt="annual plan" /> <br /> <br /> <br /> <br />
      </div>
      
