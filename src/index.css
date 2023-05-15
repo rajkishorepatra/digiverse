@@ -220,6 +220,7 @@ scale: 3.2;
   font-weight: bold !important;
   border-bottom: 2px solid #565387 !important;
   background-color: #007bff2a !important;
+  border-radius:20px;
 }
 .blink {
   animation: blink-animation 1s steps(5, start) infinite;
@@ -240,7 +241,6 @@ scale: 3.2;
   color: #3498db !important;
 }
 /* digiverse360 wala header */
-
 .brand-name {
   color: #ffffff;
   font-family: 'Alegreya SC', serif !important;
