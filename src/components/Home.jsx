@@ -3,7 +3,8 @@ import web from "../images/headerimg.svg";
 import Common from "./Common";
 import Secondsection from "./Secondsection";
 import Experience from "./Experience";
-import mission from "../images/mission.svg";
+import msn from "../images/msn2.svg";
+// import msn from "../images/mission.png";
 import ClientTestimonial from "./ClientTestimonial";
 import homebanner from "../images/homebg.png";
 import Thirdsection from "./Thirdsection";
@@ -27,7 +28,7 @@ const Home = () => {
       </div>
      <Secondsection
       name = "Our Mission"
-      imgsrc = {mission}
+      imgsrc = {msn}
       tagline=" “Fueling growth and igniting online presence for small and mid-scale industries through
       personalized digital marketing strategies.” "
       content="Our Mission at Digiverse 360 Is Simple: To Help Businesses Conquer the Digital World. We’re

@@ -82,7 +82,7 @@ const MyParticles=()=> {
                     enable: true,
                     area: 2000,
                 },
-                value: 9,
+                value: 5,
             },
             opacity: {
                 value: 0.4,
@@ -91,7 +91,7 @@ const MyParticles=()=> {
                 type: "circle",
             },
             size: {
-                value: { min: 1, max: 3 },
+                value: { min: 1, max: 1.5 },
             },
         },
         detectRetina: true,
