@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.77053647.css",
-    "main.js": "/static/js/main.0794abf7.js",
+    "main.css": "/static/css/main.4d393994.css",
+    "main.js": "/static/js/main.2a8252d0.js",
     "static/js/988.86a0d572.chunk.js": "/static/js/988.86a0d572.chunk.js",
     "static/media/vid1.mp4": "/static/media/vid1.022d2321069430747815.mp4",
     "static/media/course_flashgif.gif": "/static/media/course_flashgif.876e50f0a070418d7544.gif",
@@ -31,7 +31,7 @@
     "static/media/paymentfailed.png": "/static/media/paymentfailed.9a265205c54d4fb9f68e.png",
     "static/media/payusingQR.png": "/static/media/payusingQR.6a7558b2c8094017b084.png",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
-    "static/media/loader2.gif": "/static/media/loader2.920441c0a203eb233f07.gif",
+    "static/media/loader.gif": "/static/media/loader.705e3808a1e8ac320878.gif",
     "static/media/refundpolicy.png": "/static/media/refundpolicy.9eb0ce4fcdacef7383d6.png",
     "static/media/privacy.png": "/static/media/privacy.c4cb88d3215bad9d4dce.png",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
@@ -51,12 +51,12 @@
     "static/media/mission.svg": "/static/media/mission.b8426fda419c8fcc1b4deccfeb7abdd0.svg",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/index.html",
-    "main.77053647.css.map": "/static/css/main.77053647.css.map",
-    "main.0794abf7.js.map": "/static/js/main.0794abf7.js.map",
+    "main.4d393994.css.map": "/static/css/main.4d393994.css.map",
+    "main.2a8252d0.js.map": "/static/js/main.2a8252d0.js.map",
     "988.86a0d572.chunk.js.map": "/static/js/988.86a0d572.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77053647.css",
-    "static/js/main.0794abf7.js"
+    "static/css/main.4d393994.css",
+    "static/js/main.2a8252d0.js"
   ]
 }
