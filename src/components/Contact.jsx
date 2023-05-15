@@ -25,7 +25,7 @@ const Contact = () => {
         animate={{opacity: 1}}
         exit={{opacity: 0}}
         >
-        <div style={{backgroundImage: 'linear-gradient(to top, rgba(59,130,246,.5) 40%,  #fff )'}}>
+        <div >
             <div className="my-5" >
                 <h2 className="contactheader"><strong>Contact Us</strong> <hr className="container" style={{width:'20%',height:'1px' }}/> </h2>
             </div>
@@ -34,16 +34,21 @@ const Contact = () => {
                 <div className="row">
                     <div className="col-md-6 col-10 mx-auto">
                     <div className="conatctpara">
-                <p className="text-dark mb-5" >We're always here to help. Whether you have a question about our services, 
-                    want to schedule a consultation, or just want to say hello, we'd love to hear
-                     from you. You can reach out to us by filling out the form on this page, or by 
-                     sending an email to  <span className="text-primary"> <strong> digiverse18@gmail.com</strong></span>. Our team will get back to you as soon
-                      as possible to assist you with whatever you need. We're committed to providing
-                      our clients with exceptional customer service, so please don't hesitate to get in touch with us!</p>
-                     <h4 className="text-dark text-uppercase"> <strong>📍 Address :</strong></h4> <p className="text-dark mb-5"> Sadar Bazar, Raipur, Chattisgarh 492001</p>
-                     <h4 className="text-dark text-uppercase"> <strong>☎ Phone :</strong></h4> <p className="text-dark mb-5">  +91 90 0995 77638</p>
-                     <h4 className="text-dark text-uppercase"> <strong>📧 Mail :</strong></h4> <p className="text-dark mb-5">  digiverse18@gmail.com</p>                    
+                <p className="text-light mb-5" >We Value Our Customers and Always Strive to Provide the Best Possible Service. If You Have Any
+                Questions or Inquiries, Please Don’t Hesitate to Contact Us Using the Following Information:
+                                                                                                            </p>
+                     <h4 className="text-light text-uppercase"> <strong>📍 Address :</strong></h4> <p className="text-light mb-5">Digiverse360, <br /> Sadar Bazar, Raipur, Chattisgarh 492001</p>
+                     <h4 className="text-light text-uppercase"> <strong>☎ Phone :</strong></h4> <p className="text-light mb-5">  +91 90 0995 77638</p>
+                     <h4 className="text-light text-uppercase"> <strong>📧 Mail :</strong></h4> <p className="text-light mb-4">  digiverse18@gmail.com</p>   
+
+                     <p className="text-light" >Our Team Is Available to Answer Your Queries and Provide Assistance During Our Business Hours,
+                        Which Are Monday to Friday From 9:00 Am to 6:00 PM Ist. You Can Expect a Prompt Response From
+                        Us, and We’ll Do Our Best to Address Your Concerns and Provide You With the Support You Need.</p>
+
+<p className="text-light" >Alternatively, You Can Also Reach Us by Filling Out the Contact Form below. We Appreciate
+Your Interest in Our Services and Look Forward to Hearing From You Soon</p> <br />
             </div>
+
                         {showAlert && 
                             <Alert variant="success" onClose={() => setShowAlert(false)} dismissible>
                                 Your message was sent!

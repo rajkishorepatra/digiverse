@@ -7,7 +7,7 @@ import mission from "../images/mission.svg";
 import ClientTestimonial from "./ClientTestimonial";
 import homebanner from "../images/homebg.png";
 import Thirdsection from "./Thirdsection";
-import {easeOut, motion} from 'framer-motion';
+import {motion} from 'framer-motion';
 
 const Home = () => {
   return (
@@ -30,21 +30,20 @@ const Home = () => {
       imgsrc = {mission}
       tagline=" “Fueling growth and igniting online presence for small and mid-scale industries through
       personalized digital marketing strategies.” "
-      content="At Digiverse360, we're on a mission to help businesses of all sizes thrive in 
-      the digital world. Our team of experts provides tailored digital marketing services and
-       training to help you achieve your goals, whether it's increasing website traffic, boosting social media
-        engagement, or generating more leads and sales.
-       Let us help you 
-         unlock your full potential online."
+      content="Our Mission at Digiverse 360 Is Simple: To Help Businesses Conquer the Digital World. We’re
+      Passionate About Delivering Customized Solutions That Help Our Clients Achieve Success Online.
+      Our Team of Experts Is Dedicated to Staying Ahead of the Curve and Delivering Exceptional Services
+      That Exceed Our Clients’ Expectations. Contact Us Today and Let’s Start Your Digital Marketing
+      Journey Together!"
      />
     <ClientTestimonial/>
      <Experience 
      exphead ="Experience Certificates"
      content ="At Digiverse360, we take pride in our expertise and experience in the field of digital marketing. To showcase our skills and credentials, we've created a section where you can view our experience certificates from some of the top industry organizations and training programs."
      />
-     <Thirdsection
+     {/* <Thirdsection
        homebanner={homebanner}
-        />
+        /> */}
     </motion.div>
   );
 };

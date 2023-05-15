@@ -10,7 +10,7 @@ const Buynow = () => {
       exit={{ opacity: 0 }}
     >
       <div>
-        <h1 className=" paymentheader text-center mb-0" style={{marginTop:'10rem'}}  >
+        <h1 className=" paymentheader text-center text-light mb-0" style={{marginTop:'10rem'}}  >
           <strong> Payment Options </strong>{" "}
           <hr className="container" style={{ width: "30%" }} />{" "}
         </h1>

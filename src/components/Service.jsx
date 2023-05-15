@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "./Card";
 import { motion } from "framer-motion";
 import PricingTable from "./PricingTable";
 import Common from "./Common";
@@ -25,17 +24,16 @@ const Service = () => {
          btname="Contact Us"
          imgsrc={serviceimg}
      />
-     <div className="planbg" style={{backgroundImage: 'linear-gradient(to bottom, rgba(59,130,246,.5) 77.9%,  #fff )' ,paddingTop: '50px'}}>
 
      <div className="plansegment" >
-     <h1 className=" text-dark"><strong>Plans <hr style={{width: '30%'}} /> </strong></h1>
-     <h4 className=" text-dark"> <strong> Quarterly Plan:</strong></h4> <br />
+     <h1 className=" text-light"><strong>Plans <hr style={{width: '30%'}} /> </strong></h1>
+     <h4 className=" text-light"> <strong> Quarterly Plan:</strong></h4> <br />
      <img src={quarter} alt="quarterly plan" /> <br /> <br />
 
-     <h4 className=" text-dark"> <strong> Annual Plan:</strong></h4> <br />
+     <h4 className=" text-light"> <strong> Annual Plan:</strong></h4> <br />
      <img src={annual} alt="annual plan" /> <br /> <br /> <br /> <br />
      </div>
-     </div>
+     
      </div>
       <PricingTable/>
     </motion.div>

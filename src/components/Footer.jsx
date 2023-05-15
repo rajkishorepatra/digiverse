@@ -41,7 +41,7 @@ export default function App() {
             </a>
             <a
               href="https://www.linkedin.com/company/digi-verse-18/"
-              target="_blank"
+              target="_blank"  rel="noreferrer"
               className="me-4 text-reset"
             >
               <MDBIcon fab icon="linkedin" />

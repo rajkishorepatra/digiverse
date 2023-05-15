@@ -1,12 +1,11 @@
 import React from "react";
-import Secondsection from "./Secondsection";
 import testimonial from "../images/testimonial.png";
 import Vid1 from "../videos/vid1.mp4";
 import TestimonialContainer from "./TestimonialContainer";
 
 const ClientTestimonial = () => {
   return (
-    <div style={{backgroundColor:'rgba(59,130,246,.5)'}}>
+    <div >
       <TestimonialContainer
         name="Client Testimonials"
         imgsrc={testimonial}
@@ -50,25 +49,6 @@ const ClientTestimonial = () => {
           </div>
         </div>
       </div>
-
-      {/* <Carousel>
-        {videoProperties.map((videoObj)=>{
-            return(
-                <Carousel.Item key={videoObj.id}>
-                    <ReactPlayer
-                        url={videoObj.src}
-                        pip={true}
-                        controls={true}
-                        playing={false}
-                    />
-                    <Carousel.Caption>
-                        <h3>{videoObj.title}</h3>
-                        <p>{videoObj.credit}</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            )
-        })}
-    </Carousel> */}
     </div>
   );
 };

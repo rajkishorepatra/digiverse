@@ -5,15 +5,15 @@ const PricingTable = () => {
   return (
     <div className="container pricingcont mt-5" >
       <div className="row justify-content-center">
-      <h1 className="text-dark" style={{fontSize: '40px'}}><strong>Pricing : <hr style={{width: '30%'}}/> </strong></h1>
+      <h1 className="text-light" style={{fontSize: '40px'}}><strong>Pricing : <hr style={{width: '30%'}}/> </strong></h1>
         <div className="col-lg-4 col-md-6 col-sm-12">
         <div className="pricingcard">
           <div className="card mb-4 shadow-sm" >
-            <div className="card-header">
-              <h1 className="my-0 font-weight-normal"> <strong> Quarterly Segment</strong></h1>
+            <div className="card-header" style={{borderColor:'#fff'}} >
+              <h1 className="my-0 text-light font-weight-normal"> <strong> Quarterly Segment</strong></h1>
             </div>
             <div className="card-body">
-              <h4 className="card-title pricing-card-title text-black p-2" style={{textShadow: ' 3px 3px 5px rgba(0, 0, 0, 0.518)'}} >₹25000 <small className="text-black" >/ quarter</small></h4> <br />
+              <h4 className="card-title pricing-card-title text-warning p-2" style={{textShadow: ' 3px 3px 5px rgba(0, 0, 0, 0.518)'}} >₹25000 <small className="text-black" >/ quarter</small></h4> <br />
               <ul className="list-unstyled mt-3 mb-4">
                 <li>➢ Strategy and Planning</li> <br />
                 <li>➢ Social Media Advertising</li> <br />
@@ -29,11 +29,11 @@ const PricingTable = () => {
         <div className="col-lg-4 col-md-6 col-sm-12">
           <div className="pricingcard">
           <div className="card mb-4 shadow-sm">
-            <div className="card-header">
-              <h1 className="my-0 font-weight-normal"><strong> Annual Segment</strong></h1>
+          <div className="card-header" style={{borderColor:'#fff'}} >
+              <h1 className="my-0 text-light font-weight-normal"><strong> Annual Segment</strong></h1>
             </div>
             <div className="card-body">
-              <h4 className="card-title pricing-card-title"> <small className="text-black"style={{textShadow: ' 3px 3px 5px rgba(0, 0, 0, 0.518)'}}>negotiable</small></h4> <br />
+              <h4 className="card-title pricing-card-title"> <small className="text-primary"style={{textShadow: ' 3px 3px 5px rgba(0, 0, 0, 0.518)'}}>negotiable</small></h4> <br />
               <ul className="list-unstyled mt-3 mb-4">
                 <li>➢ Strategy Planning</li> <br />
                 <li>➢ Posting and Advertising</li> <br />

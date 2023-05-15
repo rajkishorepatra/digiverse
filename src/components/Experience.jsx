@@ -24,7 +24,7 @@ const Experience = (props) =>{
   };
 return (
    <>
-      <div className="container-fluid mb-5" style={{backgroundImage: 'linear-gradient(to bottom, rgba(59,130,246,.5) 77.9%,  #fff )',padding: '20px'}}>
+      <div className="container-fluid mb-5">
         <div className="row">
           <div className="col-10 mx-auto">
             <div className="row gy-5">

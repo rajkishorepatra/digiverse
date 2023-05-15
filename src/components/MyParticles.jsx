@@ -55,10 +55,10 @@ const MyParticles=()=> {
         },
         particles: {
             color: {
-                value: "#000",
+                value: "#fff",
             },
             links: {
-                color: "#000",
+                color: "#fff",
                 distance: 150,
                 enable: true,
                 opacity: 0.2,
