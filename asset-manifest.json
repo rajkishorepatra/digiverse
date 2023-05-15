@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.82db8d6d.css",
-    "main.js": "/static/js/main.7186b700.js",
+    "main.js": "/static/js/main.1d813ad5.js",
     "static/js/988.86a0d572.chunk.js": "/static/js/988.86a0d572.chunk.js",
     "static/media/vid1.mp4": "/static/media/vid1.022d2321069430747815.mp4",
     "static/media/course_flashgif.gif": "/static/media/course_flashgif.876e50f0a070418d7544.gif",
@@ -41,6 +41,7 @@
     "static/media/digilogo_new.png": "/static/media/digilogo_new.f098aacd25aae898be4d.png",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
     "static/media/headerimg.svg": "/static/media/headerimg.9960037abc790e0969f2315d33fbeace.svg",
+    "static/media/msn2.svg": "/static/media/msn2.d76dfe8db098fd6714c0b82cafe50eb5.svg",
     "static/media/terms.svg": "/static/media/terms.40ec2bf2be8984f277d96a7e24dabf5e.svg",
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/payupayment.svg": "/static/media/payupayment.d4afc62ffbc705624b66d984b93c86cf.svg",
@@ -48,15 +49,14 @@
     "static/media/aboutus.svg": "/static/media/aboutus.9d31a6a03bf20255761a1ae64fe197e4.svg",
     "static/media/paymentcancelled.svg": "/static/media/paymentcancelled.3750d6e13cb52bf9f30358772b5fc3ef.svg",
     "static/media/paymentsuccess.svg": "/static/media/paymentsuccess.1f6c3f3d864b7b4803710d41550603a0.svg",
-    "static/media/mission.svg": "/static/media/mission.b8426fda419c8fcc1b4deccfeb7abdd0.svg",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/index.html",
     "main.82db8d6d.css.map": "/static/css/main.82db8d6d.css.map",
-    "main.7186b700.js.map": "/static/js/main.7186b700.js.map",
+    "main.1d813ad5.js.map": "/static/js/main.1d813ad5.js.map",
     "988.86a0d572.chunk.js.map": "/static/js/988.86a0d572.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82db8d6d.css",
-    "static/js/main.7186b700.js"
+    "static/js/main.1d813ad5.js"
   ]
 }
