@@ -221,6 +221,7 @@ scale: 3.2;
   border-bottom: 2px solid #565387 !important;
   background-color: #007bff2a !important;
   border-radius:20px;
+  padding: 10px !important;
 }
 .blink {
   animation: blink-animation 1s steps(5, start) infinite;
