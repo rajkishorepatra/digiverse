@@ -596,6 +596,7 @@ footer{
 }
 @media (max-width: 426px) {
   .image-fluid {
+    margin-top: 0 !important;
     width: 100%;
     scale: 0.9;
   }
@@ -717,6 +718,11 @@ footer{
 
 
 @media (max-width: 420px) {
+  .image-fluid {
+    margin-top: 3rem !important;
+    margin-bottom: -1rem !important;
+    scale: 0.9 !important;
+  }
 .navbar-brand{
   object-fit: cover !important;
   padding: 35px;
