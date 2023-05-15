@@ -16,7 +16,6 @@ import Privacypolicy from './Privacypolicy';
 import Terms from './Terms';
 import Blogs from './Blogs';
 import Login from './Login';
-import Landing from './Landing';
 const AnimatedRoutes = () => {
     const location = useLocation();
 
@@ -39,7 +38,6 @@ const AnimatedRoutes = () => {
           <Route exact path="/terms" component={Terms} />
           <Route exact path="/blogs" component={Blogs} />
           <Route exact path="/login" component={Login} />
-          <Route exact path="/landing" component={Landing} />
 
           <Redirect to="/" />
         </Switch>
