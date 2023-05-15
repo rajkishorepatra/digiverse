@@ -28,7 +28,7 @@ const PricingTable = () => {
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12">
           <div className="pricingcard">
-          <div className="card mb-4 shadow-sm">
+          <div className="card annualcard mb-4 shadow-sm">
           <div className="card-header" style={{borderColor:'#fff'}} >
               <h1 className="my-0 text-light font-weight-normal"><strong> Annual Segment</strong></h1>
             </div>

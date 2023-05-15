@@ -178,7 +178,11 @@ transition: all 1s ease;
   height: 50% !important;
   scale: 0.8 !important;
   padding: 0% !important;
+  box-shadow: 2px 2px 5px #fff;
 
+}
+.testicard:hover{
+  box-shadow: 2px 2px 5px yellow !important;
 }
 
 video{
@@ -303,7 +307,7 @@ margin-top: 7rem !important;
   overflow: hidden;
   font-weight: 700;
   color: rgb(255, 254, 254) !important;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.518) !important;
+  text-shadow: 1px 1px 5px #fff !important;
 }
 /* bada wala header ka content */
 .subheader {
@@ -319,12 +323,13 @@ margin-top: 7rem !important;
   transition: all 0.5s ease !important;
 background-color: transparent !important;
   color: whitesmoke !important;
+  box-shadow: 2px 2px 5px #fff;
 }
 
 .btn-outline-primary:hover{
-  background-color: blue !important;
-  color: #ffffff!important;
-  box-shadow:  30px 20px 20px rgba(0, 0, 0, 0.986);
+  background-color: rgb(249, 249, 255) !important;
+  color: #000!important;
+  box-shadow:  2px 2px 5px blueviolet;
 }
 
 .submitbtn{
@@ -362,6 +367,11 @@ background-color: transparent !important;
   background-color: transparent;
   color: #fff !important;
 }
+
+.annualcard{
+  box-shadow: 2px 2px 5px goldenrod !important;
+}
+
 /* Experience wala header */
 .exphead{
   color: rgb(255, 255, 255);
@@ -429,7 +439,6 @@ form {
 form input,
 textarea {
   border: 1px solid #ffffff !important;
-  outline: none;
 }
 label{
   color: rgb(239, 226, 226);

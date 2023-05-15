@@ -34,7 +34,7 @@ const Navbar = () => {
           className={`collapse navbar-collapse ${collapsed ? "" : "show"}`}
           id="navbarSupportedContent"
         >
-          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav ms-auto mb-lg-0">
             <li className="nav-item">
               <NavLink
                 activeClassName="menu_active"

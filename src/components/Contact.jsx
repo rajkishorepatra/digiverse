@@ -34,18 +34,18 @@ const Contact = () => {
                 <div className="row">
                     <div className="col-md-6 col-10 mx-auto">
                     <div className="conatctpara">
-                <p className="text-light mb-5" >We Value Our Customers and Always Strive to Provide the Best Possible Service. If You Have Any
+                <p className="mb-5" style={{color:'#ffffffa3 '}} >We Value Our Customers and Always Strive to Provide the Best Possible Service. If You Have Any
                 Questions or Inquiries, Please Don’t Hesitate to Contact Us Using the Following Information:
                                                                                                             </p>
                      <h4 className="text-light text-uppercase"> <strong>📍 Address :</strong></h4> <p className="text-light mb-5">Digiverse360, <br /> Sadar Bazar, Raipur, Chattisgarh 492001</p>
                      <h4 className="text-light text-uppercase"> <strong>☎ Phone :</strong></h4> <p className="text-light mb-5">  +91 90 0995 77638</p>
                      <h4 className="text-light text-uppercase"> <strong>📧 Mail :</strong></h4> <p className="text-light mb-4">  digiverse18@gmail.com</p>   
 
-                     <p className="text-light" >Our Team Is Available to Answer Your Queries and Provide Assistance During Our Business Hours,
+                     <p style={{  color: '#ffffffa3' }} >Our Team Is Available to Answer Your Queries and Provide Assistance During Our Business Hours,
                         Which Are Monday to Friday From 9:00 Am to 6:00 PM Ist. You Can Expect a Prompt Response From
                         Us, and We’ll Do Our Best to Address Your Concerns and Provide You With the Support You Need.</p>
 
-<p className="text-light" >Alternatively, You Can Also Reach Us by Filling Out the Contact Form below. We Appreciate
+<p style={{color:'#ffffffa3'}} >Alternatively, You Can Also Reach Us by Filling Out the Contact Form below. We Appreciate
 Your Interest in Our Services and Look Forward to Hearing From You Soon</p> <br />
             </div>
 
