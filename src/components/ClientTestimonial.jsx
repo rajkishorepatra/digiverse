@@ -1,6 +1,9 @@
 import React from "react";
 import testimonial from "../images/testimonial.png";
 import Vid1 from "../videos/vid1.mp4";
+import Vid2 from "../videos/vid2.mp4";
+import Vid3 from "../videos/vid3.mp4";
+
 import TestimonialContainer from "./TestimonialContainer";
 
 const ClientTestimonial = () => {
@@ -27,21 +30,21 @@ const ClientTestimonial = () => {
               </div>
 
               <div className="card testicard">
-              <video src={Vid1} controls={true}></video>
+              <video src={Vid2} controls={true}></video>
               <div className="card-body">
-                <h5 className="card-title"><strong>Sonal Sinha</strong></h5>
+                <h5 className="card-title"><strong>Siddharth Bohre</strong></h5>
                 <p className="card-text">
-                  CEO/Founder - Youthpreneurs, India
+                  Founder: StockSchool Trading Academy - Youtube (140k+)
                 </p>
                 </div>
               </div>
 
               <div className="card testicard mb-5">
-              <video src={Vid1} controls={true}></video>
+              <video src={Vid3} controls={true}></video>
               <div className="card-body">
-                <h5 className="card-title"><strong>Sonal Sinha</strong></h5>
+                <h5 className="card-title"><strong>Giriraj Lakhotia</strong></h5>
                 <p className="card-text">
-                  CEO/Founder - Youthpreneurs, India
+                  Co-Founder : RGL Groups
                 </p>
                 </div>
               </div>
