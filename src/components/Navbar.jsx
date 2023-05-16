@@ -80,7 +80,7 @@ const Navbar = () => {
             {/* <li className="nav-item">
               <NavLink
                 activeClassName="menu_active"
-                className="nav-link"
+                className="nav-link disabled"
                 to="/blogs"
                 onClick={toggleNavbar}
               >

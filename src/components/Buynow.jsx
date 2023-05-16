@@ -12,7 +12,7 @@ const Buynow = () => {
       <div className="paymentcontainer">
         <h1 className=" paymentheader text-center text-light mb-0" style={{marginTop:'10rem'}}  >
           <strong> Payment Options </strong>{" "}
-          <hr className="container" style={{ width: "30%" }} />{" "}
+          <hr className="container" style={{ width: "30%" }} />{" "} <br />
         </h1>
       </div>
       <div className="container-fluid mb-5">

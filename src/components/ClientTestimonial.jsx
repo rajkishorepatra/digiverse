@@ -22,7 +22,7 @@ const ClientTestimonial = () => {
             <div className="card testicard" >
               <video src={Vid1} controls={true}></video>
               <div className="card-body">
-                <h5 className="card-title"><strong>Sonal Sinha</strong></h5>
+                <h5 className="card-title text-primary"><strong>Sonal Sinha</strong></h5>
                 <p className="card-text">
                   CEO/Founder - Youthpreneurs, India
                 </p>
@@ -32,7 +32,7 @@ const ClientTestimonial = () => {
               <div className="card testicard">
               <video src={Vid2} controls={true}></video>
               <div className="card-body">
-                <h5 className="card-title"><strong>Siddharth Bohre</strong></h5>
+                <h5 className="card-title text-primary "><strong>Siddharth Bohre</strong></h5>
                 <p className="card-text">
                   Founder: StockSchool Trading Academy - Youtube (140k+)
                 </p>
@@ -42,7 +42,7 @@ const ClientTestimonial = () => {
               <div className="card testicard mb-5">
               <video src={Vid3} controls={true}></video>
               <div className="card-body">
-                <h5 className="card-title"><strong>Giriraj Lakhotia</strong></h5>
+                <h5 className="card-title text-primary"><strong>Giriraj Lakhotia</strong></h5>
                 <p className="card-text">
                   Co-Founder : RGL Groups
                 </p>

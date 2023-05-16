@@ -21,7 +21,7 @@ const PricingTable = () => {
                 <li>➢ Creative Design</li> <br />
                 <li>➢ Reel as Per Your Requirement</li> <br /> <br />
               </ul>
-              <button type="button" className="btn btn-lg btn-block btn-primary ">Buy Now</button>
+              <button type="button" disabled className="btn btn-lg btn-block btn-primary ">Buy Now</button>
             </div>
           </div>
           </div>

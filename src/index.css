@@ -338,14 +338,34 @@ background-color: transparent !important;
   color: #fff !important;
 }
 
+.blogcard{
+  scale: 0.8 !important;
+  height: 100% !important;
+  box-shadow: 2px 2px 15px #fff;
+  margin-top: -6rem !important;
+}
+.blogcard small{
+  color: #ffffff77 !important;
+}
+
 .annualcard{
   box-shadow: 2px 2px 5px goldenrod !important;
 }
+
 
 /* Experience wala header */
 .exphead{
   color: rgb(255, 255, 255);
 }
+
+
+.paymentcontainer{
+  margin-top: -3rem !important;
+ }
+ .paymentheader{
+  transform: translateY(35px);
+ }
+
 
 /* 
 saara tagline */
@@ -390,14 +410,12 @@ width: 40rem !important
   padding-left: 8.5rem !important;
   color: #000 !important;
 }
-.card:hover {
+/* .card:hover {
   cursor: pointer;
-  box-shadow: 50px 20px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
   transition: all 0.5s ease;
   overflow: hidden !important;
   scale: 1;
-}
-
+} */
 form {
   padding: 15px !important;
   border: .5px solid rgb(6, 93, 255) !important;
@@ -408,7 +426,7 @@ form {
 }
 form input,
 textarea {
-  border: 1px solid #ffffff !important;
+  border: 1px solid #000000 !important;
 }
 label{
   color: rgb(239, 226, 226);
@@ -565,6 +583,13 @@ footer{
   }
 }
 @media (max-width: 426px) {
+  .createbtn{
+    width: 100% !important;
+  }
+  .blogcard{
+    margin-top: -3rem !important;
+    margin-bottom: 2rem !important;
+  }
   .image-fluid {
     margin-top: 0 !important;
     width: 100%;
@@ -695,6 +720,23 @@ footer{
 
 
 @media (max-width: 420px) {
+  .createbtn{
+    width: 100% !important;
+  }
+  .blogcard{
+    transform: translateX(6.5%);
+    height: 90% !important;
+    width: 90% !important;
+    margin-top: 1rem !important;
+    margin-bottom: 5rem !important;
+  }
+  .blogcard p{
+    font-size: 12px !important;
+  }
+ .blogcard .btn{
+  margin-top: 1rem !important;
+  scale: 0.8 !important;
+ }
   .image-fluid {
     margin-top: 3rem !important;
     margin-bottom: -1rem !important;

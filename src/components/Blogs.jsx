@@ -8,6 +8,7 @@ import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { db } from '../firebase.js';
+import { format } from 'date-fns';
 
 const Blogs = () => {
   const { isAuthenticated, user } = useAuth0(); // Use Auth0's user object
@@ -53,41 +54,48 @@ const Blogs = () => {
     <>
       <section id="header" className="d-flex aligm-items-center my-5 ">
         <div className="container-fluid my-5">
-          <div className="row">
+          <div className="row my-5">
             <div className="col-10 mx-auto">
               <div className="row">
-                <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column ">
-                  <h1 className="mainheader">
+                  <h1 className="mainheader text-center">
                     Blogs-
                     <strong className="brand-name"> DigiVerse360</strong>
                   </h1>
-                  <p className="subheader my-3">
-                    You will see blogs here when posted by Admin.
+                  <div className='d-flex align-items-center justify-content-center' >
+                  <hr style={{width:'30%',height:'5px',color:'white'}}/>
+                  </div>
+                  <p className="subheader my-3 text-center ">
+                  Discover the latest insights and trends in digital marketing on our blogs page. 
+                  Our informative and engaging articles cover a wide range of topics, including SEO, 
+                  social media, content marketing, and more.Stay up to date and enhance your digital
+                   marketing knowledge with our valuable blog posts.
                   </p>
                   {isAuthenticated && (
-                    <Button className='createbtn' variant="primary" onClick={handleShow}>
+                    <div className='d-flex aligm-items-center justify-content-center' >
+                    <Button className='createbtn' variant="primary" style={{width:'20%'}} onClick={handleShow}>
                       Create Blog
                     </Button>
+                    </div>
                   )}
 
                   <div className="mt-3"></div>
                   
-                  <NavLink to="/" className="btn btn-outline-primary mb-5">
+                  {/* <NavLink to="/" className="btn btn-outline-primary mb-5">
                     <strong> Back to Home </strong>
-                  </NavLink>
+                  </NavLink> */}
                 </div>
-                <div className="col-lg-6 order-1 order-lg-2 header-image">
+                {/* <div className="col-lg-6 order-1 order-lg-2 header-image">
                   <img
                     style={{ scale: '0.8' }}
                     src={blog}
                     className="image-fluid animated"
                     alt="homeimg"
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
-        </div>
+      
       </section>
       <Modal className='modal' show={showModal} onHide={handleClose}>
         <Modal.Header closeButton>
@@ -121,14 +129,16 @@ const Blogs = () => {
     <div className="row">
       {blogs.map((blog) => (
         <div key={blog.id} className="col-md-4">
-          <div className="card mb-4">
+          <div className="card blogcard">
             <img className="card-img-top" src={blog.image} alt={blog.title} />
             <div className="card-body">
-              <h5 className="card-title">{blog.title}</h5>
-              <p className="card-text">{blog.content}</p>
+              <h5 className="card-title text-primary "><strong>{blog.title}</strong></h5>
+              <p className="card-text">{blog.content.substring(0, 100)}...</p>
               <p className="card-text">
-                <small className="text-muted">Author: {blog.author}</small>
+                <small className="text-white">Author: {blog.author}</small> <br />
+                <small className='text-white'>Time Posted:  {format(blog.createdAt.toDate(), 'yyyy-MM-dd HH:mm')} IST</small>
               </p>
+              <NavLink to={`/blog/${blog.id}`} type="button" className="btn btn-lg btn-block btn-primary "> Read More </NavLink>
             </div>
           </div>
         </div>
