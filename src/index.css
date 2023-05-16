@@ -640,16 +640,23 @@ footer{
   .cancelimage{
     width: 85% !important;
    }
+   .paymentcontainer{
+    margin-top: -3rem !important;
+   }
+   .paymentheader{
+    transform: translateY(35px);
+   }
    .paymentcard1{
     margin-top: 6rem !important;
     margin-bottom: 2rem !important;
     width: 100% !important;
-    scale: 1 !important;
+    scale: 0.9 !important;
+    height: 35rem !important;
   }
   .paymentcard2{
     width: 100% !important;
-    scale: 1 !important;
-    height: 33rem !important;
+    scale: 0.9 !important;
+    height: 35rem !important;
   }
   .paymentcard1:hover{
     scale: none !important;
@@ -735,10 +742,6 @@ scale: 2;
   transform: scale(1.02);
 }
 
-
-.herocontainer{
-  margin-top: 1.5rem !important;
-}
 .container-fluid .popup-image img{
   width: 330px;
 }
@@ -787,13 +790,19 @@ body{
  .cancelimage{
   width: 85% !important;
  }
+ .paymentcontainer{
+  margin-top: -3rem !important;
+ }
+ .paymentheader{
+  transform: translateY(30px);
+ }
  .paymentcard1{
   width: 100% !important;
-  scale: 1 !important;
+  scale: 0.9 !important;
 }
 .paymentcard2{
   width: 100% !important;
-  scale: 1 !important;
+  scale: 0.9 !important;
   height: 33rem !important;
 }
 .paymentcard1:hover{

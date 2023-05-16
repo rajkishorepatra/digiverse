@@ -9,7 +9,7 @@ const Buynow = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <div>
+      <div className="paymentcontainer">
         <h1 className=" paymentheader text-center text-light mb-0" style={{marginTop:'10rem'}}  >
           <strong> Payment Options </strong>{" "}
           <hr className="container" style={{ width: "30%" }} />{" "}
