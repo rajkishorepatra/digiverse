@@ -25,10 +25,10 @@ const Contact = () => {
         animate={{opacity: 1}}
         exit={{opacity: 0}}
         >
-        <div >
-            <div className="my-5" >
-                <h2 className="contactheader"><strong>Contact Us</strong> <hr className="container" style={{width:'20%',height:'1px' }}/> </h2>
-            </div>
+        <div className="contact" > <br /> <br />
+            
+                <h2 className="contactheader"><strong>Contact Us</strong> <hr className="container" style={{width:'20%',height:'1px' }}/> </h2> <br /> <br />
+         
             
             <div className="container contact_div" >
                 <div className="row">
