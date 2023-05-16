@@ -129,7 +129,7 @@ export default function App() {
                   digiverse18@gmail.com
                 </p>
                 <p>
-                  <MDBIcon icon="phone" className="me-3" /> +91 90 0995 77638
+                  <MDBIcon icon="phone" className="me-3" /> +91 90 0995 7763
                 </p>
               </MDBCol>
               {isAuthenticated && (

@@ -38,7 +38,7 @@ const Contact = () => {
                 Questions or Inquiries, Please Don’t Hesitate to Contact Us Using the Following Information:
                                                                                                             </p>
                      <h4 className="text-light text-uppercase"> <strong>📍 Address :</strong></h4> <p className="text-light mb-5">Digiverse360, <br /> Sadar Bazar, Raipur, Chattisgarh 492001</p>
-                     <h4 className="text-light text-uppercase"> <strong>☎ Phone :</strong></h4> <p className="text-light mb-5">  +91 90 0995 77638</p>
+                     <h4 className="text-light text-uppercase"> <strong>☎ Phone :</strong></h4> <p className="text-light mb-5">  +91 90 0995 7763</p>
                      <h4 className="text-light text-uppercase"> <strong>📧 Mail :</strong></h4> <p className="text-light mb-4">  digiverse18@gmail.com</p>   
 
                      <p style={{  color: '#ffffffa3' }} >Our Team Is Available to Answer Your Queries and Provide Assistance During Our Business Hours,
