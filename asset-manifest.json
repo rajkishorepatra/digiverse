@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.40a6ced4.css",
-    "main.js": "/static/js/main.d67c99db.js",
+    "main.css": "/static/css/main.52e5eaed.css",
+    "main.js": "/static/js/main.16904cc0.js",
     "static/js/988.86a0d572.chunk.js": "/static/js/988.86a0d572.chunk.js",
     "static/media/vid3.mp4": "/static/media/vid3.9554b280d9e86419adcc.mp4",
     "static/media/vid1.mp4": "/static/media/vid1.022d2321069430747815.mp4",
@@ -47,18 +47,17 @@
     "static/media/terms.svg": "/static/media/terms.40ec2bf2be8984f277d96a7e24dabf5e.svg",
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/payupayment.svg": "/static/media/payupayment.d4afc62ffbc705624b66d984b93c86cf.svg",
-    "static/media/blog.svg": "/static/media/blog.c0a75cefb02553ff85f873038b272f89.svg",
     "static/media/aboutus.svg": "/static/media/aboutus.9d31a6a03bf20255761a1ae64fe197e4.svg",
     "static/media/paymentcancelled.svg": "/static/media/paymentcancelled.3750d6e13cb52bf9f30358772b5fc3ef.svg",
     "static/media/paymentsuccess.svg": "/static/media/paymentsuccess.1f6c3f3d864b7b4803710d41550603a0.svg",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/index.html",
-    "main.40a6ced4.css.map": "/static/css/main.40a6ced4.css.map",
-    "main.d67c99db.js.map": "/static/js/main.d67c99db.js.map",
+    "main.52e5eaed.css.map": "/static/css/main.52e5eaed.css.map",
+    "main.16904cc0.js.map": "/static/js/main.16904cc0.js.map",
     "988.86a0d572.chunk.js.map": "/static/js/988.86a0d572.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40a6ced4.css",
-    "static/js/main.d67c99db.js"
+    "static/css/main.52e5eaed.css",
+    "static/js/main.16904cc0.js"
   ]
 }
