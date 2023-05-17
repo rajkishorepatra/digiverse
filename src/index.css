@@ -18,7 +18,14 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
+.edit{
+  transform: translateY( 12rem);
+  margin-bottom: 20em;
+  width: 50% !important;
+  border: 2px solid blue;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px #fff;
+}
 .button-wrapper {
   display: flex;
   justify-content: center;
@@ -51,7 +58,7 @@
   margin-top: -2em;
 }
 .modal{
-  margin-top: 8rem !important;
+  margin-top: 9rem !important;
 }
 
 .createbtn{
@@ -241,7 +248,7 @@ scale: 3.2;
 .menu_active {
   font-weight: bold !important;
   border-bottom: 2px solid #565387 !important;
-  background-color: #007bff2a !important;
+  background-color: #e30bbf20 !important;
   border-radius:20px;
   padding: 10px !important;
 }
@@ -362,9 +369,10 @@ background-color: transparent !important;
 
 .blogcard{
   scale: 0.8 !important;
-  height: 100% !important;
+  height: 95% !important;
   box-shadow: 2px 2px 15px #fff;
   margin-top: -6rem !important;
+  margin-bottom: 7.5em !important;
 }
 .blogcard small{
   color: #ffffff77 !important;
@@ -605,6 +613,9 @@ footer{
   }
 }
 @media (max-width: 426px) {
+  .edit{
+    width: 80% !important;
+  }
   .deletebtn{
     margin-top: 1.5em;
     padding: 0.5em !important;
@@ -762,6 +773,9 @@ footer{
 
 
 @media (max-width: 420px) {
+  .edit{
+    width: 90% !important;
+  }
   .blogpara{
     padding: 0;
   }

@@ -3,13 +3,14 @@ import {useHistory } from 'react-router-dom';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import { NavLink } from 'react-router-dom';
-import blog from '../images/blog.svg';
 import { useAuth0 } from '@auth0/auth0-react';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { db } from '../firebase.js';
 import { format } from 'date-fns';
+
+
 
 const Blogs = () => {
   const history = useHistory();
