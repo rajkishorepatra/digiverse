@@ -2,9 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useHistory } from 'react-router-dom';
 import { db } from '../firebase.js';
 import { NavLink } from 'react-router-dom';
+import 'react-quill/dist/quill.snow.css'; // Import the CSS for the react-quill component
+import ReactQuill from 'react-quill'; // Import the react-quill component
 
 const EditBlogPost = () => {
-  const { id } = useParams(); // Get the blog ID from the URL parameter
+  const { id } = useParams();
   const history = useHistory();
   const [blog, setBlog] = useState(null);
   const [title, setTitle] = useState('');
@@ -38,30 +40,27 @@ const EditBlogPost = () => {
   }
 
   return (
-    <div className=" edit container"> <br />
-    <div className="edit-blog-post d-flex justify-content-center aligm-items-center flex-column ">
-      <h1 className='text-white text-center'>Edit Blog Post</h1> <br /> <br />
-      <h6 className='text-white'>Edit Title</h6>
-      <input
-        type="text"
-        value={title}
-        onChange={(e) => setTitle(e.target.value)}
-      /> <br />
-      <h6 className='text-white'>Edit Title</h6>
-      <textarea
-        rows={5}
-        value={content}
-        onChange={(e) => setContent(e.target.value)}
-      />
+    <div className="edit container">
       <br />
-     
-      <button className='btn btn-primary' onClick={handleSave}>Save Changes</button> <br />
-      <NavLink className='btn  btn-outline-primary' to='/blogs'>Go Back</NavLink> <br />    
+      <div className="edit-blog-post d-flex justify-content-center aligm-items-center flex-column ">
+        <h1 className='text-white text-center'>Edit Blog Post</h1> <br /> <br />
+        <h6 className='text-white'>Edit Title</h6>
+        <input
+          type="text"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+        /> <br />
+        <h6 className='text-white'>Edit Content</h6>
+        <ReactQuill className='text-white'
+          value={content}
+          onChange={setContent}
+        />
+        <br />
+
+        <button className='btn btn-primary' onClick={handleSave}>Save Changes</button> <br />
+        <NavLink className='btn  btn-outline-primary' to='/blogs'>Go Back</NavLink> <br />
+      </div>
     </div>
-    
-    </div>
-    
-    
   );
 };
 

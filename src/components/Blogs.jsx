@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,useRef } from 'react';
 import {useHistory } from 'react-router-dom';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
@@ -9,6 +9,9 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { db } from '../firebase.js';
 import { format } from 'date-fns';
+import ReactQuill from 'react-quill'; // Import the react-quill component
+import 'react-quill/dist/quill.snow.css'; // Import the CSS for the react-quill component
+
 
 
 
@@ -18,6 +21,9 @@ const Blogs = () => {
   const { isAuthenticated, user } = useAuth0(); // Use Auth0's user object
   const [showModal, setShowModal] = useState(false);
   const [blogs, setBlogs] = useState([]); // State variable for list of blog posts
+  const [blogContent, setBlogContent] = useState(''); // State variable for the blog content
+  const blogContentRef = useRef(null);
+
 
   //   setShowDeleteAlert(!showDeleteAlert);
   // };
@@ -53,11 +59,15 @@ const Blogs = () => {
   
   const handleClose = () => setShowModal(false);
   const handleShow = () => setShowModal(true);
+  const handleContentChange = (content) => {
+    setBlogContent(content); // Update the blog content state variable
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const form = e.target;
     const blogTitle = form.blogTitle.value;
-    const blogContent = form.blogContent.value;
+    const blogContent = blogContentRef.current.editor.root.innerHTML; // Updated line
     const blogImage = form.blogImage.files[0];
     const storageRef = firebase.storage().ref();
     const imageRef = storageRef.child(`blogImages/${blogImage.name}`);
@@ -69,7 +79,7 @@ const Blogs = () => {
       content: blogContent,
       image: downloadURL,
       createdAt: new Date(),
-      author: user.name, // Use Auth0's user object to get the user's name
+      author: 'Digiverse360 (admin)',
     });
     setShowModal(false);
   };
@@ -119,23 +129,31 @@ const Blogs = () => {
           </div>
       
       </section>
-      <Modal className='modal' show={showModal} onHide={handleClose}>
+      <Modal style={{scale:'0.9', marginTop:'6rem',borderRadius:'20px'}}
+      show={showModal}
+       onHide={handleClose}
+       dialogClassName='modal-dialog-centered modal-fullscreen'
+       >
         <Modal.Header closeButton>
           <Modal.Title>Create Blog</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form onSubmit={handleSubmit}>
+          <Form onSubmit={handleSubmit} >
             <Form.Group controlId="blogTitle">
               <Form.Label>Blog Title</Form.Label>
-              <Form.Control type="text" placeholder="Enter title" name='blogTitle' required />
-            </Form.Group>
+              <Form.Control type="text" placeholder="Enter title" name="blogTitle" required />
+            </Form.Group> <br />
             <Form.Group controlId="blogContent">
               <Form.Label>Blog Content/Paragraph</Form.Label>
-              <Form.Control as="textarea" rows={3} name='blogContent' required />
+              <ReactQuill // Replace the textarea with ReactQuill
+                ref={blogContentRef}
+                value={blogContent}
+                onChange={handleContentChange}
+              />
             </Form.Group>
             <Form.Group controlId="blogImage">
               <Form.Label>Upload Image</Form.Label>
-              <Form.Control type="file" required name='blogImage' className='mb-3' />
+              <Form.Control type="file" required name="blogImage" className="mb-3" />
             </Form.Group>
             <Button variant="primary" type="submit">
               Submit
@@ -146,7 +164,7 @@ const Blogs = () => {
 
       {/* Render Blog */}
       {selectedPostId && (
-        <Modal show={selectedPostId !== null} onHide={() => handleDeleteAlert(null)}>
+        <Modal style={{marginTop:'10em'}} show={selectedPostId !== null} onHide={() => handleDeleteAlert(null)}>
         <Modal.Body>
           <p>Are you sure you want to delete this post?</p>
         </Modal.Body>
@@ -170,7 +188,7 @@ const Blogs = () => {
             <img className="card-img-top" src={blog.image} alt={blog.title} />
             <div className="card-body">
               <h5 className="card-title text-primary "><strong>{blog.title}</strong></h5>
-              <p className="card-text">{blog.content.substring(0, 100)}...</p>
+              <p className="card-text blogcardpara " dangerouslySetInnerHTML={{ __html: blog.content.substring(0, 100) + '...' }}></p>
               <p className="card-text">
                 <small className="text-white">Author: {blog.author}</small> <br />
                 <small className='text-white'>Time Posted:  {format(blog.createdAt.toDate(), 'yyyy-MM-dd HH:mm')} IST</small>

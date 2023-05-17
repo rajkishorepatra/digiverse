@@ -32,11 +32,16 @@
   align-items: center;
   height: 100vh;
 }
+
 .editbtn{
   margin-top: 1.5em;
 }
 .blog-post{
   margin-top: 5em;
+}
+.blog-post img{
+  width: 30rem;
+  height: auto !important;
 }
 .readmore{
   background-color: transparent !important;
@@ -56,9 +61,6 @@
 }
 .gobackbtn{
   margin-top: -2em;
-}
-.modal{
-  margin-top: 9rem !important;
 }
 
 .createbtn{
@@ -811,6 +813,7 @@ footer{
  .blogcard .btn{
   margin-top: 1rem !important;
   scale: 0.8 !important;
+  transform: translateY(-1em);
  }
   .image-fluid {
     margin-top: 3rem !important;
