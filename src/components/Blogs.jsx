@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import {useHistory } from 'react-router-dom';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import { NavLink } from 'react-router-dom';
@@ -11,9 +12,28 @@ import { db } from '../firebase.js';
 import { format } from 'date-fns';
 
 const Blogs = () => {
+  const history = useHistory();
+
   const { isAuthenticated, user } = useAuth0(); // Use Auth0's user object
   const [showModal, setShowModal] = useState(false);
   const [blogs, setBlogs] = useState([]); // State variable for list of blog posts
+
+  //   setShowDeleteAlert(!showDeleteAlert);
+  // };
+  const [selectedPostId, setSelectedPostId] = useState(null); // State variable for the selected blog post to delete
+  const handleDeleteAlert = (id) => {
+    // Set the selected post ID to show or hide the delete alert
+    setSelectedPostId(id === selectedPostId ? null : id);
+  };
+
+
+  const handleDeletePost = async (id) => {
+    // Perform the deletion operation here
+    await db.collection('blogs').doc(id).delete();
+    // Additional logic after deletion if needed
+    handleDeleteAlert(null); // Close the modal
+  };  
+
 
   // Fetch blog posts from Firestore on component mount
   useEffect(() => {
@@ -26,7 +46,10 @@ const Blogs = () => {
     });
     return unsubscribe;
   }, []);
-
+  const handleEditPost = (id) => {
+    history.push(`/edit-blog/${id}`);
+  };
+  
   const handleClose = () => setShowModal(false);
   const handleShow = () => setShowModal(true);
   const handleSubmit = async (e) => {
@@ -65,10 +88,10 @@ const Blogs = () => {
                   <hr style={{width:'30%',height:'5px',color:'white'}}/>
                   </div>
                   <p className="subheader my-3 text-center ">
-                  Discover the latest insights and trends in digital marketing on our blogs page. 
-                  Our informative and engaging articles cover a wide range of topics, including SEO, 
-                  social media, content marketing, and more.Stay up to date and enhance your digital
-                   marketing knowledge with our valuable blog posts.
+                  Discover the latest insights and trends in digital marketing. 
+                  Find informative and engaging articles which cover a wide range of topics, including SEO, 
+                  social media, content marketing, and more. Stay up to date and enhance your digital
+                   marketing knowledge.
                   </p>
                   {isAuthenticated && (
                     <div className='d-flex aligm-items-center justify-content-center' >
@@ -77,13 +100,11 @@ const Blogs = () => {
                     </Button>
                     </div>
                   )}
-
-                  <div className="mt-3"></div>
                   
+                  </div>
                   {/* <NavLink to="/" className="btn btn-outline-primary mb-5">
                     <strong> Back to Home </strong>
                   </NavLink> */}
-                </div>
                 {/* <div className="col-lg-6 order-1 order-lg-2 header-image">
                   <img
                     style={{ scale: '0.8' }}
@@ -123,6 +144,21 @@ const Blogs = () => {
       </Modal>
 
       {/* Render Blog */}
+      {selectedPostId && (
+        <Modal show={selectedPostId !== null} onHide={() => handleDeleteAlert(null)}>
+        <Modal.Body>
+          <p>Are you sure you want to delete this post?</p>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="danger" onClick={() => handleDeletePost(selectedPostId)}>
+            Yes, Delete
+          </Button>
+          <Button variant="secondary" onClick={() => handleDeleteAlert(null)}>
+            Cancel
+          </Button>
+        </Modal.Footer>
+      </Modal>
+      )}
 
       <section id="blogs">
   <div className="container-fluid my-5">
@@ -138,7 +174,18 @@ const Blogs = () => {
                 <small className="text-white">Author: {blog.author}</small> <br />
                 <small className='text-white'>Time Posted:  {format(blog.createdAt.toDate(), 'yyyy-MM-dd HH:mm')} IST</small>
               </p>
-              <NavLink to={`/blog/${blog.id}`} type="button" className="btn btn-lg btn-block btn-primary "> Read More </NavLink>
+              <NavLink to={`/blog/${blog.id}`} type="button" className="btn btn-lg btn-block btn-primary readmore "> Read More </NavLink>
+              {isAuthenticated && (
+                <>
+                <button className='btn btn-sm editbtn btn-primary mx-3 ' onClick={() => handleEditPost(blog.id)}>Edit Post</button>
+                <button
+                          onClick={()=>handleDeleteAlert(blog.id)}
+                          className="btn btn-sm deletebtn btn-danger">
+                          Delete Post
+                        </button>
+                        </>
+              )} 
+
             </div>
           </div>
         </div>
@@ -146,6 +193,7 @@ const Blogs = () => {
     </div>
   </div>
 </section>
+
 
     </>
   );
