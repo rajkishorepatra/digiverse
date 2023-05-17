@@ -44,6 +44,9 @@
 .blogpara{
   padding: 2em 15em 0em;
 }
+.deletebtn{
+  margin-top: 1.5em;
+}
 .gobackbtn{
   margin-top: -2em;
 }
