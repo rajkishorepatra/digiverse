@@ -18,6 +18,14 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
+.foundersec{
+  margin-top: -10em;
+}
+.ceoimg{
+  /* border: 2px solid whitesmoke; */
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px #fff;
+}
 .edit{
   transform: translateY( 12rem);
   margin-bottom: 20em;
@@ -615,6 +623,10 @@ footer{
   }
 }
 @media (max-width: 426px) {
+  .ceoimg{
+    scale: 1.1 !important;
+    animation: none !important;
+  }
   .edit{
     width: 80% !important;
   }
@@ -797,6 +809,7 @@ footer{
     height: 100%;
 
   }
+ 
   .createbtn{
     width: 100% !important;
   }

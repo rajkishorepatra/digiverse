@@ -2,9 +2,11 @@ import React from "react";
 import web from "../images/aboutus.svg";
 import Common from "./Common";
 import wedo from "../images/whatwedo.png";
+import ceo from '../images/ceo.png';
 import Secondsection from "./Secondsection";
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
+import Founder from "./Founder";
 
 
 const About = () => {
@@ -15,6 +17,8 @@ const About = () => {
     exit={{opacity: 0}}
     >
     <div className="herocontainer">
+      <>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link></>
       <Common
         name="About ?"
         imgsrc={web}
@@ -53,6 +57,22 @@ const About = () => {
                   <NavLink style={{textDecoration:'none'}} to="/contact"> <strong> Contact Us </strong> </NavLink> ,"Today to Learn More About How We Can Help Your Business Achieve Success"
                 ]}
       />
+      <>
+      <Founder 
+        name = "Our Founder"
+        imgsrc= {ceo}
+        tagline={["Shubham Pani","ㅤ-ㅤㅤ", <a style={{textDecoration:'none'}} href="https://www.facebook.com/shubham.pani.79?mibextid=ZbWKwL" className="fa fa-facebook"></a>, "ㅤ",
+        <a style={{textDecoration:'none'}} href="https://twitter.com/Shubhampani2" className="fa fa-twitter"></a>, "ㅤ",
+        <a style={{textDecoration:'none'}} href="https://www.linkedin.com/in/shubham-pani-2b67b4112/" className="fa fa-linkedin"></a>, "ㅤ", 
+                <a style={{textDecoration:'none'}} href="https://instagram.com/mrshubhampani" target="_blank" className="fa fa-instagram"></a>]}
+        content= "❝ As the CEO of Digiverse 360, a Digital Marketing Firm, I have witnessed firsthand the transformative potential of digital marketing in India. Despite facing
+        numerous challenges, I am determined to showcase the immense opportunities and career
+        prospects that this field holds. This note aims to shed light on the future of digital marketing in
+        India and emphasize its relevance in today's ever-evolving landscape."
+        btname ="Read More"
+        visit="/"
+      />
+</>
     </motion.div>
   );
 };
