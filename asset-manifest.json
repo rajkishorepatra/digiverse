@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1d7270b.css",
-    "main.js": "/static/js/main.a74dd64f.js",
+    "main.css": "/static/css/main.33bde73e.css",
+    "main.js": "/static/js/main.c7c30909.js",
     "static/js/988.86a0d572.chunk.js": "/static/js/988.86a0d572.chunk.js",
     "static/media/vid3.mp4": "/static/media/vid3.9554b280d9e86419adcc.mp4",
     "static/media/vid1.mp4": "/static/media/vid1.022d2321069430747815.mp4",
     "static/media/vid2.mp4": "/static/media/vid2.81fa1cc242e073e4d4f4.mp4",
     "static/media/course_flashgif.gif": "/static/media/course_flashgif.876e50f0a070418d7544.gif",
     "static/media/homebg.png": "/static/media/homebg.24d2e5111495ec7e21f3.png",
+    "static/media/ceo.png": "/static/media/ceo.751f645a198620a69f75.png",
     "static/media/influencermar.png": "/static/media/influencermar.96d5736873ad368bc6c6.png",
     "static/media/dmsmr.png": "/static/media/dmsmr.68a3a9f5c2f99fe45e11.png",
     "static/media/canvaDe.png": "/static/media/canvaDe.11e237630ea51c0d93b1.png",
@@ -52,12 +53,12 @@
     "static/media/paymentsuccess.svg": "/static/media/paymentsuccess.1f6c3f3d864b7b4803710d41550603a0.svg",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/index.html",
-    "main.a1d7270b.css.map": "/static/css/main.a1d7270b.css.map",
-    "main.a74dd64f.js.map": "/static/js/main.a74dd64f.js.map",
+    "main.33bde73e.css.map": "/static/css/main.33bde73e.css.map",
+    "main.c7c30909.js.map": "/static/js/main.c7c30909.js.map",
     "988.86a0d572.chunk.js.map": "/static/js/988.86a0d572.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1d7270b.css",
-    "static/js/main.a74dd64f.js"
+    "static/css/main.33bde73e.css",
+    "static/js/main.c7c30909.js"
   ]
 }
