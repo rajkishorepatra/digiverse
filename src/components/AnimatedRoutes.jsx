@@ -18,6 +18,7 @@ import Blogs from './Blogs';
 import Login from './Login';
 import BlogPost from './BlogPost';
 import EditBlogPost from './EditBlogPost';
+import Journey from './Journey';
 const AnimatedRoutes = () => {
     const location = useLocation();
 
@@ -40,6 +41,7 @@ const AnimatedRoutes = () => {
           <Route exact path="/terms" component={Terms} />
           <Route exact path="/blogs" component={Blogs} />
           <Route exact path="/login" component={Login} />
+          <Route exact path="/journey" component={Journey} />
           <Route path="/blog/:id" component={BlogPost} />
           <Route path="/edit-blog/:id" component={EditBlogPost} />
 

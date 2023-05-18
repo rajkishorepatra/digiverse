@@ -18,6 +18,21 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
+.journey{
+  transform: translateY(8em);
+}
+.journey p{
+  color: #ffffffa3 !important;
+  width: 75%;
+}
+.socialicons{
+  padding: 5px;
+}
+.socialicons:hover{
+  color: #fff;
+  scale: 1.2;
+  transition: .5s ease;
+}
 .foundersec{
   margin-top: -10em;
 }
@@ -623,6 +638,9 @@ footer{
   }
 }
 @media (max-width: 426px) {
+  .journey p{
+    width: 100%;
+  }
   .ceoimg{
     scale: 1.1 !important;
     animation: none !important;
@@ -787,6 +805,12 @@ footer{
 
 
 @media (max-width: 420px) {
+  .journey p{
+    width: 100%;
+  }
+  .socialicons{
+    padding: 1px;
+  }
   .edit{
     width: 90% !important;
   }
