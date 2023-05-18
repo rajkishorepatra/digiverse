@@ -1,9 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom"
+import ceo from '../images/ceo.png';
 
 const Journey = () => {
   return (
     <div className="journey d-flex justify-content-center align-items-left flex-column text-white p-4">
+     <div className="d-flex justify-content-center aligm-items-center" > <img style={{width:'30%', boxShadow:'2px 2px 5px #fff',borderRadius:'20px'}} src={ceo} alt="Shubham Pani - CEO, Digiverse360" /></div> <br />
       <h1> <strong> The Journey:</strong></h1> <br />
       <p>
         In 2021, during a nationwide lockdown, I embarked on this journey
@@ -63,9 +65,11 @@ potential for growth. As the CEO of Digiverse 360, I am committed to raising awa
 the numerous opportunities that digital marketing offers. By capitalizing on the country's digital
 transformation and fostering innovation, we can empower individuals to build rewarding careers
 and help businesses thrive in the digital age. Together, let's embrace the power of digital
-marketing and shape a brighter future for India.</p> <br />
+marketing and shape a brighter future for India.</p> <br /> <br />
+
+<caption className="text-white">~ Shubham Pani - CEO, Digiverse360</caption>
+<a style={{textDecoration:'none'}} href="https://www.pratidinrajdhani.in/single/belief-in-myself,-inspiration-from-parents-has-brought-me-to-this-stage-shubham" target="_blank" >🔗 News Article Feature ➤</a> <br /><br />
  
-<caption className="text-white">~ Shubham Pani - CEO, Digiverse360</caption> <br />
 <NavLink className='btn btn-outline-primary' to='/about'>Go Back</NavLink> <br />
  <br /> <br /> <br /> <br /> <br />
 

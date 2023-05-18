@@ -638,8 +638,15 @@ footer{
   }
 }
 @media (max-width: 426px) {
+  iframe{
+    transform: translateX(-30px);
+    scale: 0.9;
+  }
   .journey p{
     width: 100%;
+  }
+  .journey img{
+    width: 100% !important;
   }
   .ceoimg{
     scale: 1.1 !important;
@@ -805,6 +812,10 @@ footer{
 
 
 @media (max-width: 420px) {
+  iframe{
+    transform: translateX(-60px);
+    scale: 0.9;
+  }
   .journey p{
     width: 100%;
   }
