@@ -6,7 +6,7 @@ import news from '../images/news.jpg';
 const Journey = () => {
   return (
     <div className="journey d-flex justify-content-center align-items-left flex-column text-white p-4">
-     <div className="d-flex justify-content-center aligm-items-center" > <img style={{width:'30%', boxShadow:'2px 2px 5px #fff',borderRadius:'20px'}} src={ceo} alt="Shubham Pani - CEO, Digiverse360" /></div> <br />
+     <div className="d-flex justify-content-center aligm-items-center" > <img className="ceoimg" style={{width:'25%', boxShadow:'2px 2px 5px #fff',borderRadius:'20px'}} src={ceo} alt="Shubham Pani - CEO, Digiverse360" /></div> <br /> <br />
       <h1> <strong> The Journey:</strong></h1> <br />
       <p>
         In 2021, during a nationwide lockdown, I embarked on this journey

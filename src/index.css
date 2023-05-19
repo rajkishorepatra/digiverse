@@ -25,7 +25,7 @@
   color: #ffffffa3 !important;
   width: 75%;
 }
-.journey img{
+.journey .news{
  display: none;
 }
 .socialicons{
@@ -648,7 +648,10 @@ footer{
   .journey p{
     width: 100%;
   }
-  .journey img{
+  .journey .ceoimg{
+    width: 70% !important;
+  }
+  .journey .news{
     width: 100% !important;
     display: block;
   }
