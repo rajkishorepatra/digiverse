@@ -15,6 +15,7 @@ const BlogPost = () => {
       } else {
         console.log('No such blog post!');
       }
+
     };
 
     fetchData();
@@ -25,6 +26,8 @@ const BlogPost = () => {
   }
 
   return (
+    <>
+  
     <div className="d-flex align-items-center justify-content-center flex-column my-5">
       <div className="blog-post d-flex align-items-center justify-content-center flex-column my-5">
         <img src={blog.image} alt="Blog Post Image" className='mb-3' />
@@ -35,6 +38,7 @@ const BlogPost = () => {
       </div>
       <NavLink className='btn btn-outline-primary gobackbtn' to='/blogs'>Go Back</NavLink>
     </div>
+    </>
   ); 
 };
 

@@ -40,6 +40,8 @@ const EditBlogPost = () => {
   }
 
   return (
+    <>
+    
     <div className="edit container">
       <br />
       <div className="edit-blog-post d-flex justify-content-center aligm-items-center flex-column ">
@@ -61,6 +63,7 @@ const EditBlogPost = () => {
         <NavLink className='btn  btn-outline-primary' to='/blogs'>Go Back</NavLink> <br />
       </div>
     </div>
+    </>
   );
 };
 

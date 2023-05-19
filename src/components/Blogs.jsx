@@ -11,6 +11,8 @@ import { db } from '../firebase.js';
 import { format } from 'date-fns';
 import ReactQuill from 'react-quill'; // Import the react-quill component
 import 'react-quill/dist/quill.snow.css'; // Import the CSS for the react-quill component
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -39,6 +41,7 @@ const Blogs = () => {
     await db.collection('blogs').doc(id).delete();
     // Additional logic after deletion if needed
     handleDeleteAlert(null); // Close the modal
+    toast.success('Blog deleted successfully!');
   };  
 
 
@@ -82,10 +85,12 @@ const Blogs = () => {
       author: 'Digiverse360 (admin)',
     });
     setShowModal(false);
+    toast.success('Blog posted successfully!');
   };
 
   return (
     <>
+     <ToastContainer position="top-center" />
       <section id="header" className="d-flex aligm-items-center my-5 ">
         <div className="container-fluid my-5">
           <div className="row my-5">
