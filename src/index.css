@@ -25,6 +25,9 @@
   color: #ffffffa3 !important;
   width: 75%;
 }
+.journey img{
+ display: none;
+}
 .socialicons{
   padding: 5px;
 }
@@ -647,6 +650,7 @@ footer{
   }
   .journey img{
     width: 100% !important;
+    display: block;
   }
   .ceoimg{
     scale: 1.1 !important;

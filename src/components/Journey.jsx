@@ -1,6 +1,7 @@
 import React from "react";
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
 import ceo from '../images/ceo.png';
+import news from '../images/news.jpg';
 
 const Journey = () => {
   return (
@@ -68,8 +69,9 @@ and help businesses thrive in the digital age. Together, let's embrace the power
 marketing and shape a brighter future for India.</p> <br /> <br />
 
 <caption className="text-white">~ Shubham Pani - CEO, Digiverse360</caption>
-<a style={{textDecoration:'none'}} href="https://www.pratidinrajdhani.in/single/belief-in-myself,-inspiration-from-parents-has-brought-me-to-this-stage-shubham" target="_blank" >🔗 News Article Feature ➤</a> <br /><br />
+<a style={{textDecoration:'none'}} href="https://www.pratidinrajdhani.in/single/belief-in-myself,-inspiration-from-parents-has-brought-me-to-this-stage-shubham" target="_blank" >🔗 News Article Feature ➤</a> <br />
  
+<a href="https://www.pratidinrajdhani.in/single/belief-in-myself,-inspiration-from-parents-has-brought-me-to-this-stage-shubham"><img  className="news" style={{width:'30%'}} src={news} alt="News Article Feature" /> </a>  <br />
 <NavLink className='btn btn-outline-primary' to='/about'>Go Back</NavLink> <br />
  <br /> <br /> <br /> <br /> <br />
 
