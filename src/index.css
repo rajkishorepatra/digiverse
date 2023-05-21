@@ -1,7 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@300;600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500&display=swap');
-::-webkit-scrollbar{
-  display: none;
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1b0443;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #278eef;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #37f507;
 }
 * {
   margin: 0;
@@ -231,6 +248,7 @@ video{
 .navbar-brand {
   padding: 80px;
  overflow-y: hidden;
+ overflow-x: hidden;
 }
 .navbar-brand img{
 scale: 3.2;

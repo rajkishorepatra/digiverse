@@ -34,7 +34,7 @@ const ClientTestimonial = () => {
               <div className="card-body">
                 <h5 className="card-title text-primary "><strong>Siddharth Bohre</strong></h5>
                 <p className="card-text">
-                  Founder: StockSchool Trading Academy - Youtube (140k+)
+                  Founder: StockSchool Trading Academy - Youtube (150k+)
                 </p>
                 </div>
               </div>
