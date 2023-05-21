@@ -18,6 +18,11 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.videoservice{
+  transform: translateY(7rem);
+  margin-bottom: 10rem;
+}
 .journey{
   transform: translateY(8em);
 }
@@ -641,6 +646,10 @@ footer{
   }
 }
 @media (max-width: 426px) {
+  .videditbtn{
+    scale: 0.9 ;
+    transform: translate(-3em,-3em) !important;
+  }
   iframe{
     transform: translateX(-30px);
     scale: 0.9;
@@ -819,6 +828,9 @@ footer{
 
 
 @media (max-width: 420px) {
+  .videditbtn{
+    transform: translate(-2em,-3em) !important;
+  }
   iframe{
     transform: translateX(-60px);
     scale: 0.9;
