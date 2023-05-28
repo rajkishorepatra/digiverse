@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.33f70e8c.css",
-    "main.js": "/static/js/main.a35da812.js",
+    "main.css": "/static/css/main.9ad9682a.css",
+    "main.js": "/static/js/main.2c5fb49e.js",
     "static/js/988.86a0d572.chunk.js": "/static/js/988.86a0d572.chunk.js",
     "static/media/vid3.mp4": "/static/media/vid3.9554b280d9e86419adcc.mp4",
     "static/media/vid1.mp4": "/static/media/vid1.022d2321069430747815.mp4",
+    "static/media/homepage-gif.gif": "/static/media/homepage-gif.371d16a3dc3dab4e80ee.gif",
+    "static/media/null.gif": "/static/media/null.415841d4e1ab6db2a3b0.gif",
     "static/media/vid2.mp4": "/static/media/vid2.81fa1cc242e073e4d4f4.mp4",
     "static/media/course_flashgif.gif": "/static/media/course_flashgif.876e50f0a070418d7544.gif",
     "static/media/homebg.png": "/static/media/homebg.24d2e5111495ec7e21f3.png",
+    "static/media/service-animated.gif": "/static/media/service-animated.74d7706b16ad6c01cd8b.gif",
     "static/media/ceo.png": "/static/media/ceo.751f645a198620a69f75.png",
     "static/media/about-banner.png": "/static/media/about-banner.7549f47450315a904b42.png",
     "static/media/influencermar.png": "/static/media/influencermar.96d5736873ad368bc6c6.png",
@@ -32,7 +35,6 @@
     "static/media/nothing.png": "/static/media/nothing.e3f7af2d1f96cf31cc63.png",
     "static/media/digital.png": "/static/media/digital.3933dee255de08124fd3.png",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
-    "static/media/serviceheaderimg.png": "/static/media/serviceheaderimg.93ecaa59f203a32ddd33.png",
     "static/media/paymentfailed.png": "/static/media/paymentfailed.9a265205c54d4fb9f68e.png",
     "static/media/payusingQR.png": "/static/media/payusingQR.6a7558b2c8094017b084.png",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
@@ -46,8 +48,6 @@
     "static/media/exp3.jpg": "/static/media/exp3.34e406889ef2fa6662ea.jpg",
     "static/media/digilogo_new.png": "/static/media/digilogo_new.f098aacd25aae898be4d.png",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
-    "static/media/headerimg.svg": "/static/media/headerimg.9960037abc790e0969f2315d33fbeace.svg",
-    "static/media/msn2.svg": "/static/media/msn2.d76dfe8db098fd6714c0b82cafe50eb5.svg",
     "static/media/terms.svg": "/static/media/terms.40ec2bf2be8984f277d96a7e24dabf5e.svg",
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/payupayment.svg": "/static/media/payupayment.d4afc62ffbc705624b66d984b93c86cf.svg",
@@ -56,12 +56,12 @@
     "static/media/paymentsuccess.svg": "/static/media/paymentsuccess.1f6c3f3d864b7b4803710d41550603a0.svg",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/index.html",
-    "main.33f70e8c.css.map": "/static/css/main.33f70e8c.css.map",
-    "main.a35da812.js.map": "/static/js/main.a35da812.js.map",
+    "main.9ad9682a.css.map": "/static/css/main.9ad9682a.css.map",
+    "main.2c5fb49e.js.map": "/static/js/main.2c5fb49e.js.map",
     "988.86a0d572.chunk.js.map": "/static/js/988.86a0d572.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33f70e8c.css",
-    "static/js/main.a35da812.js"
+    "static/css/main.9ad9682a.css",
+    "static/js/main.2c5fb49e.js"
   ]
 }
