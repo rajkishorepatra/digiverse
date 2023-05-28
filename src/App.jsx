@@ -10,7 +10,6 @@ import Loader from './components/Loader';
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import { useLocation } from 'react-router-dom';
 
-
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
   const location = useLocation();

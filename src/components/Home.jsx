@@ -1,13 +1,13 @@
 import React from "react";
-import web from "../images/headerimg.svg";
+// import web from "../images/headerimg.svg";
+import web from "../images/homepage-gif.gif";
 import Common from "./Common";
 import Secondsection from "./Secondsection";
 import Experience from "./Experience";
-import msn from "../images/msn2.svg";
+// import msn from "../images/msn2.svg";
+import msn from "../images/null.gif";
 // import msn from "../images/mission.png";
 import ClientTestimonial from "./ClientTestimonial";
-import homebanner from "../images/homebg.png";
-import Thirdsection from "./Thirdsection";
 import {motion} from 'framer-motion';
 
 const Home = () => {

@@ -398,7 +398,7 @@ background-color: transparent !important;
     margin-left: 3rem !important; */
     margin-top: 2rem !important;
   width: 100%;
-  scale: 0.7;
+  scale: 0.75;
   -webkit-animation: mover 1.6s infinite alternate-reverse both;
   animation: mover 1.6s infinite alternate-reverse both;
 }
@@ -719,7 +719,7 @@ footer{
   .image-fluid {
     margin-top: 0 !important;
     width: 100%;
-    scale: 0.9;
+    scale: 1.1;
   }
   .navbar-brand{
     object-fit: cover !important;
@@ -903,7 +903,7 @@ footer{
   .image-fluid {
     margin-top: 3rem !important;
     margin-bottom: -1rem !important;
-    scale: 0.9 !important;
+    scale: 1.2 !important;
   }
 .navbar-brand{
   object-fit: cover !important;
