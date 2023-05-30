@@ -9,21 +9,22 @@ import { NavLink } from 'react-router-dom';
 const VideoEditing = () => {
   return (
     <div className='videoservice'>
-      <Carousel controls={false} interval={4000} pause={false}>
+      <Carousel controls={false} interval={4000} pause={true}>
         <Carousel.Item>
           <img
+          style={{scale:'0.95'}}
             className="d-block w-100"
             src={img1}
             alt="First slide"
           />
         </Carousel.Item>
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <img
             className="d-block w-100"
             src={img2}
             alt="Second slide"
           />
-        </Carousel.Item>
+        </Carousel.Item> */}
       </Carousel>
 
       <div className=" text-white videoeditingcontent d-flex justify-content-center align-items-left flex-column p-4 ">

@@ -1,6 +1,7 @@
 import React from "react";
 import Coursecontent from "./Coursecontent";
-import flash from "../images/course_flashgif.gif"
+import flash from '../images/study.gif';
+// import flash from "../images/course_flashgif.gif"
 import Coursedetails from "./Coursedetails";
 import num1 from "../images/digital.png"
 import num2 from "../images/plan.png"

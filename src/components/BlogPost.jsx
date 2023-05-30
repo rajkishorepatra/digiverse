@@ -28,7 +28,7 @@ const BlogPost = () => {
   return (
     <>
   
-    <div className="d-flex align-items-center justify-content-center flex-column my-5">
+    <div className="d-flex align-items-center blogpost justify-content-center flex-column my-5">
       <div className="blog-post d-flex align-items-center justify-content-center flex-column my-5">
         <img src={blog.image} alt="Blog Post Image" className='mb-3' />
       <h2 className='text-primary'><strong>{blog.title}</strong></h2>

@@ -36,6 +36,7 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+
 .videoservice{
   transform: translateY(7rem);
   margin-bottom: 10rem;
@@ -85,7 +86,7 @@
   margin-top: 1.5em;
 }
 .blog-post{
-  margin-top: 5em;
+  margin-top: 5.5em;
 }
 .blog-post img{
   width: 30rem;
@@ -398,7 +399,7 @@ background-color: transparent !important;
     margin-left: 3rem !important; */
     margin-top: 2rem !important;
   width: 100%;
-  scale: 0.75;
+  scale: 0.7;
   -webkit-animation: mover 1.6s infinite alternate-reverse both;
   animation: mover 1.6s infinite alternate-reverse both;
 }
@@ -902,8 +903,8 @@ footer{
  }
   .image-fluid {
     margin-top: 3rem !important;
-    margin-bottom: -1rem !important;
-    scale: 1.2 !important;
+    margin-bottom: -3rem !important;
+    scale: 1 !important;
   }
 .navbar-brand{
   object-fit: cover !important;
