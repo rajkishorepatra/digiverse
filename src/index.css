@@ -903,7 +903,7 @@ footer{
  }
   .image-fluid {
     margin-top: 3rem !important;
-    margin-bottom: -3rem !important;
+    margin-bottom: 0rem !important;
     scale: 1 !important;
   }
 .navbar-brand{
