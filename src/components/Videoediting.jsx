@@ -20,6 +20,7 @@ const VideoEditing = () => {
         </Carousel.Item>
         {/* <Carousel.Item>
           <img
+          style={{scale:'0.95'}}
             className="d-block w-100"
             src={img2}
             alt="Second slide"

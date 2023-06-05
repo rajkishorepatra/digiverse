@@ -273,7 +273,6 @@ scale: 3.2;
   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255,105,250, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
-
 .bgback{
   /* background-image: linear-gradient(to bottom, #82aae3 65%, #EAFDFC); */
   /* background-image: linear-gradient(to bottom,  rgb(219, 219, 219) 77.9%,  rgb(41, 137, 210) ); creame gradient */
@@ -299,9 +298,9 @@ scale: 3.2;
 }
 .menu_active {
   font-weight: bold !important;
-  border-bottom: 2px solid #565387 !important;
-  background-color: #e30bbf20 !important;
-  border-radius:20px;
+  border-bottom: 2px solid #cf63bd!important;
+  /* background-color: #e30bbf20 !important; */
+  /* border-radius:20px; */
   padding: 10px !important;
 }
 .blink {
@@ -665,6 +664,11 @@ footer{
   }
 }
 @media (max-width: 426px) {
+  .menu_active {
+    background-color: #e30bbf20 !important;
+    border-radius:20px;
+    padding: 10px !important;
+  }
   .videditbtn{
     scale: 0.9 ;
     transform: translate(-3em,-3em) !important;
