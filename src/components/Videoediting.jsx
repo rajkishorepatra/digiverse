@@ -2,8 +2,8 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import img1 from '../images/about-banner.png';
-import img2 from '../images/homebg.png';
-import img3 from '../images/home-banner.png';
+// import img2 from '../images/homebg.png';
+// import img3 from '../images/home-banner.png';
 import { NavLink } from 'react-router-dom';
 
 const VideoEditing = () => {
