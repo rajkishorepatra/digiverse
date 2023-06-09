@@ -36,6 +36,47 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  max-width: 100%;
+  margin: 0 1rem;
+  background-color: #ffffff !important;
+}
+
+.service-card:hover {
+  scale: 1.07;
+  transition: .5s ease;
+}
+.service-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+.carousel-item {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-button {
+  background-color: #02041d;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+
+
+
+
+
 .carousel{
   position: relative !important;
 }
@@ -395,6 +436,7 @@ scale: 3.2;
 }
 .service{
   margin-top: 7rem !important;
+  overflow-x: hidden;
 }
 .plansegment{
   margin-left: 8.5rem !important;
@@ -732,7 +774,13 @@ footer{
   .mark-card {
     margin-bottom: 3rem !important;
   }
+  .service-card {
+    margin-bottom: 1.5rem !important;
+    justify-content: center !important;
+    scale: 0.9;
+  }
 }
+
 
 @media (max-width: 426px) {
   .mark-card{
@@ -1049,16 +1097,6 @@ scale: 2;
 .container-fluid .popup-image span{
   transform: translate(-15px,40px);
 }
-.bgback{
-  /* background-image: linear-gradient(to bottom, #02041d 30%, #04619f); */
-  /* background-image: linear-gradient(to bottom, #82aae3a2 54%, #EAFDFC); */
-  /* background-image: linear-gradient(to bottom,  rgb(219, 219, 219) 77.9%,  rgb(41, 137, 210) ); creame gradient */
-  /* background-image: linear-gradient(to bottom,  rgba(143, 141, 141, 0.422) 77.9%,  rgb(41, 137, 210) ); */
-  background-color: #ffffff;
-
-
-}
-
  .courseimg{
   width: 100% !important;
 }
