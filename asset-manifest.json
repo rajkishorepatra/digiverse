@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.02ffd4f4.css",
-    "main.js": "/static/js/main.fdae1199.js",
+    "main.css": "/static/css/main.06f508b7.css",
+    "main.js": "/static/js/main.a81d4af1.js",
     "static/js/988.86a0d572.chunk.js": "/static/js/988.86a0d572.chunk.js",
     "static/media/vid3.mp4": "/static/media/vid3.9554b280d9e86419adcc.mp4",
     "static/media/vid1.mp4": "/static/media/vid1.022d2321069430747815.mp4",
@@ -22,20 +22,20 @@
     "static/media/search.png": "/static/media/search.0bbc2204981bd38d86d9.png",
     "static/media/contentmar.png": "/static/media/contentmar.415aa4b0acb4b385ec0b.png",
     "static/media/email.png": "/static/media/email.06dea0084827128a9076.png",
-    "static/media/search-engine-optimization.gif": "/static/media/search-engine-optimization.5ebf5e493fb068fcb892.gif",
+    "static/media/search-engine-optimization.gif": "/static/media/search-engine-optimization.9bee39f7404e4df8e230.gif",
     "static/media/social.png": "/static/media/social.b1547ac28c9bfb1e3ef9.png",
     "static/media/plan.png": "/static/media/plan.9574aaa0159a7365f965.png",
-    "static/media/social-media-marketing.gif": "/static/media/social-media-marketing.43550293d5e91ad0a745.gif",
     "static/media/news.jpg": "/static/media/news.f8a09dc982ed4354a50a.jpg",
+    "static/media/social-media-marketing.gif": "/static/media/social-media-marketing.bab77419215da0bc0b52.gif",
     "static/media/exp1.jpeg": "/static/media/exp1.aa1e84cfbc0ad441fe7c.jpeg",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/web-design-and-development.gif": "/static/media/web-design-and-development.84710c982200c6b39b7b.gif",
     "static/media/selfdevel.png": "/static/media/selfdevel.82fcbe61c6ad598f4611.png",
+    "static/media/content-marketing.gif": "/static/media/content-marketing.7ae450e3c31dff8ecbaf.gif",
     "static/media/chatgpt.png": "/static/media/chatgpt.fd13960c93b8d0008036.png",
     "static/media/exp2.jpeg": "/static/media/exp2.a7064e5471dbd8e5ea00.jpeg",
     "static/media/nothing.png": "/static/media/nothing.e3f7af2d1f96cf31cc63.png",
-    "static/media/content-marketing.gif": "/static/media/content-marketing.6197d0403b7c16613e92.gif",
     "static/media/digital.png": "/static/media/digital.3933dee255de08124fd3.png",
-    "static/media/web-design-and-development.gif": "/static/media/web-design-and-development.b2380d273412f3cbaf4f.gif",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
     "static/media/paymentfailed.png": "/static/media/paymentfailed.9a265205c54d4fb9f68e.png",
     "static/media/payusingQR.png": "/static/media/payusingQR.6a7558b2c8094017b084.png",
@@ -59,12 +59,12 @@
     "static/media/paymentsuccess.svg": "/static/media/paymentsuccess.1f6c3f3d864b7b4803710d41550603a0.svg",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/index.html",
-    "main.02ffd4f4.css.map": "/static/css/main.02ffd4f4.css.map",
-    "main.fdae1199.js.map": "/static/js/main.fdae1199.js.map",
+    "main.06f508b7.css.map": "/static/css/main.06f508b7.css.map",
+    "main.a81d4af1.js.map": "/static/js/main.a81d4af1.js.map",
     "988.86a0d572.chunk.js.map": "/static/js/988.86a0d572.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02ffd4f4.css",
-    "static/js/main.fdae1199.js"
+    "static/css/main.06f508b7.css",
+    "static/js/main.a81d4af1.js"
   ]
 }
