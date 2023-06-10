@@ -4,6 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 import img1 from "../images/Services/1.png";
 import img2 from "../images/Services/2.png";
 import img3 from "../images/Services/3.png";
+import img4 from "../images/Services/4.png";
 import sl1 from "../images/Services/content-marketing.gif";
 import sl2 from "../images/Services/social-media-marketing.gif";
 import sl3 from "../images/Services/search-engine-optimization.gif";
@@ -33,6 +34,9 @@ const Service = () => {
           </Carousel.Item>
           <Carousel.Item>
             <img className="carousel-image" src={img3} alt="Third slide" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="carousel-image" src={img4} alt="Fourth slide" />
           </Carousel.Item>
         </Carousel>
       </motion.div>
