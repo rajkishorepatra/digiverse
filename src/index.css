@@ -44,11 +44,13 @@
   height: 100%;
   max-width: 100%;
   margin: 0 1rem;
-  background-color: #ffffff !important;
+  background-color: white !important;
+  box-shadow: 2px 2px 20px blue !important;
 }
 
 .service-card:hover {
   scale: 1.07;
+  box-shadow: 2px 2px 20px yellow !important;
   transition: .5s ease;
 }
 .service-icon {
@@ -765,6 +767,9 @@ footer{
   }
 }
 @media (max-width: 768px) {
+  .conclusion-container{
+    padding: 2rem;
+  }
   .digi-card.mark-card.card{
     height: 100% !important;
   }
@@ -788,6 +793,10 @@ footer{
 
 
 @media (max-width: 426px) {
+
+  .trad-card.mark-card.card{
+    height: 35rem !important;
+  }
   .mark-card{
     height: 100% !important;
   }

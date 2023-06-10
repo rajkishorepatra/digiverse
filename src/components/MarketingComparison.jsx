@@ -93,7 +93,8 @@ const MarketingComparison = () => {
           </Card>
         </Col>
       </Row>
-      <h4 className="text-white my-5"><strong>Conclusion: </strong></h4>
+      <div className="conclusion-container">
+      <h4 className="text-white my-4"><strong>Conclusion: </strong></h4>
       <p className="text-secondary">
         Digital marketing and Traditional marketing have different strengths and
         weaknesses. Digital marketing is more targeted and measurable, while
@@ -101,6 +102,7 @@ const MarketingComparison = () => {
         type of marketing for a business will depend on its specific goals and
         target audience.
       </p>
+      </div>
     </Container>
   );
 };

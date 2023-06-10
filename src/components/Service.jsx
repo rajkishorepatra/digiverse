@@ -12,6 +12,8 @@ import msn from "../images/Services/video-editing.png"
 import MarketingComparison from "./MarketingComparison";
 import Secondsection from "./Secondsection";
 import { Card, CardActionArea, CardContent, Typography, Grid } from "@material-ui/core";
+import WhyChooseUs from "./WhyChooseUs";
+import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 
 const Service = () => {
   return (
@@ -40,7 +42,7 @@ const Service = () => {
           <strong>Our Services</strong>
         </h1>
         <hr />
-        <p className="text-secondary">DigiVerse360 provides a comprehensive suite of services to help businesses grow your online presence. Our services include:</p>
+        <p className="text-secondary p-3">DigiVerse360 provides a comprehensive suite of services to help businesses grow your online presence. Our services include:</p>
       </div>
       <Grid container spacing={2} justify="center">
         <Grid item xs={12} sm={6} md={3}>
@@ -129,6 +131,10 @@ const Service = () => {
       marketing firms can create videos that are more likely to capture and hold viewers' attention,
       and that effectively communicate the firm's message."
      />
+     <WhyChooseUs/> <br />
+      <div className="service-btn d-flex aligm-items-center justify-content-center">
+     <NavLink to="/contact" className="btn btn-outline-primary"><strong>Contact Us</strong></NavLink>
+     </div> <br /> <br />
     </div>
   );
 };
