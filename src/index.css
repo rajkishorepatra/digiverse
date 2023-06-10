@@ -81,19 +81,19 @@
   position: relative !important;
 }
 .digi-card.mark-card.card{
-  box-shadow: 2px 2px 5px #fff;
-  height: 26rem !important;
+  height: 25rem !important;
 }
 .digi-card:hover{
-  scale: 0.92;
+  box-shadow: 2px 2px 5px yellowgreen;
+  cursor: pointer;
   transition: .5s ease;
 }
 .trad-card.mark-card.card{
-  box-shadow: 2px 2px 5px #fff;
-  height: 26rem !important;
+  height: 25rem !important;
 }
 .trad-card:hover{
-  scale: 0.92;
+  box-shadow: 2px 2px 5px yellowgreen;
+  cursor: pointer;
   transition: .5s ease;
 }
 .header-carousel {
@@ -109,8 +109,8 @@
 
 .carousel-image {
   object-fit: cover !important;
-  height: 100%;
-  width: 100%;
+  height: 100% !important;
+  width: 100% !important;
 }
 
 .carousel-item {
@@ -764,20 +764,25 @@ footer{
     width: 70px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .digi-card.mark-card.card{
-    height: 35rem !important;
+    height: 100% !important;
   }
   .trad-card.mark-card.card{
-    height: 35rem !important;
+    height: 100% !important;
+    margin-top: 2rem !important;
   }
-  .mark-card {
+  .mark-card{
     margin-bottom: 3rem !important;
   }
   .service-card {
     margin-bottom: 1.5rem !important;
     justify-content: center !important;
     scale: 0.9;
+  }
+  .service{
+    margin-top: 1rem !important;
+    overflow-x: hidden;
   }
 }
 

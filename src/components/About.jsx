@@ -62,10 +62,10 @@ const About = () => {
         name = "Our Founder"
         imgsrc= {ceo}
         tagline={["Shubham Pani","ㅤ-ㅤㅤ", 
-        <a style={{textDecoration:'none'}} href="https://www.facebook.com/shubham.pani.79?mibextid=ZbWKwL" target="_blank" className=" socialicons fa fa-facebook"></a>, "ㅤ",
-        <a style={{textDecoration:'none'}} href="https://twitter.com/Shubhampani2" target="_blank" className="fa fa-twitter socialicons"></a>, "ㅤ",
-        <a style={{textDecoration:'none'}} href="https://www.linkedin.com/in/shubham-pani-2b67b4112/" target="_blank" className="fa fa-linkedin socialicons"></a>, "ㅤ", 
-        <a style={{textDecoration:'none'}} href="https://instagram.com/mrshubhampani" target="_blank" className="fa fa-instagram socialicons" ></a>]}
+        <a style={{textDecoration:'none'}} href="https://www.facebook.com/shubham.pani.79?mibextid=ZbWKwL" target="_blank" rel="noreferrer" className=" socialicons fa fa-facebook"></a>, "ㅤ",
+        <a style={{textDecoration:'none'}} href="https://twitter.com/Shubhampani2" target="_blank" rel="noreferrer" className="fa fa-twitter socialicons"></a>, "ㅤ",
+        <a style={{textDecoration:'none'}} href="https://www.linkedin.com/in/shubham-pani-2b67b4112/" target="_blank" rel="noreferrer" className="fa fa-linkedin socialicons"></a>, "ㅤ", 
+        <a style={{textDecoration:'none'}} href="https://instagram.com/mrshubhampani" target="_blank" rel="noreferrer" className="fa fa-instagram socialicons" ></a>]}
         content= "❝ As the CEO of Digiverse 360, a Digital Marketing Firm, I have witnessed firsthand the transformative potential of digital marketing in India. Despite facing
         numerous challenges, I am determined to showcase the immense opportunities and career
         prospects that this field holds. This note aims to shed light on the future of digital marketing in

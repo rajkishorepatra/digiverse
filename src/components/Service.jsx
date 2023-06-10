@@ -4,12 +4,13 @@ import Carousel from "react-bootstrap/Carousel";
 import img1 from "../images/Services/1.png";
 import img2 from "../images/Services/2.png";
 import img3 from "../images/Services/3.png";
-import img4 from "../images/Services/4.png";
 import sl1 from "../images/Services/content-marketing.gif";
 import sl2 from "../images/Services/social-media-marketing.gif";
 import sl3 from "../images/Services/search-engine-optimization.gif";
 import sl4 from "../images/Services/web-design-and-development.gif";
+import msn from "../images/Services/video-editing.png"
 import MarketingComparison from "./MarketingComparison";
+import Secondsection from "./Secondsection";
 import { Card, CardActionArea, CardContent, Typography, Grid } from "@material-ui/core";
 
 const Service = () => {
@@ -21,7 +22,7 @@ const Service = () => {
         exit={{ opacity: 0 }}
         className="header-carousel"
       >
-        <Carousel controls={false} interval={4000} pause={true}>
+        <Carousel controls={false} interval={4000} pause={true} aspectRatio={16 / 9}>
           <Carousel.Item>
             <img className="carousel-image" src={img1} alt="First slide" />
           </Carousel.Item>
@@ -31,9 +32,6 @@ const Service = () => {
           <Carousel.Item>
             <img className="carousel-image" src={img3} alt="Third slide" />
           </Carousel.Item>
-          <Carousel.Item>
-            <img className="carousel-image" src={img4} alt="Fourth slide" />
-          </Carousel.Item>
         </Carousel>
       </motion.div>
       <MarketingComparison />
@@ -42,6 +40,7 @@ const Service = () => {
           <strong>Our Services</strong>
         </h1>
         <hr />
+        <p className="text-secondary">DigiVerse360 provides a comprehensive suite of services to help businesses grow your online presence. Our services include:</p>
       </div>
       <Grid container spacing={2} justify="center">
         <Grid item xs={12} sm={6} md={3}>
@@ -63,7 +62,6 @@ const Service = () => {
             </CardActionArea>
           </Card>
         </Grid>
-        {/* Repeat the same structure for the remaining service cards */}
         <Grid item xs={12} sm={6} md={3}>
           <Card className="service-card">
             <CardActionArea>
@@ -122,8 +120,15 @@ const Service = () => {
           </Card>
         </Grid>
       </Grid>
-      <br />
-      <br />
+      <Secondsection
+      name = "Additional Services"
+      imgsrc = {msn}
+      tagline={[ <h3><strong>Video Editing Service </strong></h3> ]}
+      content="Video editing is a powerful tool that can be used to create engaging and persuasive video
+      marketing content for digital marketing firms. By using video editing techniques, digital
+      marketing firms can create videos that are more likely to capture and hold viewers' attention,
+      and that effectively communicate the firm's message."
+     />
     </div>
   );
 };

@@ -61,6 +61,7 @@ const Contact = () => {
                 </p>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.846413933038!2d81.6349571!3d21.237938099999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28dd91643524b1%3A0xec3c6d8c44de09d4!2sDigi%20Verse%20360!5e0!3m2!1sen!2sin!4v1684436333929!5m2!1sen!2sin"
+                  title="map"
                   width="400"
                   height="300"
                   style={{border:'0'}}
