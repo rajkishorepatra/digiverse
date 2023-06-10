@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.06f508b7.css",
-    "main.js": "/static/js/main.eaeaf040.js",
+    "main.js": "/static/js/main.834e6338.js",
     "static/js/988.86a0d572.chunk.js": "/static/js/988.86a0d572.chunk.js",
     "static/media/vid3.mp4": "/static/media/vid3.9554b280d9e86419adcc.mp4",
     "static/media/vid1.mp4": "/static/media/vid1.022d2321069430747815.mp4",
@@ -17,6 +17,7 @@
     "static/media/influencermar.png": "/static/media/influencermar.96d5736873ad368bc6c6.png",
     "static/media/dmsmr.png": "/static/media/dmsmr.68a3a9f5c2f99fe45e11.png",
     "static/media/canvaDe.png": "/static/media/canvaDe.11e237630ea51c0d93b1.png",
+    "static/media/4.png": "/static/media/4.eec07b8557b6b38c7bc5.png",
     "static/media/youtubemar.png": "/static/media/youtubemar.998167f9c1cd9e0b7116.png",
     "static/media/webanal.png": "/static/media/webanal.61ea8f12811e69fc2c8a.png",
     "static/media/search.png": "/static/media/search.0bbc2204981bd38d86d9.png",
@@ -60,11 +61,11 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/index.html",
     "main.06f508b7.css.map": "/static/css/main.06f508b7.css.map",
-    "main.eaeaf040.js.map": "/static/js/main.eaeaf040.js.map",
+    "main.834e6338.js.map": "/static/js/main.834e6338.js.map",
     "988.86a0d572.chunk.js.map": "/static/js/988.86a0d572.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06f508b7.css",
-    "static/js/main.eaeaf040.js"
+    "static/js/main.834e6338.js"
   ]
 }
