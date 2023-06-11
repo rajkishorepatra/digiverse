@@ -96,7 +96,7 @@ const Courses = (props) => {
     <Coursedetails
       coursetopic ="Chat GPT "
       imgsrc ={num12}
-      content = "The first module focuses on delivering advertising through digital channels. The course offers an overview of how it equips students with the necessary skill sets to create a successful online marketing strategy"
+      content = "This Teach-Out introduces learners to artificial intelligence and explains how large language models and chatbots like ChatGPT work. You will better understand the ethical use of artificial intelligence, the implications of authorship, and how tools like ChatGPT might be utilized and regulated moving forward. "
     />
     <Coursedetails
       coursetopic ="YouTube Marketing"
@@ -106,7 +106,7 @@ const Courses = (props) => {
     <Coursedetails
       coursetopic ="Bonus : Self development"
       imgsrc ={num14}
-      content = "self-development is crucial in the digital marketing field. The digital marketing landscape is constantly evolving, and staying up-to-date with the latest trends and technologies is essential to remain competitive"
+      content = "Self-Development is crucial in the digital marketing field. The digital marketing landscape is constantly evolving, and staying up-to-date with the latest trends and technologies is essential to remain competitive"
     />
     
 
