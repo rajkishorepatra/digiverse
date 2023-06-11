@@ -98,9 +98,14 @@ const MarketingComparison = () => {
       <p className="text-secondary">
         Digital marketing and Traditional marketing have different strengths and
         weaknesses. Digital marketing is more targeted and measurable, while
-        traditional marketing can reach a larger audience. Ultimately, the best
-        type of marketing for a business will depend on its specific goals and
-        target audience.
+        traditional marketing can reach a larger audience. <br /> <br />
+        In conclusion, the shift towards digital marketing provides businesses with
+         unparalleled opportunities for targeted reach, cost-effectiveness, measurability, 
+         and adaptability. With the ability to precisely target the right audience, optimize 
+         campaigns based on real-time data, and track the effectiveness of marketing efforts,
+          digital marketing empowers businesses to make data-driven decisions and achieve better ROI.
+           Moreover, the flexibility and scalability of digital marketing channels allow businesses to 
+           adjust strategies and tactics on the fly, ensuring optimal results in an ever-evolving digital landscape. 
       </p>
       </div>
     </Container>
