@@ -1,40 +1,45 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-// import logo from "../images/digilogo.png";
-import logo from "../images/digilogo_new.png"
+import { FaTimes, FaBars } from "react-icons/fa";
+import logo from "../images/digilogo_new.png";
 
 const Navbar = () => {
   const [collapsed, setCollapsed] = useState(true);
 
   const toggleNavbar = () => setCollapsed(!collapsed);
 
+  const closeNavbar = () => setCollapsed(true);
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container-fluid">
-        <NavLink className="navbar-brand" to="/">
+        <NavLink className="navbar-brand" to="/" onClick={closeNavbar}>
           <img
             className="nav-logo mt-2"
             src={logo}
             style={{ width: 100 }}
             alt="Digiverse360 Logo"
           />
-          {/* <strong> DigiVerse360</strong> */}
         </NavLink>
         <button
-          className="navbar-toggler"
+          className={`navbar-toggler ${collapsed ? "" : "collapsed"}`}
           type="button"
           aria-controls="navbarSupportedContent"
           aria-expanded={!collapsed ? true : false}
           aria-label="Toggle navigation"
           onClick={toggleNavbar}
         >
-          <span className="navbar-toggler-icon"></span>
+          {collapsed ? (
+            <FaBars className="navbar-toggler-icon" />
+          ) : (
+            <FaTimes className="navbar-close-icon" />
+          )}
         </button>
         <div
           className={`collapse navbar-collapse ${collapsed ? "" : "show"}`}
           id="navbarSupportedContent"
         >
-          <ul className="navbar-nav ms-auto mb-lg-0">
+          <ul className={`navbar-nav ms-auto mb-lg-0 ${collapsed ? "" : "align-items-center"}`}>
             <li className="nav-item">
               <NavLink
                 activeClassName="menu_active"
@@ -42,7 +47,7 @@ const Navbar = () => {
                 className="nav-link"
                 aria-current="page"
                 to="/"
-                onClick={toggleNavbar}
+                onClick={closeNavbar}
               >
                 Home
               </NavLink>
@@ -52,7 +57,7 @@ const Navbar = () => {
                 activeClassName="menu_active"
                 className="nav-link"
                 to="/about"
-                onClick={toggleNavbar}
+                onClick={closeNavbar}
               >
                 About
               </NavLink>
@@ -62,7 +67,7 @@ const Navbar = () => {
                 activeClassName="menu_active"
                 className="nav-link"
                 to="/service"
-                onClick={toggleNavbar}
+                onClick={closeNavbar}
               >
                 Services
               </NavLink>
@@ -72,7 +77,7 @@ const Navbar = () => {
                 activeClassName="menu_active"
                 className="nav-link"
                 to="/courses"
-                onClick={toggleNavbar}
+                onClick={closeNavbar}
               >
                 Courses
               </NavLink>
@@ -82,7 +87,7 @@ const Navbar = () => {
                 activeClassName="menu_active"
                 className="nav-link"
                 to="/blogs"
-                onClick={toggleNavbar}
+                onClick={closeNavbar}
               >
                 Blogs
               </NavLink>
@@ -92,7 +97,7 @@ const Navbar = () => {
                 activeClassName="menu_active"
                 className="nav-link"
                 to="/contact"
-                onClick={toggleNavbar}
+                onClick={closeNavbar}
               >
                 Contact
               </NavLink>
