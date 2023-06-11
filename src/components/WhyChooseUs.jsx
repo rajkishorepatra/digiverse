@@ -8,13 +8,13 @@ const WhyChooseUs = () => {
       heading: "We are a full-service Digital Marketing agency:",
       icon: FaChartLine,
       content:
-        "We offer a wide range of services, including search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, content marketing, and email marketing. This gives us the ability to create a comprehensive marketing plan that meets the specific needs of your business.",
+        "We offer a full suite of marketing services to help you reach your target audience and achieve your business goals. Our team of experts can help you with SEO, PPC, Social Media, Content, and Email Marketing.",
     },
     {
       heading: "We have a proven track record of success:",
       icon: FaCheck,
       content:
-        "We have helped hundreds of businesses grow their businesses through digital marketing. We have a deep understanding of the latest trends and best practices in digital marketing, and we know how to use them to get results.",
+        "We have helped businesses grow their reach through digital marketing. We have a deep understanding of the latest trends and best practices in digital marketing, and we know how to use them to get results.",
     },
     {
       heading: "We are affordable:",
