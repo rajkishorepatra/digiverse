@@ -38,7 +38,7 @@
 
 
 .service-payment-modal{
-  margin-top: 6.5em ;
+  margin-top: 5.8em ;
 }
 .service-payment-modal img{
   padding-right: 20px;
@@ -806,6 +806,10 @@ footer{
 
 @media (max-width: 426px) {
 
+  .service-payment-modal{
+    scale: 0.9;
+  }
+
   .trad-card.mark-card.card{
     height: 35rem !important;
   }
@@ -1010,6 +1014,10 @@ footer{
 
 
 @media (max-width: 420px) {
+  .service-payment-modal{
+    margin-top: 5em;
+   width: 100% !important;
+  }
   .text-overflow {
     overflow: hidden;
     text-overflow: ellipsis;

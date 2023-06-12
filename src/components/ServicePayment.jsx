@@ -8,6 +8,7 @@ const ServicePayment = () => {
   const [showModal, setShowModal] = useState(false);
   const [verifying, setVerifying] = useState(false);
   const [paymentVerified, setPaymentVerified] = useState(false);
+  const [confirmPayment, setConfirmPayment] = useState(false);
 
   const handlePayNow = () => {
     setShowModal(true);
@@ -17,6 +18,7 @@ const ServicePayment = () => {
     setShowModal(false);
     setVerifying(false);
     setPaymentVerified(false);
+    setConfirmPayment(false);
   };
 
   const handleVerify = () => {
@@ -27,6 +29,10 @@ const ServicePayment = () => {
       setVerifying(false);
       setPaymentVerified(true);
     }, 7000);
+  };
+
+  const handleCheckboxChange = (event) => {
+    setConfirmPayment(event.target.checked);
   };
 
   return (
@@ -63,7 +69,7 @@ const ServicePayment = () => {
 
       <Modal className='service-payment-modal' show={showModal} size="lg" onHide={handleCloseModal}>
         <Modal.Header style={{ backgroundColor: '#02041d', color: '#fff' }} closeButton>
-          <Modal.Title>Pay for Digiverse360 Services</Modal.Title>
+          <Modal.Title>Pay for Services</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           {verifying ? (
@@ -73,7 +79,7 @@ const ServicePayment = () => {
                   <span className="sr-only">Loading...</span>
                 </div>
               </div>
-              <p className="m-0" style={{padding:'10px'}}>Verifying payment...</p>
+              <p className="m-0" style={{ padding: '10px' }}>Verifying payment...</p>
             </div>
           ) : paymentVerified ? (
             <div className="text-center">
@@ -96,12 +102,26 @@ const ServicePayment = () => {
               </div>
               <strong><p className="text-center">Kindly Scan the QR Code using any UPI Application</p></strong>
               <p className="text-center">Tap on "Verify" button after you have paid</p>
+
+              <div className="form-check text-center mt-4">
+                <input
+                  type="checkbox"
+                  className="form-check-input text-primary"
+                  id="confirmPayment"
+                  checked={confirmPayment}
+                  onChange={handleCheckboxChange}
+                  style={{ borderColor: 'black', marginRight: '8px' }}
+                />
+                <label className="form-check-label text-black" htmlFor="confirmPayment">
+                  I confirm that I have paid the desired amount
+                </label>
+              </div>
             </div>
           )}
         </Modal.Body>
         <Modal.Footer>
           {!paymentVerified && (
-            <Button variant="success" onClick={handleVerify} disabled={verifying}>
+            <Button variant="success" onClick={handleVerify} disabled={verifying || !confirmPayment}>
               {verifying ? (
                 <>
                   <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
@@ -112,11 +132,7 @@ const ServicePayment = () => {
               )}
             </Button>
           )}
-          {/* <Button variant="secondary" onClick={handleCloseModal}>
-            Cancel
-          </Button>
-           */}
-           <Button variant="secondary" onClick={handleCloseModal}>
+          <Button variant="secondary" onClick={handleCloseModal}>
             {paymentVerified ? 'Close' : 'Cancel'}
           </Button>
         </Modal.Footer>
@@ -145,6 +161,21 @@ const ServicePayment = () => {
 
           .service-payment-modal .modal-body {
             padding: 0;
+          }
+
+          .form-check.text-center {
+            text-align: center;
+          }
+
+          .form-check.text-center .form-check-input {
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 5px;
+          }
+
+          .form-check.text-center .form-check-label {
+            margin-left: 0;
+            margin-right: 0;
           }
         }
       `}</style>
