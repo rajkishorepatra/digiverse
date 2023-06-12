@@ -36,6 +36,14 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+
+.service-payment-modal{
+  margin-top: 6.5em ;
+}
+.service-payment-modal img{
+  padding-right: 20px;
+}
+
 .service-card {
   display: flex;
   flex-direction: column;
