@@ -35,7 +35,10 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
+.form-check-input{
+  border-color: black !important;
+  transform: translate(12rem,.2rem) !important;
+}
 
 .service-payment-modal{
   margin-top: 5.8em ;
@@ -806,8 +809,12 @@ footer{
 
 @media (max-width: 426px) {
 
+  .form-check-input{
+    border-color: black !important;
+    transform: translate(0rem,0rem) !important;
+  }
   .service-payment-modal{
-    scale: 0.9;
+    scale: 0.95;
   }
 
   .trad-card.mark-card.card{
@@ -1014,9 +1021,15 @@ footer{
 
 
 @media (max-width: 420px) {
+
+  .form-check-input{
+    border-color: black !important;
+    transform: translate(-1.1rem,1.3rem) !important;
+  }
   .service-payment-modal{
     margin-top: 5em;
    width: 100% !important;
+   scale: 0.9;
   }
   .text-overflow {
     overflow: hidden;
