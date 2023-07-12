@@ -9,17 +9,19 @@ import AnimatedRoutes from "./components/AnimatedRoutes";
 import Loader from './components/Loader';
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import { useLocation } from 'react-router-dom';
+import ReactGA from 'react-ga';
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
   const location = useLocation();
 
-
   useEffect(() => {
     setIsLoading(true);
     setTimeout(() => setIsLoading(false), 1000);
-  }, [location]);
 
+    ReactGA.initialize('UA-XXXXXXXXX-X'); // Replace 'UA-XXXXXXXXX-X' with your tracking ID
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, [location]);
 
   return (
     <>
