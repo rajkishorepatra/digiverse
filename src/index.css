@@ -750,7 +750,10 @@ footer{
     transform: translateY(-10px);
   }
 }
-
+.paymentcard2:hover{
+  scale: 0.75 !important;
+  transition: .5s ease;
+}
 
 /* Responsive Code */
 
