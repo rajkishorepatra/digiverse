@@ -19,7 +19,7 @@ const Buynow = () => {
         <div className="row">
           <div className="col-10 mx-auto">
             <div className="row gy-5">
-              <div class="card paymentcard1 " >
+              {/* <div class="card paymentcard1 " >
                 <img src={payu}class="card-img-top" alt="payU paymentlogo" />
                 <div class="card-body">
                   <h5 class="card-title mb-4 "> <strong>  Pay via PayU payment GateWay (under maintenance) </strong> ✅</h5>
@@ -31,7 +31,7 @@ const Buynow = () => {
                     Pay Now
                   </a>
                 </div>
-              </div>
+              </div> */}
               <div class="card paymentcard2" >
                 <img src={qr} class="card-img-top" alt="Pay Using QR " />
                 <div class="card-body">
