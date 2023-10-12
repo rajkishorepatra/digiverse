@@ -40,6 +40,16 @@
   transform: translate(12rem,.2rem) !important;
 }
 
+.demo-modal{
+  margin-top: 4rem;
+  scale: 0.9;
+}
+.demo-modal-img{
+  width: 50%;
+}
+
+
+
 .service-payment-modal{
   margin-top: 5.8em ;
 }
@@ -811,6 +821,16 @@ footer{
 
 
 @media (max-width: 426px) {
+
+  
+.demo-modal{
+  scale: 0.9 !important;
+}
+.demo-modal-img{
+   width: 50%; 
+}
+
+
 
   .form-check-input{
     border-color: black !important;
