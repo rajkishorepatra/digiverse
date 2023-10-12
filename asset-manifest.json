@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b9a35a55.css",
-    "main.js": "/static/js/main.f1284701.js",
+    "main.css": "/static/css/main.62dac804.css",
+    "main.js": "/static/js/main.73a66560.js",
     "static/js/988.86a0d572.chunk.js": "/static/js/988.86a0d572.chunk.js",
     "static/media/vid3.mp4": "/static/media/vid3.9554b280d9e86419adcc.mp4",
     "static/media/vid1.mp4": "/static/media/vid1.022d2321069430747815.mp4",
@@ -46,6 +46,7 @@
     "static/media/loader.gif": "/static/media/loader.705e3808a1e8ac320878.gif",
     "static/media/video-editing.png": "/static/media/video-editing.2565f47653834d0a6cc9.png",
     "static/media/refundpolicy.png": "/static/media/refundpolicy.9eb0ce4fcdacef7383d6.png",
+    "static/media/demo.jpeg": "/static/media/demo.eac745bb071184ca1d4b.jpeg",
     "static/media/privacy.png": "/static/media/privacy.c4cb88d3215bad9d4dce.png",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
     "static/media/testimonial.png": "/static/media/testimonial.a73d9b3d6894f290f482.png",
@@ -62,12 +63,12 @@
     "static/media/paymentsuccess.svg": "/static/media/paymentsuccess.1f6c3f3d864b7b4803710d41550603a0.svg",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/index.html",
-    "main.b9a35a55.css.map": "/static/css/main.b9a35a55.css.map",
-    "main.f1284701.js.map": "/static/js/main.f1284701.js.map",
+    "main.62dac804.css.map": "/static/css/main.62dac804.css.map",
+    "main.73a66560.js.map": "/static/js/main.73a66560.js.map",
     "988.86a0d572.chunk.js.map": "/static/js/988.86a0d572.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9a35a55.css",
-    "static/js/main.f1284701.js"
+    "static/css/main.62dac804.css",
+    "static/js/main.73a66560.js"
   ]
 }
