@@ -47,24 +47,7 @@ const App = () => {
         <Footer />
         <ScrollToTopButton />
       </div>
-
-      {/* Modal */}
-      <Modal className='demo-modal' show={showModal} onHide={handleClose} backdrop="static">
-        <Modal.Header closeButton>
-          <Modal.Title>Demo Class</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <img src={demo}alt="Demo Class Image" className="demo-modal-img img-fluid" />
-          <p>In the digital age, mastering the art of digital marketing is your key to success. Our course equips 
-            you with the skills to create strategies, engage your audience, and thrive in the ever-evolving digital
-             landscape. <b> Join our Demo Class Today!</b>
-</p>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="primary" target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLScMyhG3b4CLyHqUTpIOytZ608ADsNppkXuNdNllt6OSfqcQGw/viewform?usp=sf_link">Register</Button>
-          <Button variant="secondary" onClick={handleClose}>Close</Button>
-        </Modal.Footer>
-      </Modal>
+      
     </>
   );
 };
