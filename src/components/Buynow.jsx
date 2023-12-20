@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import payu from '../images/payupayment.svg';
 import qr from '../images/payusingQR.png';
 const Buynow = () => {
   return (
@@ -39,7 +38,7 @@ const Buynow = () => {
                   <p class="card-text">
                     Simply fill up a form, scan the QR code provided, submit payment proof <br /> We will contact you soon
                   </p>
-                  <a href="https://forms.gle/3FbS5c6vm5FnAjiA7" target="_blank" class="btn btn-success">
+                  <a href="https://forms.gle/3FbS5c6vm5FnAjiA7" target="_blank" rel="noreferrer" class="btn btn-success">
                    Pay Now
                   </a>
                 </div>

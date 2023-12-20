@@ -1,22 +1,22 @@
 import React from "react";
 import Coursecontent from "./Coursecontent";
-import flash from '../images/study.gif';
+import flash from '../images/test1-1.gif';
 // import flash from "../images/course_flashgif.gif"
 import Coursedetails from "./Coursedetails";
-import num1 from "../images/digital.png"
-import num2 from "../images/plan.png"
-import num3 from "../images/search.png"
-import num4 from "../images/social.png"
-import num5 from "../images/webanal.png"
-import num6 from "../images/Course/nothing.png"
-import num7 from "../images/contentmar.png"
-import num8 from "../images/email.png"
-import num9 from "../images/influencermar.png"
-import num10 from "../images/dmsmr.png"
-import num11 from "../images/canvaDe.png"
-import num12 from "../images/chatgpt.png"
-import num13 from "../images/youtubemar.png"
-import num14 from "../images/selfdevel.png";
+import num1 from "../images/course-assets/1.png"
+import num2 from "../images/course-assets/2.png"
+import num3 from "../images/course-assets/3.png"
+import num4 from "../images/course-assets/4.png"
+import num5 from "../images/course-assets/5.png"
+import num6 from "../images/course-assets/6.png"
+import num7 from "../images/course-assets/7.png"
+import num8 from "../images/course-assets/8.png"
+import num9 from "../images/course-assets/9.png"
+import num10 from "../images/course-assets/10.png"
+import num11 from "../images/course-assets/11.png"
+// import num12 from "../images/chatgpt.png"
+// import num13 from "../images/youtubemar.png"
+// import num14 from "../images/selfdevel.png";
 import { motion } from "framer-motion";
 const Courses = (props) => {
   return (
@@ -31,7 +31,10 @@ const Courses = (props) => {
         imgsrc={flash}
         visit="/payments"
         btname="Buy Now"
-        pagedesc="At Digiverse360, we offer digital marketing courses for all levels, from beginners to experts. Our courses provide valuable skills and knowledge with certification upon completion. Join us to broaden your abilities and receive a distinct approach to digital marketing education."
+        pagedesc="This comprehensive course will equip you with the latest digital marketing trends and strategies
+        to take your brand to the next level. Through 10 engaging modules, you will gain valuable
+        insights and practical skills across various digital channels, empowering you to effectively reach
+        your target audience and drive results"
       />
 
       <h1 className="courseheader container-fluid text-center">
@@ -44,56 +47,56 @@ const Courses = (props) => {
       content = "The first module focuses on delivering advertising through digital channels. The course offers an overview of how it equips students with the necessary skill sets to create a successful online marketing strategy. "
     />
     <Coursedetails
-      coursetopic ="Website Planning & Analysis"
+      coursetopic ="Understanding Your Target Audience"
       imgsrc ={num2}
-      content = "The module will guide how to plan the website creation process to avoid problems such as low speed and poor navigation. The focus is on creating an intuitive and user-friendly website."
+      content = "Learn to identify and connect with your target demographic, enhancing your marketing strategies and tailoring your content for maximum engagement and impact. Master the art of understanding your audience for business success."
     />
     <Coursedetails
-      coursetopic ="Search Engine Optimization"
+      coursetopic ="Build a Strong Brand Identity"
       imgsrc ={num3}
-      content = "In this module, participants will be exposed to various forms of SEO, including on-page and off-page SEO. The module will also cover creating a link tree to improve website ranking. "
+      content = "Discover the foundations of brand building. Learn to craft a distinctive brand persona, incorporating visuals and messaging that resonate. Elevate your business with a unique identity that attracts, engages, and leaves a lasting impression on your audience. Master the art of brand strength."
+    />
+    <Coursedetails
+      coursetopic ="Content Marketing Strategies"
+      imgsrc ={num4}
+      content = "Learn to create strategic, SEO-friendly content that resonates with your audience. Acquire techniques to enhance visibility, engagement, and conversion rates, ensuring your brand stands out in the digital landscape"
+    />
+    <Coursedetails
+      coursetopic ="Search Engine Optimization (SEO)"
+      imgsrc ={num5}
+      content = "Learn the latest algorithms and techniques to optimize content, driving organic traffic and ensuring your business ranks high in search results. Elevate your online presence with SEO mastery"
+    />
+    <Coursedetails
+      coursetopic ="Pay-Per-Click (PPC) Advertising"
+      imgsrc ={num6}
+      content = "Learn to create effective PPC campaigns, optimize ad spend, and maximize ROI. Gain insights into keyword strategies and compelling ad copy, ensuring your business captures attention and drives conversions through strategic PPC advertising. Elevate your marketing with precision."
     />
     <Coursedetails
       coursetopic ="Social Media Marketing"
-      imgsrc ={num4}
-      content = "The module will provide instruction on utilizing social media platforms’ data analytics tools to track ad campaign performance. It will also cover techniques for communicating with existing and potential customers through promotional efforts."
-    />
-    <Coursedetails
-      coursetopic ="Web Analytics"
-      imgsrc ={num5}
-      content = "The module will provide instructions on measuring website activity and behavior, such as the number of visitors, time spent on the website, popular web pages, and other relevant metrics."
-    />
-    <Coursedetails
-      coursetopic ="Video Advertising"
-      imgsrc ={num6}
-      content = "In this module, you will receive training on how video advertising operates and how to target a specific audience niche to achieve a high click-through rate. Additionally, you will learn how to create engaging and visually appealing videos that will resonate with your audience."
-    />
-    <Coursedetails
-      coursetopic ="Content marketing"
       imgsrc ={num7}
-      content = "Content Marketing is the comprehensive strategy to attract or retain a target audience by creating and sharing relevant and valuable content; eventually to impel a profitable action. This module comprises exhaustive training sessions that delve into content marketing and its importance."
+      content = " Learn to create impactful campaigns, engage your audience, and build a loyal following. Discover strategies for leveraging various platforms, creating shareable content, and measuring success. Elevate your brand's presence and influence with effective social media marketing techniques."
     />
     <Coursedetails
       coursetopic ="Email Marketing"
       imgsrc ={num8}
-      content = "This module aims to instruct students about the advantages of email marketing and the diverse strategies that can be utilized to succeed in their email marketing campaigns."
+      content = "Craft compelling email campaigns that resonate with your audience. Discover the art of effective segmentation, personalization, and automation to maximize engagement and conversion rates. Elevate your marketing strategy with powerful and targeted email communication."
     />
     <Coursedetails
-      coursetopic ="Influencer Marketing"
+      coursetopic ="Analytics and Reporting"
       imgsrc ={num9}
-      content = "This module will equip you with the essential skills to successfully manage and execute an influencer marketing campaign. Additionally, you will be taught the necessary steps to become a prosperous influencer marketer yourself."
+      content = "Learn to leverage analytics tools to measure campaign performance, track key metrics, and make informed decisions. Master the art of reporting to refine strategies and optimize results. Elevate your business with the transformative power of analytics"
     />
     <Coursedetails
-      coursetopic ="Digital Marketing Strategy and Planning"
+      coursetopic ="Artificial Intelligence"
       imgsrc ={num10}
-      content = "Digital marketing strategy and planning involve developing a roadmap that outlines the steps you will take to achieve your marketing goals using digital channels. A comprehensive digital marketing plan should include the following elements:"
+      content = " Learn to harness AI's power for automation and optimization, enhancing efficiency and staying ahead in the digital landscape. Elevate your marketing with the intelligence of the future."
     />
     <Coursedetails
       coursetopic ="Canva design"
       imgsrc ={num11}
-      content = "Canva design is a part of digital marketing. Canva is a popular graphic design tool that allows users to create professional-looking designs without needing advanced design skills or expensive software. Canva can be used for a wide range of digital marketing activities, such as creating social media posts, blog graphics, infographics, e-book covers, and more."
+      content = "Learn to craft visually stunning graphics with Canva. Master design principles, customize templates, and create eye-catching visuals for your brand"
     />
-    <Coursedetails
+    {/* <Coursedetails
       coursetopic ="Chat GPT "
       imgsrc ={num12}
       content = "This Teach-Out introduces learners to artificial intelligence and explains how large language models and chatbots like ChatGPT work. You will better understand the ethical use of artificial intelligence, the implications of authorship, and how tools like ChatGPT might be utilized and regulated moving forward. "
@@ -107,7 +110,7 @@ const Courses = (props) => {
       coursetopic ="Bonus : Self development"
       imgsrc ={num14}
       content = "Self-Development is crucial in the digital marketing field. The digital marketing landscape is constantly evolving, and staying up-to-date with the latest trends and technologies is essential to remain competitive"
-    />
+    /> */}
     
 
     </motion.div>
