@@ -65,12 +65,13 @@
   height: 100%;
   max-width: 100%;
   margin: 0 1rem;
-  background-color: white !important;
-  box-shadow: 2px 2px 20px blue !important;
+  background-color: transparent !important;
+  color: #bbb !important;
+  box-shadow: 2px 2px 5px blue !important;
 }
 
 .service-card:hover {
-  box-shadow: 2px 2px 20px yellow !important;
+  box-shadow: 2px 2px 50px rgb(208 100 189) !important;
 }
 .service-icon {
   display: flex;
@@ -78,6 +79,12 @@
   align-items: center;
   margin-bottom: 1rem;
   margin-top: 1.5rem;
+}
+.icon-gif{
+  border-radius: 30px;
+}
+.get-started-btn{
+  background-color: #fff !important;
 }
 .carousel-item {
   display: flex;
@@ -1037,7 +1044,12 @@ footer{
   .container-fluid .popup-image span{
     transform: translate(-20px,40px);
   }
- 
+ .service{
+  margin-top: 7rem !important;
+ }
+ .service h1{
+  font-size: 30px !important;
+ }
 
 }
 

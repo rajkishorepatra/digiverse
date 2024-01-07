@@ -35,10 +35,10 @@ const Home = () => {
       Journey Together!"
      />
     <ClientTestimonial/>
-     <Experience 
+     {/* <Experience 
      exphead ="Experience Certificates"
      content ="At Digiverse360, we take pride in our expertise and experience in the field of digital marketing. To showcase our skills and credentials, we've created a section where you can view our experience certificates from some of the top industry organizations and training programs."
-     />
+     /> */}
      {/* <Thirdsection
        homebanner={homebanner}
         /> */}
