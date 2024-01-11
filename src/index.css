@@ -772,6 +772,22 @@ footer{
   transition: .5s ease;
 }
 
+
+.stu-testimonial-card{
+  scale: 0.9;
+  background-color: transparent !important;
+  border: .5px solid blue;
+  box-shadow: 2px 2px 5px white !important;
+}
+
+
+
+
+
+
+
+
+
 /* Responsive Code */
 
 @media (max-width: 991px) {
@@ -1050,14 +1066,16 @@ footer{
  .service h1{
   font-size: 30px !important;
  }
-
+ .courseheader{
+  margin-top: 28em !important;
+ }
 }
 
 
-
-
 @media (max-width: 420px) {
-
+  .courseheader{
+    margin-top: 24em !important;
+   }
   .form-check-input{
     border-color: black !important;
     transform: translate(-1.1rem,1.3rem) !important;

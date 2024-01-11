@@ -18,6 +18,7 @@ import num11 from "../images/course-assets/11.png"
 // import num13 from "../images/youtubemar.png"
 // import num14 from "../images/selfdevel.png";
 import { motion } from "framer-motion";
+import StudentTestimonial from "./StudentTestimonial";
 const Courses = (props) => {
   return (
     <motion.div
@@ -36,7 +37,8 @@ const Courses = (props) => {
         insights and practical skills across various digital channels, empowering you to effectively reach
         your target audience and drive results"
       />
-
+      
+    <StudentTestimonial/>
       <h1 className="courseheader container-fluid text-center">
       <strong>Course Modules :</strong> <hr />
           </h1>
