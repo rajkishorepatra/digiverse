@@ -1,20 +1,23 @@
-import React from 'react'
+import React from "react";
 const TestimonialContainer = (props) => {
   return (
     <>
-    <section id="header" className="d-flex aligm-items-center" >
+      <section id="header" className="d-flex aligm-items-center">
         <div className="container-fluid my-5">
           <div className="row">
             <div className="col-10 mx-auto">
-              <div className="row">
+              <div className="row flex-row-reverse">
                 <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                   <h1 className="homesechead">
                     <strong>{props.name}</strong>
                   </h1>
-                  <p className="tagline"><strong><i>{props.tagline}</i><hr/></strong></p>
-                  <p className="content my-3">
-                    {props.content}
+                  <p className="tagline">
+                    <strong>
+                      <i>{props.tagline}</i>
+                      <hr />
+                    </strong>
                   </p>
+                  <p className="content my-3">{props.content}</p>
                   <div className="mt-3"></div>
                 </div>
                 <div className="col-lg-6 order-1 order-lg-2 header-image">
@@ -29,9 +32,8 @@ const TestimonialContainer = (props) => {
           </div>
         </div>
       </section>
-    
     </>
-  )
-}
+  );
+};
 
 export default TestimonialContainer;

@@ -18,12 +18,12 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          // console.log(result.text);
           setShowAlert(true); // show alert
           form.current.reset(); // reset form
         },
         (error) => {
-          console.log(error.text);
+          // console.log(error.text);
         }
       );
   };

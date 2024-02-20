@@ -8,7 +8,7 @@ import TestimonialContainer from "./TestimonialContainer";
 
 const ClientTestimonial = () => {
   return (
-    <div >
+    <div className="mt-n5">
       <TestimonialContainer
         name="Client Testimonials"
         imgsrc={testimonial}
@@ -19,33 +19,37 @@ const ClientTestimonial = () => {
         <div className="row">
           <div className="col-10 mx-auto">
             <div className="row gy-5">
-            <div className="card testicard" >
-              <video src={Vid1} controls={true}></video>
-              <div className="card-body">
-                <h5 className="card-title text-primary"><strong>Sonal Sinha</strong></h5>
-                <p className="card-text">
-                  CEO/Founder - Youthpreneurs, India
-                </p>
+              <div className="card testicard">
+                <video src={Vid1} controls={true}></video>
+                <div className="card-body">
+                  <h5 className="card-title text-primary">
+                    <strong>Sonal Sinha</strong>
+                  </h5>
+                  <p className="card-text">
+                    CEO/Founder - Youthpreneurs, India
+                  </p>
                 </div>
               </div>
 
               <div className="card testicard">
-              <video src={Vid2} controls={true}></video>
-              <div className="card-body">
-                <h5 className="card-title text-primary "><strong>Siddharth Bohre</strong></h5>
-                <p className="card-text">
-                  Founder: StockSchool Trading Academy - Youtube (150k+)
-                </p>
+                <video src={Vid2} controls={true}></video>
+                <div className="card-body">
+                  <h5 className="card-title text-primary ">
+                    <strong>Siddharth Bohre</strong>
+                  </h5>
+                  <p className="card-text">
+                    Founder: StockSchool Trading Academy - Youtube (150k+)
+                  </p>
                 </div>
               </div>
 
               <div className="card testicard mb-5">
-              <video src={Vid3} controls={true}></video>
-              <div className="card-body">
-                <h5 className="card-title text-primary"><strong>Giriraj Lakhotia</strong></h5>
-                <p className="card-text">
-                  Co-Founder : RGL Groups
-                </p>
+                <video src={Vid3} controls={true}></video>
+                <div className="card-body">
+                  <h5 className="card-title text-primary">
+                    <strong>Giriraj Lakhotia</strong>
+                  </h5>
+                  <p className="card-text">Co-Founder : RGL Groups</p>
                 </div>
               </div>
             </div>

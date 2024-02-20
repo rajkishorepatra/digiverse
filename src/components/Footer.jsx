@@ -28,7 +28,12 @@ export default function App() {
           </div>
 
           <div style={{ color: "rgba(143, 141, 141, 1)" }}>
-            <a href="https://www.facebook.com/people/Digiverse-360/100092710504735/?mibextid=ZbWKwL" target="_blank" rel="noreferrer" className="me-4 text-reset">
+            <a
+              href="https://www.facebook.com/people/Digiverse-360/100092710504735/?mibextid=ZbWKwL"
+              target="_blank"
+              rel="noreferrer"
+              className="me-4 text-reset"
+            >
               <MDBIcon fab icon="facebook-f" />
             </a>
             <a href="/" className="me-4 text-reset">
@@ -37,12 +42,18 @@ export default function App() {
             {/* <a href="/" className="me-4 text-reset">
               <MDBIcon fab icon="google" />
             </a> */}
-            <a href="https://instagram.com/digiverse360.in" target="_blank" rel="noreferrer" className="me-4 text-reset">
+            <a
+              href="https://instagram.com/digiverse360.in"
+              target="_blank"
+              rel="noreferrer"
+              className="me-4 text-reset"
+            >
               <MDBIcon fab icon="instagram" />
             </a>
             <a
               href="https://www.linkedin.com/company/digi-verse-18/"
-              target="_blank"  rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               className="me-4 text-reset"
             >
               <MDBIcon fab icon="linkedin" />
