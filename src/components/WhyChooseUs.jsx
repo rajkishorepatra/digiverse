@@ -55,7 +55,7 @@ const WhyChooseUs = () => {
         </Box>
         <Grid container spacing={2} justifyContent="center">
           {points.map((point, index) => (
-            <Grid key={index} item xs={12} md={6} sx={{ p: { xs: 2, md: 3 }, boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.3)" }}>
+            <Grid key={index} item xs={12} md={5} sx={{ p: { xs: 2, md: 3 }, boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.3)" }} className="m-3">
               <Box sx={{ display: "flex", alignItems: "center", mb: 2 }}>
                 <Box sx={{ color: "#33b5e5", fontSize: { xs: 40, md: 45 }, mr: 3, flexShrink: 0 }}>
                   {<point.icon />}

@@ -32,11 +32,11 @@ const testimonials = [
 const StudentTestimonial = () => {
   return (
     <>
-      <div className="flex flex-row">
+      <div className="flex flex-row justify-content-center">
         <h1 className="text-center text-white">
           <strong>Student Testimonials</strong>
         </h1>
-        <p className="text-center text-white">
+        <p className="text-center text-white mx-3">
           Discover what students say about our Courses. From personalized
           guidance to impactful strategies, our support empowers them.
         </p>
@@ -47,7 +47,15 @@ const StudentTestimonial = () => {
         >
           <Grid container spacing={2} justifyContent="center">
             {testimonials.map((testimonial) => (
-              <Grid item key={testimonial.id} xs={12} sm={6} md={6} lg={6}>
+              <Grid
+                item
+                key={testimonial.id}
+                xs={12}
+                sm={6}
+                md={6}
+                lg={6}
+                className="d-flex justify-content-center"
+              >
                 <Card
                   className="stu-testimonial-card"
                   style={{ maxWidth: 400 }}
