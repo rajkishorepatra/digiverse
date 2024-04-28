@@ -1,15 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Microlink from "@microlink/react";
 import { Text, Box } from "rebass";
 
-const Story = ({ url = "https://microlink.io", ...props }) => (
-  <Box key={JSON.stringify(props)} my={5} style={{ width: "100%" }}>
-    <Box mt={4} style={{ width: "100%" }}>
-      <Microlink url={url} {...props} style={{ width: "100%" }} />
-    </Box>
-  </Box>
-);
+// const Story = ({ url = "https://microlink.io", ...props }) => (
+//   <Box key={JSON.stringify(props)} my={5} style={{ width: "100%" }}>
+//     <Box mt={4} style={{ width: "100%" }}>
+//       <Microlink url={url} {...props} style={{ width: "100%" }} />
+//     </Box>
+//   </Box>
+// );
 
 const Founder = (props) => {
   return (
@@ -53,14 +52,25 @@ const Founder = (props) => {
           </div>
         </div>
       </section>
-      <div style={{ width: "100%" }} className="link-preview px-3">
-        <Story
-          url="https://pratidinrajdhani.in/shubham-pani-a-photographers-journey-full-of-passion-and-suppo"
-          media="audio"
-          style={{ width: "100%" }}
-          className="mx-auto h-[100vh]"
-        />
-      </div>
+
+      <Box
+        my={5}
+        mx={"auto"}
+        style={{ width: "100%", textAlign: "center", margin: "auto" }}
+      >
+        <iframe
+          width="70%"
+          height="400"
+          src="https://www.youtube.com/embed/8gKexunEGMI?si=7jD39UChnPwkGb-O"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+          style={{ maxWidth: "100%" }}
+        ></iframe>
+      </Box>
+      {/* </div> */}
     </>
   );
 };

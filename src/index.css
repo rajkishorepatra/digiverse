@@ -787,6 +787,9 @@ footer {
   }
 }
 @media (max-width: 768px) {
+  .link-preview{
+    align-items: flex-start;
+  }
   #header {
     margin-top: 1px;
   }
